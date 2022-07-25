@@ -18,6 +18,7 @@ body {
     flex-direction: row;
     justify-content: space-around;
     text-align: center;
+    list-style: none;
     position: fixed;
     color: rgb(70, 153, 226);
     font-weight: bold;

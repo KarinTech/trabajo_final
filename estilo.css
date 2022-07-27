@@ -214,8 +214,8 @@ body {
 
 #proyectos {
     width: 100%;
-    max-width: 1200px;
-    height: 530px;
+    max-width: 80%;
+    height: 930px;
     display: flex;
     flex-direction: row;
     gap: 0.5rem;
@@ -425,7 +425,7 @@ input [type=”email”] {
 
 #proyectos {
     width: 100%;
-    max-width: 1200px;
+    max-width: 80%;
     height: 430px;
     display: flex;
     flex-direction: row;
@@ -438,7 +438,6 @@ input [type=”email”] {
     width: 330px;
     height: 430px;
     border: 2px solid black;
-    box-shadow: 2px rgb(3, 44, 121);
     margin: 20px;
     border-color: black;
 
@@ -448,7 +447,6 @@ input [type=”email”] {
     width: 330px;
     height: 430px;
     border: 2px solid black;
-    box-shadow: cornflowerblue;
     margin: 40px;
     border-color: black;
 }
@@ -462,7 +460,6 @@ input [type=”email”] {
     width: 330px;
     height: 430px;
     border: 2px solid black;
-    box-shadow: cornflowerblue;
     margin: 20px;
     border-color: black;
 
@@ -477,9 +474,7 @@ input [type=”email”] {
     width: 330px;
     height: 430px;
     border: 2px solid black;
-    box-shadow: cornflowerblue;
     margin: 10px;
-    border-color: black;
 
 }
 
@@ -501,6 +496,21 @@ input [type=”email”] {
 }
 
 .container .tarjeta {
+    border: 1px solid black;
+}
+.container a {
+    text-decoration: none;
+}
+.container a:hover {
+    color:darkviolet;
+}
+.container .tarjeta {
+    border: 1px solid black;
+}
+.container .tarjeta2 {
+    border: 1px solid black;
+}
+.container .tarjeta3 {
     border: 1px solid black;
 }
 
@@ -576,9 +586,7 @@ input [type=”email”] {
         width: 330px;
         height: 430px;
         border: 2px solid black;
-        box-shadow: cornflowerblue;
         margin: 20px;
-        border-color: black;
 
     }
 
@@ -591,7 +599,6 @@ input [type=”email”] {
         width: 330px;
         height: 430px;
         border: 2px solid black;
-        box-shadow: cornflowerblue;
         margin: 10px;
         border-color: black;
 
@@ -617,6 +624,7 @@ input [type=”email”] {
     .container .tarjeta {
         border: 1px solid black;
     }
+    
 }
 #contacto .redes_sociales h3 {
     color: rgb(75, 56, 7);
@@ -1167,13 +1175,22 @@ input [type=”email”] {
 
 }
 
-.container p {
+
+.container .tarjeta a {
+    color:blueviolet;
     margin-top: 15%;
     margin-left: 10%;
-    
-}
+    text-decoration: none;
 
-.container .tarjeta .tarjeta2 .tarjeta3 a {
+}
+.container .tarjeta2  a {
+    color:blueviolet;
+    margin-top: 15%;
+    margin-left: 10%;
+    text-decoration: none;
+
+}
+.container .tarjeta3 a {
     color:blueviolet;
     margin-top: 15%;
     margin-left: 10%;

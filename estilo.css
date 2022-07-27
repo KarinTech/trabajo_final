@@ -344,7 +344,9 @@ input [type=”email”] {
     margin-left: 0;
 }
 
-
+.firma {
+    background-color: aquamarine;
+}
 
 #conocimientos .icons {
     width: 200em;
@@ -407,6 +409,8 @@ input [type=”email”] {
 .fab fa-youtube {
     color: blueviolet;
 }
+.firma {
+    
 //*empiezan mediaqueries para responsive *//
 @media screen and (max-width:400px) {
 .title02 {

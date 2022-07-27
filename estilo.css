@@ -338,7 +338,7 @@ input [type=”email”] {
 }
 
 .foot {
-    height: 60px;
+    height: 100px;
     background-color: #9c3e8f;
     margin-bottom: 0;
     margin-left: 0;
@@ -393,9 +393,9 @@ input [type=”email”] {
     border-radius: 10%;
 }
 
-.foot {
+.foot footer {
     width: 100%;
-    height: 40px;
+    height: 80px;
     margin-bottom: 0;
     background-color: #960482;
 }
@@ -526,7 +526,7 @@ input [type=”email”] {
 
 .foot footer {
     box-sizing: border-box;
-    height: 40px;
+    height: 80px;
     background-color: violet;
     border: 2px solid #000000;
     margin-bottom: 0;
@@ -912,7 +912,7 @@ input [type=”email”] {
 
         .foot footer {
             box-sizing: border-box;
-            height: 40px;
+            height: 80px;
             background-color: violet;
             border: 2px solid #000000;
             margin-bottom: 0;
@@ -921,7 +921,7 @@ input [type=”email”] {
         }
 
         .foot {
-            height: 40px;
+            height: 80px;
             background-color: #9c3e8f;
             margin-bottom: 0;
             margin-left: 0;
@@ -1647,7 +1647,7 @@ input [type=”email”] {
 }
 .foot footer {
     box-sizing:border-box;
-    height:40px;
+    height:80px;
     background-color:violet;
     border:2px solid #000000;
     margin-bottom: 0;
@@ -1749,8 +1749,8 @@ input [type=”email”] {
    
     .foot footer {
         box-sizing:border-box;
-        height:40px;
-        background-color:violet;
+        height:80px;
+        background-color:pink;
         border:2px solid #000000;
         margin-bottom: 0;
         margin-left:0;
@@ -2123,7 +2123,7 @@ input [type=”email”] {
 
         .foot {
             width: 100%;
-            height: 40px;
+            height: 80px;
             margin-bottom: 0;
             background-color: #960482;
         }

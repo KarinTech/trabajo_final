@@ -3,7 +3,7 @@ trabajo_final del Curso de Frontend modulo Desarrollo Web de ADA
 ### Ese proyecto tenia como objetivo replicar un diseño de portfolio, personalizando algun estilo, para poder mostrar nuestros proyectos y habilidades.
 Se construyo teniendo en cuenta tanto el diseño dado como principios de design y experiencia del usuario, tales como contraste de colores, equilibrio entre contenido y espacios en blanco.
 (para que la navegacion sea agradable, con descanso para la vista).
-Ademas, los proyectos tienen los links correspondientes para proyectos que hice a lo largo del modulo de Desarrollo Web, tanto los que nos fueron solicitados como algunos que hice por iniciativa propia.
+Ademas, los proyectos tienen los links correspondientes para los trabajos que hice a lo largo del modulo de Desarrollo Web, tanto los que nos fueron solicitados como algunos que hice por iniciativa propia.
  Sera utilizado y transformado para constar en mi perfil de Linkedin y otras plataformas, desde que seguiremos con proyectos construidos tambien con JavaScript.
 # Karin Centenaro 
 Portfolio 

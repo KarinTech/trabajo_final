@@ -540,8 +540,6 @@ body {
     font-style: oblique;
     margin-left: 40%;
     margin-top: 45%;
-<<<<<<< HEAD
-=======
 
 }
     #contacto .contacto_02 h2 {
@@ -552,7 +550,6 @@ body {
 
 }
 input [type=”email”] {
->>>>>>> abd43ee3d11d1a9cd002cfb86dce0557844883a3
 
 }
 
@@ -577,11 +574,7 @@ input [type=”email”] {
 
 .foot footer {
     box-sizing: border-box;
-<<<<<<< HEAD
-    height:70px;
-=======
     height: 80px;
->>>>>>> 85363384dfb9764e6fe3ff492209a903a4bd99bd
     background-color: violet;
     border: 2px solid #000000;
     margin-bottom: 0;
@@ -671,10 +664,6 @@ input [type=”email”] {
         border: 1px solid black;
     }
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> abd43ee3d11d1a9cd002cfb86dce0557844883a3
 #contacto .redes_sociales h3 {
     color: rgb(75, 56, 7);
     font-style: oblique;
@@ -682,29 +671,6 @@ input [type=”email”] {
     margin-top: 45%;
 
 }
-<<<<<<< HEAD
-
-#contacto .redes_sociales a {
-    text-decoration: none;
-    color:rgb(82, 8, 151); 
-
-}
-#contacto .contacto_email a {
-    text-decoration: none;
-    color:rgb(83, 9, 152); 
-
-}
-
-.contacto02 input [type=”email”] {
-
-    width: 8px;
-    height: 3px;
-    opacity: 0;
-    overflow: hidden;
-}
-
-=======
->>>>>>> abd43ee3d11d1a9cd002cfb86dce0557844883a3
     @media screen and (max-width: 1280px) {
         .nav-bar {
             height: 30%;
@@ -1030,11 +996,7 @@ input [type=”email”] {
         }
 
         .foot {
-<<<<<<< HEAD
-            height:70px;
-=======
             height: 80px;
->>>>>>> 85363384dfb9764e6fe3ff492209a903a4bd99bd
             background-color: #9c3e8f;
             margin-bottom: 0;
             margin-left: 0;
@@ -1094,8 +1056,6 @@ input [type=”email”] {
 
 
     
-<<<<<<< HEAD
-=======
 #contacto {
     margin-left:5%;
     margin-bottom: 40%;
@@ -1106,7 +1066,6 @@ input [type=”email”] {
     margin-left: 40%;
 
 }
->>>>>>> f0b09143b6ccdcef01207fb4ce71b289dde6aa71
 .container {
     display:flex;
     flex-direction: row;
@@ -1484,7 +1443,7 @@ input [type=”email”] {
     margin-left:0;
 
 }
-}  
+ 
 
 @media (max-width:800px) { 
     #proyectos {
@@ -1587,4 +1546,5 @@ input [type=”email”] {
         margin-left:0;
     
     } 
+}
    

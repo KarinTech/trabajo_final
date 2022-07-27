@@ -1781,9 +1781,7 @@ input [type=”email”] {
             
         
         }
-        
-        
-        
+          
         .nav-bar .btn button{
             background-color: rgb(202, 11, 141);
             width: 200px;
@@ -1939,31 +1937,6 @@ input [type=”email”] {
             flex-direction: row;
            
         }
-        .mis_proyectos { 
-            display:flex; 
-            box-sizing: border-box;
-            border-color: #4b0341;
-            width:100%;   
-            height:280px;           
-        }
-        
-        .mis_proyectos {
-            justify-content: flex-start;
-            float:left;
-        
-        }
-        #proyectos .primero {
-            
-            box-sizing: border-box;
-            display:flex;
-            justify-content: flex-start;
-            flex-direction: column;
-            border:2px solid black;
-            width: 380px;
-            padding: 2%;
-            float:left;
-        
-        }
          .title02 {
             color:rgb(75, 56, 7);
             font-style: oblique;
@@ -1971,65 +1944,93 @@ input [type=”email”] {
            
         }
         
-        
-        #proyectos .primero, .segundo, .tercero{
-            margin-top: 2px;
+        #proyectos {
+            width:100%;
+            max-width:1200px;
+            height: 430px;
+            display:flex;
+            flex-direction: row;
+            gap:0.5rem;
+            justify-content: center;
+            margin:auto;
         }
         
-        #proyectos .sub_division .primero, .segundo, .tercero img {
-            margin-top: 2px;
-            margin-left: 3px;
-        }
-        #proyectos .primero, .segundo, a {
-            text-decoration: none;
-            color:rgb(113, 13, 179);
+        .card {
+            width:330px;
+            height: 430px;
+            border:2px solid black;
+            box-shadow:2px rgb(3, 44, 121);
+            margin:20px;
+            border-color:black;
         
         }
+        .container .card a{
+            text-decoration:none; 
+            color:blueviolet;   
+            }
+        .card {
+            width:330px;
+            height: 430px;
+            border:2px solid black;
+            box-shadow:cornflowerblue;
+            margin:40px;
+            border-color:black;
+        }
+        .card .imagen {
+            width: 100%;
+            
+        }
+        .card2 {
+            width:330px;
+            height: 430px;
+            border:2px solid black;
+            box-shadow:cornflowerblue;
+            margin:20px;
+            border-color:black;
+        
+        }
+        /*ajustar tamaño imagen*/
+        .card2 img {
+            width: 80%;
+        }
+        #proyectos .card3 {
+            width:330px;
+            height: 430px;
+            border:2px solid black;
+            box-shadow:cornflowerblue;
+            margin:10px;
+            border-color:black;
+        
+        }
+        
+        .card a :hover {
+            color:rgb(76, 55, 1);
+            
+        }
+        
+        .card2 a :hover {
+            color:rgb(76, 55, 1);
+            
+        }
+        .card3 a:hover{
+             color:rgb(76, 55, 1);
+        }
+        .container {
+            display:flex;
+            flex-direction: row;
+            gap:0.5rem;
+            justify-content: center;
+            margin:auto; 
+        }
+        .container .tarjeta {
+            border: 1px solid black;
+        }
+           
+          
          #proyectos a :hover {
             color:rgb(70, 52, 6);
         
-        }
-        #proyectos .primero {
-            position: relative;
-            box-sizing: border-box;
-            border: 2px solid rgb(205, 88, 191);
-            margin-left: 1%;
-        
-        }
-        
-    .segundo {
-             
-                box-sizing: border-box;
-                margin-left: 35%;
-                border:2px solid rgb(35, 1, 66);
-                padding: 2px;
-               
-            }
-        .display_proyectos .segundo .photo {
-            margin-top:8%;
-            margin-left:4%;
-            max-width: 200px;
-            max-height: 160px;
-        
-        }
-        
-        #proyectos .segundo a {
-            margin-top: 2px;
-            margin-left: 5px;
-        }
-        
-        
-        #proyectos .tercero .photo {
-            margin-top:8%;
-            margin-left: 10%;
-        }
-        
-        #proyectos .tercero a {
-            margin-top: 2px;
-            margin-left: 5px;
-        }
-        
->>>>>>> f0b09143b6ccdcef01207fb4ce71b289dde6aa71
+        } 
         .foot footer {
             box-sizing: border-box;
             height: 40px;

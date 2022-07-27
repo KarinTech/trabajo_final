@@ -215,7 +215,7 @@ body {
 #proyectos {
     width: 100%;
     max-width: 1200px;
-    height: 430px;
+    height: 530px;
     display: flex;
     flex-direction: row;
     gap: 0.5rem;
@@ -250,7 +250,6 @@ body {
     width: 330px;
     height: 430px;
     border: 2px solid black;
-    box-shadow: cornflowerblue;
     margin: 20px;
     border-color: black;
 
@@ -266,7 +265,6 @@ body {
     height: 430px;
     border: 2px solid black;
     margin: 10px;
-    border-color: black;
 
 }
 
@@ -1027,7 +1025,6 @@ input [type=”email”] {
     width:330px;
     height: 430px;
     border:2px solid black;
-    box-shadow:cornflowerblue;
     margin:10px;
     border-color:black;
 
@@ -1133,9 +1130,8 @@ input [type=”email”] {
     display:flex;
     flex-direction: row-reverse;
     flex-wrap: wrap;
-    border:2px solid red;
     max-width:80%;
-    height: 950px;
+    height: 1050px;
     display:flex;
     justify-content: center;
     gap:0.5rem;
@@ -1166,7 +1162,7 @@ input [type=”email”] {
 .container .tarjeta3 {
     width:380px;
     height: 630px;
-    margin:10px;
+    margin -bottom:10px;
  
 
 }
@@ -1250,7 +1246,6 @@ input [type=”email”] {
     width:330px;
     height: 430px;
     border:2px solid black;
-    box-shadow:cornflowerblue;
     margin:20px;
     border-color:black;
 
@@ -1262,8 +1257,7 @@ input [type=”email”] {
 #proyectos .card3 {
     width:330px;
     height: 430px;
-    border:2px solid black;
-    box-shadow:cornflowerblue;
+    border:2px solid black,
     margin:10px;
     border-color:black;
 

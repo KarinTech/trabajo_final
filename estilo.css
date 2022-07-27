@@ -28,7 +28,6 @@ body {
     margin-right: 8%;
     
 }
-[]
 
 .nav-bar ul li {
     display: flex;
@@ -214,7 +213,7 @@ body {
     justify-content: center;
     margin:auto;
 }
-.container .card {
+.card {
     width:330px;
     height: 430px;
     border:2px solid black;
@@ -267,10 +266,23 @@ body {
     
 }
 
-.card2 .photo {
-    width:80%;
+.card2 a :hover {
+    color:rgb(76, 55, 1);
+    
 }
-
+.card3 a:hover{
+     color:rgb(76, 55, 1);
+}
+.container {
+    display:flex;
+    flex-direction: row;
+    gap:0.5rem;
+    justify-content: center;
+    margin:auto; 
+}
+.container .tarjeta {
+    border: 1px solid black;
+}
 #contacto {
     margin-left:5%;
     margin-bottom: 60%;

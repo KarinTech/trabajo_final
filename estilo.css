@@ -935,6 +935,24 @@ input [type=”email”] {
             border: 1px solid black;
         }
 
+         .container .tarjeta {
+        border: 1px solid black;
+        width:380px;
+        height: 630px;
+        margin:20px;
+   
+}
+.container .tarjeta2 {
+    width:380px;
+    height: 630px;
+    margin:10px;
+ 
+    }
+    .tarjeta3 {
+    width:380px;
+    height: 630px;
+    margin:20px;   
+}
 
         .foot footer {
             box-sizing: border-box;

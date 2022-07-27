@@ -283,7 +283,7 @@ body {
 
 .container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     gap: 0.5rem;
     justify-content: center;
     margin: auto;
@@ -623,7 +623,23 @@ input [type=”email”] {
 
     .container .tarjeta {
         border: 1px solid black;
+        width:380px;
+        height: 630px;
+        margin:20px;
+   
+}
+.container .tarjeta2 {
+    width:380px;
+    height: 630px;
+    margin:10px;
+ 
     }
+    .tarjeta3 {
+    width:380px;
+    height: 630px;
+    margin:20px;   
+}
+
     
 }
 #contacto .redes_sociales h3 {

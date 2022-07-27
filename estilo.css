@@ -504,6 +504,13 @@ input [type=”email”] {
     border: 1px solid black;
 }
 
+#contacto .redes_sociales h3 {
+    color: rgb(75, 56, 7);
+    font-style: oblique;
+    margin-left: 40%;
+    margin-top: 45%;
+
+}
 input [type=”email”] {
 
     width: 5 px;
@@ -1274,6 +1281,13 @@ input [type=”email”] {
   
 
 =======
+ #contacto .redes_sociales h3 {
+    color: rgb(75, 56, 7);
+    font-style: oblique;
+    margin-left: 40%;
+    margin-top: 45%;
+
+}
 input [type=”email”] {
             
     width: 5 px;

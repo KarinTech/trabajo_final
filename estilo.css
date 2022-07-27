@@ -409,7 +409,7 @@ input [type=”email”] {
 .fab fa-youtube {
     color: blueviolet;
 }
-
+//*empiezan mediaqueries para responsive *//
 @media screen and (max-width:400px) {
 .title02 {
     color: rgb(75, 56, 7);
@@ -511,6 +511,13 @@ input [type=”email”] {
     margin-top: 45%;
 
 }
+    #contacto .contacto_02 h2 {
+    color: rgb(75, 56, 7);
+    font-style: oblique;
+    margin-left: 40%;
+    margin-top: 45%;
+
+}
 input [type=”email”] {
 
     width: 5 px;
@@ -556,7 +563,6 @@ input [type=”email”] {
         width: 330px;
         height: 430px;
         border: 2px solid black;
-        box-shadow: cornflowerblue;
         margin: 40px;
         border-color: black;
     }
@@ -611,6 +617,13 @@ input [type=”email”] {
     .container .tarjeta {
         border: 1px solid black;
     }
+}
+#contacto .redes_sociales h3 {
+    color: rgb(75, 56, 7);
+    font-style: oblique;
+    margin-left: 40%;
+    margin-top: 45%;
+
 }
     @media screen and (max-width: 1280px) {
         .nav-bar {

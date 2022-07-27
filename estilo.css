@@ -214,8 +214,8 @@ body {
 
 #proyectos {
     width: 100%;
-    max-width: 1200px;
-    height: 430px;
+    max-width: 80%;
+    height: 930px;
     display: flex;
     flex-direction: row;
     gap: 0.5rem;
@@ -250,7 +250,6 @@ body {
     width: 330px;
     height: 430px;
     border: 2px solid black;
-    box-shadow: cornflowerblue;
     margin: 20px;
     border-color: black;
 
@@ -266,7 +265,6 @@ body {
     height: 430px;
     border: 2px solid black;
     margin: 10px;
-    border-color: black;
 
 }
 
@@ -285,7 +283,7 @@ body {
 
 .container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     gap: 0.5rem;
     justify-content: center;
     margin: auto;
@@ -308,7 +306,7 @@ body {
 
 #contacto {
     margin-left: 5%;
-    margin-bottom: 60%;
+    margin-bottom: 40%;
 }
 
 #contacto .redes_sociales h2 {
@@ -456,7 +454,7 @@ body {
 
 #proyectos {
     width: 100%;
-    max-width: 1200px;
+    max-width: 80%;
     height: 430px;
     display: flex;
     flex-direction: row;
@@ -469,7 +467,6 @@ body {
     width: 330px;
     height: 430px;
     border: 2px solid black;
-    box-shadow: 2px rgb(3, 44, 121);
     margin: 20px;
     border-color: black;
 
@@ -479,7 +476,6 @@ body {
     width: 330px;
     height: 430px;
     border: 2px solid black;
-    box-shadow: cornflowerblue;
     margin: 40px;
     border-color: black;
 }
@@ -493,7 +489,6 @@ body {
     width: 330px;
     height: 430px;
     border: 2px solid black;
-    box-shadow: cornflowerblue;
     margin: 20px;
     border-color: black;
 
@@ -508,9 +503,7 @@ body {
     width: 330px;
     height: 430px;
     border: 2px solid black;
-    box-shadow: cornflowerblue;
     margin: 10px;
-    border-color: black;
 
 }
 
@@ -532,6 +525,21 @@ body {
 }
 
 .container .tarjeta {
+    border: 1px solid black;
+}
+.container a {
+    text-decoration: none;
+}
+.container a:hover {
+    color:darkviolet;
+}
+.container .tarjeta {
+    border: 1px solid black;
+}
+.container .tarjeta2 {
+    border: 1px solid black;
+}
+.container .tarjeta3 {
     border: 1px solid black;
 }
 
@@ -622,9 +630,7 @@ input [type=”email”] {
         width: 330px;
         height: 430px;
         border: 2px solid black;
-        box-shadow: cornflowerblue;
         margin: 20px;
-        border-color: black;
 
     }
 
@@ -637,7 +643,6 @@ input [type=”email”] {
         width: 330px;
         height: 430px;
         border: 2px solid black;
-        box-shadow: cornflowerblue;
         margin: 10px;
         border-color: black;
 
@@ -662,13 +667,30 @@ input [type=”email”] {
 
     .container .tarjeta {
         border: 1px solid black;
+        width:380px;
+        height: 630px;
+        margin:20px;
+   
+}
+.container .tarjeta2 {
+    width:380px;
+    height: 630px;
+    margin:10px;
+ 
     }
+    .tarjeta3 {
+    width:380px;
+    height: 630px;
+    margin:20px;   
+}
+
+    
 }
 #contacto .redes_sociales h3 {
     color: rgb(75, 56, 7);
     font-style: oblique;
     margin-left: 40%;
-    margin-top: 45%;
+    margin-top: 85%;
 
 }
     @media screen and (max-width: 1280px) {
@@ -957,6 +979,24 @@ input [type=”email”] {
             border: 1px solid black;
         }
 
+         .container .tarjeta {
+        border: 1px solid black;
+        width:380px;
+        height: 630px;
+        margin:20px;
+   
+}
+.container .tarjeta2 {
+    width:380px;
+    height: 630px;
+    margin:10px;
+ 
+    }
+    .tarjeta3 {
+    width:380px;
+    height: 630px;
+    margin:20px;   
+}
 
         #contacto .redes_sociales h3 {
             color: rgb(75, 56, 7);
@@ -1259,7 +1299,6 @@ input [type=”email”] {
     width:330px;
     height: 430px;
     border:2px solid black;
-    box-shadow:cornflowerblue;
     margin:10px;
     border-color:black;
 
@@ -1366,7 +1405,7 @@ input [type=”email”] {
     flex-direction: row-reverse;
     flex-wrap: wrap;
     max-width:80%;
-    height: 950px;
+    height: 1050px;
     display:flex;
     justify-content: center;
     gap:0.5rem;
@@ -1397,18 +1436,27 @@ input [type=”email”] {
 .container .tarjeta3 {
     width:380px;
     height: 630px;
-    margin:10px;
+    margin -bottom:10px;
  
 
 }
 
-.container p {
+
+.container .tarjeta a {
+    color:blueviolet;
     margin-top: 15%;
     margin-left: 10%;
-    
-}
+    text-decoration: none;
 
-.container .tarjeta .tarjeta2 .tarjeta3 a {
+}
+.container .tarjeta2  a {
+    color:blueviolet;
+    margin-top: 15%;
+    margin-left: 10%;
+    text-decoration: none;
+
+}
+.container .tarjeta3 a {
     color:blueviolet;
     margin-top: 15%;
     margin-left: 10%;
@@ -1474,9 +1522,8 @@ input [type=”email”] {
     width:330px;
     height: 430px;
     border:2px solid black;
-    box-shadow:cornflowerblue;
     margin:40px;
-    border-color:black;
+
 }
 .card .imagen {
     width: 100%;
@@ -1486,7 +1533,6 @@ input [type=”email”] {
     width:330px;
     height: 430px;
     border:2px solid black;
-    box-shadow:cornflowerblue;
     margin:20px;
     border-color:black;
 
@@ -1498,8 +1544,7 @@ input [type=”email”] {
 #proyectos .card3 {
     width:330px;
     height: 430px;
-    border:2px solid black;
-    box-shadow:cornflowerblue;
+    border:2px solid black,
     margin:10px;
     border-color:black;
 
@@ -1524,7 +1569,7 @@ input [type=”email”] {
     justify-content: center;
     margin:auto; 
 }
-.container .tarjeta {
+.container  {
     border: 1px solid black;
 }
    

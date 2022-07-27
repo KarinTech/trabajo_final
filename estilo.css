@@ -208,8 +208,8 @@ body {
     width:100%;
     max-width:1200px;
     height: 430px;
-   display:flex;
-     flex-direction: row;
+    display:flex;
+    flex-direction: row;
     gap:0.5rem;
     justify-content: center;
     margin:auto;
@@ -223,6 +223,9 @@ body {
     border-color:black;
 
 }
+.container .card a{
+    text-decoration:none; 
+    color:blueviolet;    
 .card {
     width:330px;
     height: 430px;

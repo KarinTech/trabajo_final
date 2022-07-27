@@ -213,6 +213,7 @@ body {
     justify-content: center;
     margin:auto;
 }
+
 .card {
     width:330px;
     height: 430px;
@@ -424,93 +425,96 @@ input [type=”email”] {
     margin-left: 40%;
    
 }
-
-
-#proyectos .primero, .segundo, .tercero{
-    margin-top: 2px;
+#proyectos {
+    width:100%;
+    max-width:1200px;
+    height: 430px;
+    display:flex;
+    flex-direction: row;
+    gap:0.5rem;
+    justify-content: center;
+    margin:auto;
 }
 
-#proyectos .sub_division .primero, .segundo, .tercero img {
-    margin-top: 2px;
-    margin-left: 3px;
-}
-#proyectos .primero, .segundo, .tercero a {
-    text-decoration: none;
-    color:rgb(113, 13, 179);
+.card {
+    width:330px;
+    height: 430px;
+    border:2px solid black;
+    box-shadow:2px rgb(3, 44, 121);
+    margin:20px;
+    border-color:black;
 
 }
-#proyectos .primero, .segundo, .tercero {
-    width: 280px;
-    padding:2px;
+.container .card a{
+    text-decoration:none; 
+    color:blueviolet;   
+    }
+.card {
+    width:330px;
+    height: 430px;
+    border:2px solid black;
+    box-shadow:cornflowerblue;
+    margin:40px;
+    border-color:black;
+}
+.card .imagen {
+    width: 100%;
+    
+}
+.card2 {
+    width:330px;
+    height: 430px;
+    border:2px solid black;
+    box-shadow:cornflowerblue;
+    margin:20px;
+    border-color:black;
+
+}
+/*ajustar tamaño imagen*/
+.card2 img {
+    width: 80%;
+}
+#proyectos .card3 {
+    width:330px;
+    height: 430px;
+    border:2px solid black;
+    box-shadow:cornflowerblue;
+    margin:10px;
+    border-color:black;
+
 }
 
+.card a :hover {
+    color:rgb(76, 55, 1);
+    
+}
+
+.card2 a :hover {
+    color:rgb(76, 55, 1);
+    
+}
+.card3 a:hover{
+     color:rgb(76, 55, 1);
+}
+.container {
+    display:flex;
+    flex-direction: row;
+    gap:0.5rem;
+    justify-content: center;
+    margin:auto; 
+}
+.container .tarjeta {
+    border: 1px solid black;
+}
  #proyectos  a :hover {
     color:rgb(70, 52, 6);
 
-}
-#proyectos .primero {
-    box-sizing: border-box;
-    border: 2px solid rgb(205, 88, 191);
-    margin-left: 3%;
-
-}
-
-#proyectos .segundo {
-    
-        float:flex;
-        box-sizing: border-box;
-        margin-left: 15%;
-        border:2px solid rgb(35, 1, 66);
-        padding: 2px;
-       
-    }
-#proyectos .segundo .photo {
-    margin-top:8%;
-    margin-left:4%;
-    
-
-}
-
-#proyectos .segundo a {
-    margin-top: 2px;
-    margin-left: 5px;
-}
-
-
-#proyectos .tercero {
-    box-sizing: border-box;
-    border:2px solid #4b0341;
-    margin-left: 28%;
-    float:left;
-    
-}
-
-#proyectos .cuarto {
-    box-sizing: border-box;
-    width:280px;
-    height:360px;
-    border:2px solid #af4aa1;
-    margin-left: 36%;
-    float:left;
-}
-  
-#proyectos .cuarto a {
-    text-decoration: none;
 }
 
 #proyectos .container .tarjeta {
     border: 1px solid black;
 }
 
-#proyectos .tercero .photo {
-    margin-top:8%;
-    margin-left: 10%;
-}
-
-#proyectos .tercero a {
-    margin-top: 2px;
-    margin-left: 5px;
-}
 #proyectos {
     width:100%;
     max-width:80%;
@@ -598,7 +602,6 @@ input [type=”email”] {
 
 }
 
-
 .container .tarjeta img {
     width: 80%;
     margin-top:15%;
@@ -657,39 +660,90 @@ input [type=”email”] {
 
 } 
 
-@media (max-width:800px) {  
+@media (max-width:800px) { 
     #proyectos {
-        display:flex; 
-        flex-direction: row;
-        box-sizing: border-box;
-        width:100%;
-        border:2px solid rgb(35, 1, 66);
-        padding: 10px;
-        display: flex;
-        flex-direction: row;
-       
+    width:100%;
+    max-width:1200px;
+    height: 430px;
+    display:flex;
+    flex-direction: row;
+    gap:0.5rem;
+    justify-content: center;
+    margin:auto;
+}
+
+.card {
+    width:330px;
+    height: 430px;
+    border:2px solid black;
+    box-shadow:2px rgb(3, 44, 121);
+    margin:20px;
+    border-color:black;
+
+}
+.container .card a{
+    text-decoration:none; 
+    color:blueviolet;   
     }
-    }
-    .mis_proyectos { 
-        box-sizing: border-box;
-        max-width: 80%;
-        display:flex; 
-        justify-content: flex-start;
-        box-sizing: border-box;
-        border-color: #4b0341;
-        width:100%;              
-    }
+.card {
+    width:330px;
+    height: 430px;
+    border:2px solid black;
+    box-shadow:cornflowerblue;
+    margin:40px;
+    border-color:black;
+}
+.card .imagen {
+    width: 100%;
     
-    #proyectos .primero {
-        
-        box-sizing: border-box;
-        display:flex;
-        border:2px solid black;
-        width: 480px;
-        padding: 2%;
-        float:left;
+}
+.card2 {
+    width:330px;
+    height: 430px;
+    border:2px solid black;
+    box-shadow:cornflowerblue;
+    margin:20px;
+    border-color:black;
+
+}
+/*ajustar tamaño imagen*/
+.card2 img {
+    width: 80%;
+}
+#proyectos .card3 {
+    width:330px;
+    height: 430px;
+    border:2px solid black;
+    box-shadow:cornflowerblue;
+    margin:10px;
+    border-color:black;
+
+}
+
+.card a :hover {
+    color:rgb(76, 55, 1);
     
-    }
+}
+
+.card2 a :hover {
+    color:rgb(76, 55, 1);
+    
+}
+.card3 a:hover{
+     color:rgb(76, 55, 1);
+}
+.container {
+    display:flex;
+    flex-direction: row;
+    gap:0.5rem;
+    justify-content: center;
+    margin:auto; 
+}
+.container .tarjeta {
+    border: 1px solid black;
+}
+   
+  
      .title02 {
         color:rgb(75, 56, 7);
         font-style: oblique;
@@ -697,95 +751,7 @@ input [type=”email”] {
        
     }
     
-    
-    #proyectos .primero, .segundo, .tercero{
-        margin-top: 2px;
-    }
-    
-    #proyectos .sub_division .primero, .segundo, .tercero img {
-        margin-top: 2px;
-        margin-left: 3px;
-    }
-    #proyectos .primero, .segundo, .tercero a {
-        text-decoration: none;
-        color:rgb(113, 13, 179);
-    
-    }
-    #proyectos .primero, .segundo, .tercero {
-        width: 280px;
-        padding:2px;
-    }
-    
-     .sub_division  a :hover {
-        color:rgb(70, 52, 6);
-    
-    }
-    #proyectos .primero {
-        box-sizing: border-box;
-        border: 2px solid rgb(205, 88, 191);
-        margin-left: 3%;
-    
-    }
-    
-    #proyectos .segundo {
-        
-            float:flex;
-            box-sizing: border-box;
-            margin-left: 25%;
-            border:2px solid rgb(35, 1, 66);
-            padding: 2px;
-           
-        }
-    #proyectos .segundo .photo {
-        margin-top:8%;
-        margin-left:4%;
-        
-    
-    }
-    
-    #proyectos .segundo a {
-        margin-top: 2px;
-        margin-left: 5px;
-    }
-    
-    
-    #proyectos .tercero {
-        
-        box-sizing: border-box;
-        border:2px solid #4b0341;
-        margin-left: 28%;
-        float:left;
-        
-    }
-    
-    #proyectos .cuarto {
-        position:absolute;
-        box-sizing: border-box;
-        width:280px;
-        height:360px;
-        border:2px solid #af4aa1;
-        margin-left: 46%;
-        float:left;
-    }
-      
-    #proyectos .cuarto a {
-        text-decoration: none;
-    }
-    
-    #proyectos .cuarto img {
-        width:100%;
-    }
-    
-    #proyectos .tercero .photo {
-        margin-top:8%;
-        margin-left: 10%;
-    }
-    
-    #proyectos .tercero a {
-        margin-top: 2px;
-        margin-left: 5px;
-    }
-    
+   
     .foot footer {
         box-sizing:border-box;
         height:40px;

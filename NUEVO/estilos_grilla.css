@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+<section class id="proyectos" >
+    <div class="content">
+      <h2 class="title">Mis proyectos</h2>
+      <p class="descripcion">
+       
+      </p>
+      <!-- Grilla de projectos -->
+      <div class="grilla projectos">
+        <a href="#">
+          <img src="" alt="" class="pagina-educativa">
+          <p class="project-name">Pagina Inglés</p>
+        </a>
+
+        <a href="#">
+          <img src="" alt="" class="prototipo_app">
+          <p class="project-name">Prototipo Sección Pedidos App</p>
+        </a>
+        <a href="#" class="">
+          <img src="images/undraw_old_day_6x25.png" alt="" class="project-thumb">
+          <p class="project-name">Match 3</p>
+        </a>
+
+        <a href="#" target="_blank" rel="noopener noreferrer" class="project" data-language="javascript">
+          <img src="images/undraw_wallet_aym5.png" alt="" class="project-thumb">
+          <p class="project-name">Controlador de gastos</p>
+        </a>
+
+        <a href="#" target="_blank" rel="noopener noreferrer" class="project" data-language="javascript">
+          <img src="images/undraw_calendar_dutt.png" alt="" class="project-thumb">
+          <p class="project-name">Administrador de reuniones</p>
+        </a>
+
+        <a href="#" target="_blank" rel="noopener noreferrer" class="project" data-language="react">
+          <img src="images/undraw_to_do_list_a49b.png" alt="" class="project-thumb">
+          <p class="project-name">Todo app</p>
+        </a>
+
+        <a href="#" target="_blank" rel="noopener noreferrer" class="project" data-language="react">
+          <img src="images/undraw_movie_night_fldd.png" alt="" class="project-thumb">
+          <p class="project-name">Buscador de películas</p>
+        </a>
+      </div>
+      <!-- Fin Grilla de projectos -->
+    </div>
+  </section>
+  
+</body>
+</html>
+

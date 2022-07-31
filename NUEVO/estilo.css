@@ -1,0 +1,14 @@
+.proyectos {
+display:flex;
+padding:25px;
+
+}
+
+.mis-proyectos {
+    box-sizing: border-box;
+    width: 80%;
+    height: 2000px;
+    padding:20px;
+    display:flex,
+    flex-direction:row; 
+}

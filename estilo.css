@@ -392,33 +392,45 @@ body {
 }
 
 
-#contacto .message {
-    margin-top: 10%;
+input.text, textarea.text{
+    background: rgb(166, 213, 230);
+    border: 2px solid #b442a8;
+    border-radius: 5px 5px 5px 5px;
+    color: #066291;
+    font-size: 12px;
     padding: 5px;
+ }
+ button .miboton-personalizado{
+
+	padding: 25px 10px;
+	border-radius: 6px;
+	text-align: center;
+	font-weight: bold;
+	width: 480px;
+	height: 48px;
+	margin-bottom: 60px;
+	overflow: hidden;
+	color:rgb(12, 10, 10);
+	cursor: pointer;
+	letter-spacing: 2px;
+	box-shadow:inset 0 0 0 1px rgba(0,0,0,0.1);
+	text-decoration: none;
+	transition: all ease 0.5s;
 }
-
-.contacto_email img {
-    width: 50px;
-    height: 50px;
-
+.miboton-personalizado:before{
+	width: 480px;
+	height: 48px;
+	background-color: rgba(189, 8, 135, 0.5);
 }
-
-.contacto02 button {
-    background-color: #960482;
-    font-size: 0.6em;
-    color: antiquewhite;
-    width: 95px;
-    height: 50px;
-    border-radius: 10%;
+.miboton-personalizado:hover{
+	transform: scaleY(140%);
+	background-color: rgb(7, 157, 244);
+	transition: all ease 0.2s;
 }
-
+    
 .foot footer {
     width: 100%;
-<<<<<<< HEAD
     height:70px;
-=======
-    height: 80px;
->>>>>>> 85363384dfb9764e6fe3ff492209a903a4bd99bd
     margin-bottom: 0;
     background-color: #960482;
 }
@@ -431,14 +443,9 @@ body {
     color: blueviolet;
 }
 .firma {
-<<<<<<< HEAD
     background-color: aquamarine;
 }
 /*empiezan mediaqueries para responsive */
-=======
-    
-//*empiezan mediaqueries para responsive *//
->>>>>>> 85363384dfb9764e6fe3ff492209a903a4bd99bd
 @media screen and (max-width:400px) {
 .title02 {
     color: rgb(75, 56, 7);

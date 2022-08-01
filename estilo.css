@@ -15,7 +15,6 @@ body {
     margin-top: 0;
     box-sizing: border-box;
     width:5vh;
-    border-color: 2px #59084e;
     padding: 5px;
    
   
@@ -23,7 +22,6 @@ body {
 
 .menu ul {
     box-sizing: border-box;
-    width:50%;
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
@@ -36,7 +34,7 @@ body {
     font-size: 3vh;
     margin-left: 0;
     margin-left: 18%;
-    margin-right: 18%;
+    margin-right: 38%;
     padding:1%; 
 
 }
@@ -483,18 +481,27 @@ button .miboton-personalizado {
 
 /*empiezan mediaqueries para responsive */
 @media screen and (max-width:460px) {
+
     .nav-bar {
-        height: 30%;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+        list-style: none;
+        height: 10px;
         margin-top: 0;
-        border: 2px solid black;
+        box-sizing: border-box;
+        width:5vh;
+        padding: 5px;
+       
+      
     }
     
-    .nav-bar ul {
+    .menu ul {
         box-sizing: border-box;
-        height: 5px;
+        width:50%;
         display: flex;
+        justify-content: space-evenly;
         flex-direction: row;
-        justify-content: space-around;
         text-align: center;
         list-style: none;
         position: fixed;
@@ -502,33 +509,70 @@ button .miboton-personalizado {
         font-weight: bold;
         text-decoration: none;
         font-size: 3vh;
-        margin-left: 10%;
-        margin-right: 25%;
+        margin-left: 0;
+        margin-left: 18%;
+        margin-right: 18%;
+        padding:1%; 
     
     }
     
-    .nav-bar ul li {
+    .nav-bar .menu ul li {
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: space-evenly;
         list-style: none;
         text-align: center;
         margin-top: 0%;
-        margin-left: 15%;
-        margin-right: 8%;
-        padding: 12px;
+        margin-left: 5%;
+        margin-right: 10%;
+        padding: 2%;
     }
     
-    .nav-bar li a {
-        padding: 2px 7px 2px 7px;
+    .nav-bar .menu li a {
+        padding: 2px 5px 2px 5px;
         color: rgb(5, 50, 89);
         text-decoration: none;
         font-size: 3vh;
         margin-left: 3%;
         margin-right: 5%;
         justify-content: space-around;
+        padding:1%;
     }
-
+    
+    .nav-bar .menu a:hover {
+        background-color: #bcb5b5;
+        color: rgb(55, 41, 4);
+    
+    
+    }
+    
+    .nav-bar .menu .btn button {
+        background-color: rgb(202, 11, 141);
+        width: 200px;
+        padding: 0 10px;
+        border-radius: 40px;
+        font-size: 4vh;
+        color: rgb(222, 224, 224);
+        text-align: center;
+        font-weight: bold;
+        justify-content: center;
+        font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+        text-align: center;
+        box-sizing: border-box;
+    }
+    
+    
+    .nav-bar .menu .btn a {
+        background-color: rgb(202, 11, 141);
+        color: rgb(234, 189, 65);
+        font-weight: bold;
+    
+    }
+    
+    .menu.btn a :hover {
+        color: rgb(8, 8, 7);
+    }
+    
     #presentacion {
         display: flex;
         flex-direction: row;
@@ -754,7 +798,7 @@ button .miboton-personalizado {
 
     }
 
-    input [type=”email”] {}
+    input [type=email] {}
 
     #contacto .redes_sociales a {
         text-decoration: none;

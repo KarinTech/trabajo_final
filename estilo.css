@@ -9,15 +9,18 @@ body {
 .nav-bar {
     height: 30%;
     margin-top: 0;
-    border: 2px solid black;
+    box-sizing: border-box;
+    padding: 5px;
+    justify-items: flex-start;
+  
 }
 
 .nav-bar ul {
     box-sizing: border-box;
     height: 5px;
     display: flex;
+    justify-content: space-evenly;
     flex-direction: row;
-    justify-content: space-around;
     text-align: center;
     list-style: none;
     position: fixed;
@@ -25,8 +28,9 @@ body {
     font-weight: bold;
     text-decoration: none;
     font-size: 3vh;
-    margin-left: 15%;
-    margin-right: 10%;
+    margin-left: 18%;
+    margin-right: 15%;
+    padding:1%; 
 
 }
 
@@ -38,17 +42,19 @@ body {
     text-align: center;
     margin-top: 0%;
     margin-left: 15%;
-    margin-right: 8%;
-    padding: 12px;
+    margin-right: 15%;
+    padding: 2%;
 }
 
 .nav-bar li a {
-    padding: 2px 7px 2px 7px;
+    padding: 2px 5px 2px 5px;
     color: rgb(5, 50, 89);
     text-decoration: none;
+    font-size: 3vh;
     margin-left: 3%;
     margin-right: 5%;
     justify-content: space-around;
+    padding:1%;
 }
 
 .nav-bar a:hover {
@@ -61,11 +67,12 @@ body {
 .nav-bar .btn button {
     background-color: rgb(202, 11, 141);
     width: 200px;
-    padding: 0 20px;
+    padding: 0 10px;
     border-radius: 40px;
     font-size: 4vh;
     color: rgb(222, 224, 224);
     text-align: center;
+    font-weight: bold;
     justify-content: center;
     font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
     text-align: center;
@@ -105,7 +112,7 @@ body {
     margin-left: 20%;
     font-family: 'Merge', sans-serif;
     font-weight: bold;
-    font-size: 4vh;
+    font-size: 3vh;
     color: rgb(234, 7, 203);
 
 }
@@ -464,6 +471,52 @@ button .miboton-personalizado {
 
 /*empiezan mediaqueries para responsive */
 @media screen and (max-width:460px) {
+    .nav-bar {
+        height: 30%;
+        margin-top: 0;
+        border: 2px solid black;
+    }
+    
+    .nav-bar ul {
+        box-sizing: border-box;
+        height: 5px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        text-align: center;
+        list-style: none;
+        position: fixed;
+        color: rgb(70, 153, 226);
+        font-weight: bold;
+        text-decoration: none;
+        font-size: 3vh;
+        margin-left: 10%;
+        margin-right: 25%;
+    
+    }
+    
+    .nav-bar ul li {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        list-style: none;
+        text-align: center;
+        margin-top: 0%;
+        margin-left: 15%;
+        margin-right: 8%;
+        padding: 12px;
+    }
+    
+    .nav-bar li a {
+        padding: 2px 7px 2px 7px;
+        color: rgb(5, 50, 89);
+        text-decoration: none;
+        font-size: 3vh;
+        margin-left: 3%;
+        margin-right: 5%;
+        justify-content: space-around;
+    }
+    
 .quotation {
 
 
@@ -479,8 +532,8 @@ button .miboton-personalizado {
         color: rgb(2, 39, 39);
         font-size: 2.5vh;
         text-align: end;
-        margin-left: 20%;
-        margin-right: 15%;
+        margin-left: 15%;
+        margin-right: 25%;
         padding: 15px;
     
     }
@@ -656,6 +709,52 @@ button .miboton-personalizado {
 }
 
 @media (max-width:800px) {
+    .nav-bar {
+        height: 30%;
+        margin-top: 0;
+        border: 2px solid black;
+    }
+    
+    .nav-bar ul {
+        box-sizing: border-box;
+        height: 5px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        text-align: center;
+        list-style: none;
+        position: fixed;
+        color: rgb(70, 153, 226);
+        font-weight: bold;
+        text-decoration: none;
+        font-size: 3vh;
+        margin-left: 15%;
+        margin-right: 25%;
+    
+    }
+    
+    .nav-bar ul li {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        list-style: none;
+        text-align: center;
+        margin-top: 0%;
+        margin-left: 15%;
+        margin-right: 15%;
+        padding: 8px;
+    }
+    
+    .nav-bar li a {
+        padding: 2px 5px 2px 5px;
+        color: rgb(5, 50, 89);
+        text-decoration: none;
+        font-size: 3vh;
+        margin-left: 3%;
+        margin-right: 5%;
+        justify-content: space-around;
+    }
+    
 
     #proyectos {
         width: 100%;
@@ -782,7 +881,7 @@ button .miboton-personalizado {
         text-decoration: none;
         font-size: 4vh;
         margin-left: 15%;
-        margin-right: 8%;
+        margin-right: 25%;
 
     }
 

@@ -492,7 +492,7 @@ button .miboton-personalizado {
 @media screen and (max-width:400px) {
 
     .nav-bar {
-        display: flex;
+        display: none;
         flex-wrap: wrap;
         flex-direction: column;
         height: 10px;

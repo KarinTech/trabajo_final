@@ -165,12 +165,16 @@ body {
     font-weight: bold;
 }
 
+#conocimientos {
+    box-sizing: border-box;
+    width:780px;
+}
 #conocimientos .title h2 {
 
     margin-left: 18px;
     color: rgb(77, 72, 15);
     font-style: oblique;
-    font-size: 4rem;
+    font-size: 2rem;
 }
 
 .cita {
@@ -597,7 +601,7 @@ button .miboton-personalizado {
         margin-left: 10%;
         margin-right: 70%;
         color: #59084e;
-        width: 1280px;
+        width: 30rem;
         display: flex;
         flex-direction: row;
     }
@@ -689,6 +693,11 @@ button .miboton-personalizado {
 
     }
 
+   #conocimientos {
+    box-sizing: border-box;
+    width: 35rem;
+
+  }
     .title02 {
         color: rgb(75, 56, 7);
         font-style: oblique;
@@ -2249,7 +2258,7 @@ input [type=”email”] {
 
         background-image: linear-gradient(to right top, #4ffbdf, #ccff00, #a38b04, #8c9dff, #f852e1);
         box-sizing: border-box;
-        width: 40rem;
+        width: 20rem;
         height: 25rem;
         border: 2px solid black;
         display: flex;
@@ -2260,7 +2269,7 @@ input [type=”email”] {
         font-size: 2.5vh;
         text-align: end;
         padding-left: 20%;
-        margin-left: 15%;
+        margin-left: 35%;
         margin-right: 25%;
         padding: 15px;
     

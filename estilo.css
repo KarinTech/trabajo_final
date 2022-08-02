@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    max-width: 100%;
+    max-width: 80%;
     font-family: sans-serif;
     font-size: 4vh;
 }
@@ -16,8 +16,8 @@ body {
     margin-top: 0;
     box-sizing: border-box;
     width:3vh;
-    padding: 5px;
-    margin-left:45%;
+    padding: 3px;
+    margin-left:55%;
    
   
 }
@@ -48,7 +48,7 @@ body {
     list-style: none;
     text-align: center;
     margin-top: 0%;
-    margin-left: 5%;
+    margin-left: 15%;
     margin-right: 10%;
     padding: 2%;
 }
@@ -60,7 +60,7 @@ body {
     font-size: 2vh;
     margin-left: 3%;
     margin-right: 5%;
-    justify-content: space-around;
+    justify-content: center;
     padding:1%;
 }
 
@@ -89,6 +89,7 @@ body {
 
 .nav-bar  .btn a {
     background-color: rgb(202, 11, 141);
+    align-self: center;
     color: rgb(234, 189, 65);
     font-weight: bold;
 
@@ -108,7 +109,7 @@ body {
     margin-left: 18%;
     margin-right: 28%;
     color: #59084e;
-    width: 980px;
+    width: 60%;
     display: flex;
     flex-direction: row;
 }
@@ -132,7 +133,7 @@ body {
 }
 
 #presentacion h3 {
-    font-size: 3vh;
+    font-size: 1.5vh;
     color: rgb(12, 12, 70);
     margin-top: 20%;
     margin-right: 20%;
@@ -142,7 +143,7 @@ body {
 
 #presentacion img {
     box-sizing: border-box;
-    width: 480px;
+    width: 280px;
     max-height: 580px;
 }
 
@@ -179,8 +180,8 @@ body {
 
 .cita {
     box-sizing: border-box;
-    width: 45rem;
-    height: 25rem;
+    width: 25rem;
+    height: auto;
     width:60%;
 
 }
@@ -197,8 +198,8 @@ body {
     color: rgb(2, 39, 39);
     font-size: 3.5vh;
     text-align: end;
-    padding-left:30%;
-    margin-left: 30%;
+    padding-left:15%;
+    margin-left: 20%;
     padding: 15px;
 
 }
@@ -231,7 +232,7 @@ body {
     -moz-box-shadow: 10px 10px 5px 0px rgba(250, 165, 250, 1);
     box-shadow: 10px 10px 5px 0px rgba(250, 165, 250, 1);
     background-color: #d8dbdb;
-    width: 200em;
+    width:60%;
 }
 
 #conocimientos .title {
@@ -493,7 +494,7 @@ button .miboton-personalizado {
 }
 
 /*empiezan mediaqueries para responsive */
-@media screen and (max-width:460px) {
+@media screen and (max-width:580px) {
 
     .nav-bar {
         display: flex;
@@ -509,8 +510,8 @@ button .miboton-personalizado {
         box-sizing: border-box;
         width:70%;
         border-color: #000000;
-        margin-left:45%;
-        margin-right:60%;
+        margin-left:55%;
+        margin-right:65%;
        
       
     }
@@ -521,7 +522,8 @@ button .miboton-personalizado {
         width:50%;
         display: flex;
         flex-direction:column;
-        justify-content: space-evenly;
+        flex-flow: column;
+        align-content: center;
         text-align: center;
         list-style: none;
         position: fixed;
@@ -529,10 +531,9 @@ button .miboton-personalizado {
         font-weight: bold;
         text-decoration: none;
         font-size: 2vh;
-        margin-left: 0;
-        margin-left: 18%;
-        margin-right: 70%;
-        padding:0.5%; 
+        margin-left: 60%;
+        margin-right: 50%;
+        padding:1.5%; 
     
     }
     
@@ -540,12 +541,13 @@ button .miboton-personalizado {
         display: flex;
         flex-wrap: wrap;
         height: auto;
-        justify-content: space-evenly;
+        flex-flow: column;
+        align-content: center;
         list-style: none;
         text-align: center;
         margin-top: 0%;
-        margin-left: 10%;
-        margin-right: 70%;
+        margin-left: 60%;
+        margin-right: 40%;
         padding: 2%;
     }
     
@@ -871,6 +873,10 @@ button .miboton-personalizado {
         display: flex;
         float:left; 
         flex-wrap: wrap;
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: auto;
+        align-content: center;
         height: auto; 
         gap: 0.5em;
         box-sizing: border-box; 
@@ -881,7 +887,7 @@ button .miboton-personalizado {
         font-weight: bold;
         text-decoration: none;
         font-size: 2vh;
-        margin-left: 10%;
+        margin-left: 50%;
         margin-right: 70%;
     
     }
@@ -889,6 +895,10 @@ button .miboton-personalizado {
     .nav-bar ul li {
         display: flex;
         flex-direction: column;
+        display: flex;
+        flex-wrap: wrap;
+        height: auto;
+        align-content: center;
         list-style: none;
         text-align: center;
         margin-top: 0%;

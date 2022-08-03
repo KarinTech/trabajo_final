@@ -249,33 +249,35 @@ body {
 }
 
 #proyectos {
-    width: 100%;
-    max-width: 80%;
-    height: 930px;
+    
+    width: 70%;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
+    align-items: center;
+    transition: 0.3s;
     gap: 0.5rem;
-    justify-content: center;
     margin: auto;
 }
 
-.container .card {
-    width: 330px;
-    height: 430px;
-    border: 2px solid black;
-    box-shadow: 2px rgb(3, 44, 121);
-    margin: 20px;
-    border-color: black;
+#proyectos .card , .card2 {
+        flex-basis: 31%;
+        flex-grow: 1;
+        max-width: 31%;
+        border: solid 1px rgb(206, 37, 189);
+        border-radius: 1em;
+        margin: 1%;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transition: 0.3s;
+    
 
 }
 
-.card {
-    width: 330px;
-    height: 430px;
-    border: 2px solid black;
-    margin: 40px;
-    border-color: black;
-}
+
 
 .card .imagen {
     width: 100%;
@@ -296,12 +298,9 @@ body {
     width: 80%;
 }
 
-#proyectos .card3 {
-    width: 330px;
-    height: 430px;
-    border: 2px solid black;
-    margin: 10px;
-
+.card , .card2 a {
+    color:#066291;
+    text-decoration: none;
 }
 
 .card a :hover {
@@ -917,19 +916,20 @@ button .miboton-personalizado {
         justify-content: space-around;
     }
     
-
+   
     #proyectos {
-        width: 100%;
-        max-width: 1200px;
+       
+        max-width: 70%;
         height: 430px;
         display: flex;
+        flex-wrap: wrap;
         flex-direction: row;
         gap: 0.5rem;
         justify-content: center;
         margin: auto;
     }
 
-    .container .card {
+    .proyectos .card {
         width: 330px;
         height: 430px;
         border: 2px solid black;

@@ -1,47 +1,45 @@
 body {
-    margin: 0;
+    margin: auto;
     padding: 0;
     max-width: 80%;
     font-family: sans-serif;
-    font-size: 4vh;
+
 }
 
-.nav-bar {
+nav {
     display: flex;
+    position:fixed;
     justify-content: space-evenly;
     flex-direction: row;
     flex-wrap: wrap;
     list-style: none;
-    height: 10px;
-    margin-top: 0;
     box-sizing: border-box;
-    width:3vh;
+    width:100%;
+    background-color: rgb(167, 109, 153);
     padding: 3px;
-    margin-left:55%;
+    margin-left:5%;
    
   
 }
 
-.nav-bar ul {
+ul {
     box-sizing: border-box;
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
     text-align: center;
     list-style: none;
-    position: fixed;
-    color: rgb(70, 153, 226);
+    color: rgb(6, 40, 70);
     font-weight: bold;
     text-decoration: none;
-    font-size: 2vh;
-    margin-left: 0;
-    margin-left: 25%;
-    margin-right: 38%;
+    height: 2.5vh;
+    margin-left: 10%;
+    margin-right:10% ;
     padding:1%; 
 
 }
 
-.nav-bar ul li {
+ ul li {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -53,7 +51,7 @@ body {
     padding: 2%;
 }
 
-.nav-bar  li a {
+ li a {
     padding: 2px 5px 2px 5px;
     color: rgb(5, 50, 89);
     text-decoration: none;
@@ -64,14 +62,14 @@ body {
     padding:1%;
 }
 
-.nav-bar a:hover {
+a:hover {
     background-color: #bcb5b5;
     color: rgb(55, 41, 4);
 
 
 }
 
-.nav-bar  .btn button {
+nav .btn button {
     background-color: rgb(202, 11, 141);
     width: 200px;
     padding: 0 10px;
@@ -87,7 +85,7 @@ body {
 }
 
 
-.nav-bar  .btn a {
+nav .btn a {
     background-color: rgb(202, 11, 141);
     align-self: center;
     color: rgb(234, 189, 65);
@@ -506,7 +504,7 @@ button .miboton-personalizado {
 /*empiezan mediaqueries para responsive */
 @media screen and (max-width:580px) {
 
-    .nav-bar {
+     nav {
         display: flex;
         float:left; 
         flex-wrap: wrap;
@@ -518,7 +516,6 @@ button .miboton-personalizado {
         align-items: center;
         list-style: none; 
         box-sizing: border-box;
-        width:70%;
         border-color: #000000;
         margin-left:55%;
         margin-right:65%;
@@ -527,7 +524,7 @@ button .miboton-personalizado {
     }
         
     
-    .nav-bar ul {
+     ul {
         box-sizing: border-box;
         width:50%;
         display: flex;
@@ -547,7 +544,7 @@ button .miboton-personalizado {
     
     }
     
-    .nav-bar ul li {
+     ul li {
         display: flex;
         flex-wrap: wrap;
         height: auto;
@@ -561,7 +558,7 @@ button .miboton-personalizado {
         padding: 2%;
     }
     
-    .nav-bar  li a {
+     li a {
         padding: 2px 5px 2px 5px;
         color: rgb(5, 50, 89);
         text-decoration: none;
@@ -572,14 +569,14 @@ button .miboton-personalizado {
         padding:1%;
     }
     
-    .nav-bar  a:hover {
+    nav  a:hover {
         background-color: #bcb5b5;
         color: rgb(55, 41, 4);
     
     
     }
     
-    .nav-bar  .btn button {
+   nav  .btn button {
         background-color: rgb(202, 11, 141);
         width: 200px;
         padding: 0 10px;
@@ -595,14 +592,14 @@ button .miboton-personalizado {
     }
     
     
-    .nav-bar .btn a {
+    .btn a {
         background-color: rgb(202, 11, 141);
         color: rgb(234, 189, 65);
         font-weight: bold;
     
     }
     
-    .menu.btn a :hover {
+    .btn a :hover {
         color: rgb(8, 8, 7);
     }
     

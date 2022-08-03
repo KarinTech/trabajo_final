@@ -317,10 +317,13 @@ body {
 }
 
 .container {
+    width: 70%;
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    transition: 0.3s;
     gap: 0.5rem;
-    justify-content: center;
     margin: auto;
 }
 
@@ -333,17 +336,25 @@ body {
 }
 
 .container .tarjeta {
-    border: 1px solid black;
+    flex-basis: 31%;
+    flex-grow: 1;
+    max-width: 31%;
+    border: solid 1px rgb(206, 37, 189);
+    border-radius: 1em;
+    margin: 1%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
 }
 
-.container .tarjeta2 {
-    border: 1px solid black;
+/*ajustar tamaño*/
+.card  .card2 .photo {
+    width: 50%;
+    height: 45%;
 }
-
-.container .tarjeta3 {
-    border: 1px solid black;
-}
-
 #contacto {
     margin-left: 5%;
     margin-bottom: 40%;

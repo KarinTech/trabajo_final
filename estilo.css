@@ -1,22 +1,26 @@
 body {
     margin: auto;
-    padding: 0;
+    margin-top: 0;
     max-width: 80%;
     font-family: sans-serif;
 
 }
 
-nav {
+.barra_nav {
     display: flex;
-    position:fixed;
-    justify-content: space-evenly;
+    position:fixed;  
     flex-direction: row;
+    margin: auto; 
+}
+nav {
+    
+    
+    justify-content: space-evenly;
     flex-wrap: wrap;
+    display:flex;
     list-style: none;
     box-sizing: border-box;
-    width:100%;
-    background-color: rgb(167, 109, 153);
-    padding: 3px;
+    width:100%;  
     margin-left:5%;
    
   
@@ -29,10 +33,11 @@ ul {
     flex-direction: row;
     text-align: center;
     list-style: none;
+    width:100%;
     color: rgb(6, 40, 70);
     font-weight: bold;
     text-decoration: none;
-    height: 2.5vh;
+    margin-top: 5px;
     margin-left: 10%;
     margin-right:10% ;
     padding:1%; 
@@ -40,12 +45,13 @@ ul {
 }
 
  ul li {
-    display: flex;
-    flex-direction: row;
+   
+    display:inline;
     justify-content: space-evenly;
     list-style: none;
     text-align: center;
-    margin-top: 0%;
+    margin-top: 2%;
+    margin-bottom: 2%;
     margin-left: 15%;
     margin-right: 10%;
     padding: 2%;
@@ -87,7 +93,7 @@ nav .btn button {
 
 nav .btn a {
     background-color: rgb(202, 11, 141);
-    align-self: center;
+    justify-self: center;
     color: rgb(234, 189, 65);
     font-weight: bold;
 
@@ -100,10 +106,9 @@ nav .btn a {
 
 #presentacion {
     display: flex;
-    flex-direction: row;
     box-sizing: border-box;
     justify-content: space-evenly;
-    margin-top: 30%;
+    margin-top: 20%;
     margin-left: 18%;
     margin-right: 28%;
     color: #59084e;
@@ -116,8 +121,9 @@ nav .btn a {
 #presentacion .titulo {
     box-sizing: border-box;
     border-color: #9c3e8f;
+    display:inline;
     margin-left: 10%;
-    margin-right: 70%;
+    margin-right: 40%;
     font-family: 'Merge', sans-serif;
     font-weight: bold;
     font-size: 2vh;
@@ -139,7 +145,10 @@ nav .btn a {
 
 }
 
-#presentacion img {
+#presentacion .imagen_hero {
+    display: inline;
+}
+#presentacion .imagen_hero img {
     box-sizing: border-box;
     width: 280px;
     max-height: 580px;
@@ -1561,7 +1570,7 @@ input [type=”email”] {
 }
 
 @media screen and (max-width:860px) {
-    .nav-bar {
+    .barra_nav {
         display: flex;
         justify-content: space-evenly;
         flex-direction: row;
@@ -1576,7 +1585,7 @@ input [type=”email”] {
       
     }
     
-    .menu ul {
+   ul {
         box-sizing: border-box;
         width:50%;
         display: flex;
@@ -1596,7 +1605,7 @@ input [type=”email”] {
     
     }
     
-    .nav-bar .menu ul li {
+     ul li {
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
@@ -1607,8 +1616,7 @@ input [type=”email”] {
         margin-right: 10%;
         padding: 2%;
     }
-    
-    .nav-bar .menu li a {
+    li a {
         padding: 2px 5px 2px 5px;
         color: rgb(5, 50, 89);
         text-decoration: none;
@@ -1619,14 +1627,14 @@ input [type=”email”] {
         padding:1%;
     }
     
-    .nav-bar .menu a:hover {
+    a:hover {
         background-color: #bcb5b5;
         color: rgb(55, 41, 4);
     
     
     }
     
-    .nav-bar .menu .btn button {
+    .btn button {
         background-color: rgb(202, 11, 141);
         width: 200px;
         padding: 0 10px;

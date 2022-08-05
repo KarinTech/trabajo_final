@@ -1662,10 +1662,6 @@ img {
     }
 
 
-
-
-
-
 #contacto {
     margin-left: 5%;
     margin-bottom: 40%;
@@ -1756,11 +1752,7 @@ input [type=”email”] {
     padding: 5px;
 }
 
-.contacto_email img {
-    width: 50px;
-    height: 50px;
 
-}
 
 .contacto02 button {
     background-color: #960482;
@@ -1782,9 +1774,7 @@ input [type=”email”] {
     margin-left: 40%;
 }
 
-.fab fa-youtube {
-    color: blueviolet;
-}
+
 }
 
 @media screen and (max-width:860px) {
@@ -2115,7 +2105,7 @@ input [type=”email”] {
 
     input [type=”email”] {
 
-        width: 5 px;
+        width: 5px;
         height: 2px;
         opacity: 0;
         overflow: hidden;

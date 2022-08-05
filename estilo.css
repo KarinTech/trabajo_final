@@ -1,43 +1,44 @@
 body {
-    margin:0;
+    margin: 0;
     font-family: sans-serif;
-    padding:0;
+    padding: 0;
 
 }
-header {  
+
+header {
     box-sizing: border-box;
     margin-top: 0;
     margin-left: 8%;
-    padding:0;
-    
+    padding: 0;
+
 
 }
-   
- .barra_nav  {
+
+.barra_nav {
     box-sizing: border-box;
     display: flex;
-    position:fixed;  
-    top: 2%; 
+    position: fixed;
+    top: 2%;
     left: 8%;
-    right:10%; 
-    width:100%;
+    right: 10%;
+    width: 100%;
     height: 85px;
     background-color: rgb(247, 244, 244);
 
 }
 
-nav {   
+nav {
     box-sizing: border-box;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    display:flex;
+    display: flex;
     list-style: none;
-    margin-top:0;
-    width:100%;  
-    margin-left:5%;
-    padding:0;
+    margin-top: 0;
+    width: 100%;
+    margin-left: 5%;
+    padding: 0;
 
-  
+
 }
 
 ul {
@@ -47,20 +48,20 @@ ul {
     flex-direction: row;
     text-align: center;
     list-style: none;
-    width:100%;
+    width: 100%;
     color: rgb(6, 40, 70);
     font-weight: bold;
     text-decoration: none;
     margin-top: 1%;
     left: 3%;
-    margin-right:10% ;
-    padding:1%; 
+    margin-right: 10%;
+    padding: 1%;
 
 }
 
- ul li {
-   
-    display:inline;
+ul li {
+
+    display: inline;
     list-style: none;
     text-align: center;
     top: 2%;
@@ -70,7 +71,7 @@ ul {
     padding: 1%;
 }
 
- li a {
+li a {
     padding: 2px 5px 2px 5px;
     color: rgb(5, 50, 89);
     font-weight: bold;
@@ -79,7 +80,7 @@ ul {
     margin-left: 3%;
     margin-right: 5%;
     justify-content: center;
-    padding:1%;
+    padding: 1%;
 }
 
 a:hover {
@@ -91,7 +92,7 @@ a:hover {
 
 nav .btn button {
     box-sizing: border-box;
-    bottom:2%;
+    bottom: 2%;
     background-color: rgb(202, 11, 141);
     width: 200px;
     padding: 0 10px;
@@ -129,7 +130,7 @@ nav .btn a :hover {
     margin-right: 28%;
     color: #59084e;
     width: 60%;
-    padding:8%;
+    padding: 8%;
 
 }
 
@@ -137,9 +138,9 @@ nav .btn a :hover {
 #presentacion .titulo {
     box-sizing: border-box;
     border-color: #9c3e8f;
-    display:inline;
+    display: inline;
     margin-left: 38%;
-    right:10%;
+    right: 10%;
     margin-right: 40%;
     font-family: 'Merge', sans-serif;
     font-weight: bold;
@@ -165,10 +166,11 @@ nav .btn a :hover {
 #presentacion .imagen_hero {
     display: inline;
 }
+
 #presentacion .imagen_hero img {
     box-sizing: border-box;
     margin-top: 6%;
-    left:4%;
+    left: 4%;
     width: 280px;
     max-height: 580px;
 }
@@ -176,7 +178,7 @@ nav .btn a :hover {
 
 .btn_2 button {
     margin-top: 1%;
-    margin-left:48%;
+    margin-left: 48%;
     margin-right: 65%;
     width: 180px;
     height: 40px;
@@ -194,8 +196,9 @@ nav .btn a :hover {
 
 #conocimientos {
     box-sizing: border-box;
-    width:780px;
+    width: 780px;
 }
+
 #conocimientos .title h2 {
 
     margin-left: 18px;
@@ -208,14 +211,15 @@ nav .btn a :hover {
     box-sizing: border-box;
     width: 25rem;
     height: auto;
-    width:60%;
+    width: 60%;
 
 }
+
 .quotation {
 
     background-image: linear-gradient(to right top, #4ffbdf, #ccff00, #a38b04, #8c9dff, #f852e1);
     box-sizing: border-box;
-    width:60%;
+    width: 60%;
     border: 2px solid black;
     display: flex;
     flex-direction: column;
@@ -224,7 +228,7 @@ nav .btn a :hover {
     color: rgb(2, 39, 39);
     font-size: 3.5vh;
     text-align: end;
-    padding-left:15%;
+    padding-left: 15%;
     margin-left: 20%;
     padding: 15px;
 
@@ -237,9 +241,10 @@ nav .btn a :hover {
 }
 
 .quotation .ilustracion img {
-    width:30%;
+    width: 30%;
 
 }
+
 /*sacar fondo blanco*/
 .quotation .ilustracion {
     filter: brightness(1, 1);
@@ -251,32 +256,73 @@ nav .btn a :hover {
 #conocimientos {
     box-sizing: border-box;
     margin-top: 30px;
-    margin-left: 5%;
+    left: 35%;
     display: flex;
-    flex-direction: column;
     -webkit-box-shadow: 10px 10px 5px 0px rgb(71, 50, 71);
     -moz-box-shadow: 10px 10px 5px 0px rgb(68, 58, 68);
     box-shadow: 10px 10px 5px 0px rgb(35, 27, 35);
     background-color: #8ecccc;
-    width:60%;
+    width: 60%;
 }
 
- .title {
-    font-size: x-large;
+.conocimientos .prog_caja {
+    box-sizing: border-box;
+    display: inline;
+    width: 330px;
+    height: 530px;
+    border: 2px rgb(15, 15, 99);
+    transform: scaleX(30%);
+    transform: rotate(45, 100, 100);
+
+
+
+}
+
+#conocimientos .prog_caja :hover {
+    transform: rotateX(9deg) rotateY(9deg);
+    transition: 2s;
+    transform-origin: 0% 0%;
+    perspective: 200;
+    -webkit-transform: scale(0.8) scaleZ(1.0) rotateX(9deg) rotateY(9deg);
+    -webkit-transform-origin: 0% 0%;
+    -webkit-perspective: 200;
+    -webkit-perspective-origin: 50% 50%;
+    -moz-transform:  rotateX(9deg) rotateY(9deg);
+    -moz-transform-origin: 0% 0%;
+    -moz-perspective: 200;
+    -moz-perspective-origin: 50% 50%;
+    -o-transform: scale(0.8) scaleZ(1.0) rotateX(9deg) rotateY(9deg);
+    -o-transform-origin: 0% 0%;
+    -o-perspective: 200;
+    -o-perspective-origin: 50% 50%;
+    -ms-transform: scale(0.8) scaleZ(1.0) rotateX(9deg) rotateY(9deg);
+    -ms-transform-origin: 0% 0%;
+    -ms-perspective: 200;
+    -ms-perspective-origin: 50% 50%;
+
+
+}
+
+
+.title {
+    font-style: oblique;
     margin-top: 0px;
+    font-size: 3vh;
     color: rgb(44, 44, 11);
+    margin-left: 40%;
 }
 
-.icons svg{
-    box-sizing: border-box; 
-    display:inline;
-    top:5%;
-    width: 38em;
+.icons svg {
+    box-sizing: border-box;
+    display: inline;
+    top: 5%;
+    width: 8em;
 }
 
 .title02 {
     color: rgb(75, 56, 7);
     font-style: oblique;
+    font-size: 3vh;
     margin-left: 40%;
 
 }
@@ -286,48 +332,51 @@ nav .btn a :hover {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    margin:1%;
-    left:6%;
+    margin: 1%;
+    left: 6%;
     gap: 0.8rem;
-    margin: auto;   
+    margin: auto;
 
 }
- 
-#proyectos  .card {
-        box-sizing: border-box;
-        border: solid 1px rgb(206, 37, 189);
-        width: 330px;
-        height: 530px;
-        border-radius: 4em;
-        display:inline;
-        background-color:  rgb(248, 201, 201);
-        border: solid 1px rgb(206, 37, 189);
-        display:inline;
-        margin-left:1%;
-        background-color: white;
-        justify-content: center;
-        padding:5%;
-        
-    
-    
+
+#proyectos .card {
+    box-sizing: border-box;
+    border: solid 1px rgb(206, 37, 189);
+    width: 330px;
+    height: 530px;
+    border-radius: 4em;
+    display: inline;
+    background-color: rgb(248, 201, 201);
+    border: solid 1px rgb(206, 37, 189);
+    display: inline;
+    margin-left: 1%;
+    background-color: white;
+    justify-content: center;
+    padding: 5%;
+
+
+
 
 }
+
 .card {
-    display:inline;
+    display: inline;
     box-sizing: border-box;
     width: 330px;
     height: 730px;
     border: solid 1px rgb(206, 37, 189);
-    display:inline;
+    display: inline;
     margin: 1%;
     background-color: white;
     flex-direction: inline;
     justify-content: center;
-    
+
 }
-.card :hover{
+
+.card :hover {
     background-color: lightcoral;
 }
+
 .card .imagen {
     width: 100%;
 
@@ -337,11 +386,11 @@ nav .btn a :hover {
 
 /*ajustar tamaño imagen*/
 .card img {
-    width: 60%;
+    width: 90%;
 }
 
-.card  a {
-    color:#066291;
+.card a {
+    color: #066291;
     text-decoration: none;
 }
 
@@ -377,7 +426,7 @@ nav .btn a :hover {
 .container .tarjeta {
     box-sizing: border-box;
     border: solid 1px rgb(206, 37, 189);
-    width: 330px;
+    width: 360px;
     height: 730px;
     border-radius: 4em;
     margin: 1%;
@@ -390,10 +439,11 @@ nav .btn a :hover {
 }
 
 /*ajustar tamaño*/
- .card2 .photo {
+.card2 .photo {
     width: 50%;
     height: 45%;
 }
+
 #contacto {
     margin-left: 5%;
     margin-bottom: 40%;
@@ -402,6 +452,7 @@ nav .btn a :hover {
 #contacto .redes_sociales h2 {
     color: rgb(75, 56, 7);
     font-style: oblique;
+    font-size: 3vh;
     margin-left: 40%;
     margin-top: 45%;
 
@@ -419,6 +470,10 @@ nav .btn a :hover {
     text-decoration: none;
     color: rgb(82, 8, 151);
 
+}
+
+.redes_sociales img {
+    width: 60%;
 }
 
 #contacto .contacto_email a {
@@ -545,29 +600,29 @@ button .miboton-personalizado {
 /*empiezan mediaqueries para responsive */
 @media screen and (max-width:580px) {
 
-     nav {
+    nav {
         display: flex;
-        float:left; 
+        float: left;
         flex-wrap: wrap;
         flex-direction: column;
         height: auto;
         margin-top: 0;
         box-sizing: border-box;
-        justify-content: space-between; 
+        justify-content: space-between;
         align-items: center;
-        list-style: none; 
+        list-style: none;
         box-sizing: border-box;
         border-color: #000000;
-       
-      
+
+
     }
-        
-    
-     ul {
+
+
+    ul {
         box-sizing: border-box;
-        width:50%;
+        width: 50%;
         display: flex;
-        flex-direction:column;
+        flex-direction: column;
         flex-flow: column;
         align-content: center;
         text-align: center;
@@ -578,11 +633,11 @@ button .miboton-personalizado {
         text-decoration: none;
         font-size: 2vh;
         margin-top: 2%;
-        padding:1.5%; 
-    
+        padding: 1.5%;
+
     }
-    
-     ul li {
+
+    ul li {
         display: flex;
         flex-wrap: wrap;
         height: auto;
@@ -593,8 +648,8 @@ button .miboton-personalizado {
         margin-top: 0%;
         padding: 2%;
     }
-    
-     li a {
+
+    li a {
         padding: 2px 5px 2px 5px;
         color: rgb(5, 50, 89);
         text-decoration: none;
@@ -602,17 +657,17 @@ button .miboton-personalizado {
         margin-left: 3%;
         margin-right: 5%;
         justify-content: space-evenly;
-        padding:1%;
+        padding: 1%;
     }
-    
-    nav  a:hover {
+
+    nav a:hover {
         background-color: #bcb5b5;
         color: rgb(55, 41, 4);
-    
-    
+
+
     }
-    
-   nav  .btn button {
+
+    nav .btn button {
         background-color: rgb(202, 11, 141);
         width: 200px;
         padding: 0 10px;
@@ -626,19 +681,19 @@ button .miboton-personalizado {
         text-align: center;
         box-sizing: border-box;
     }
-    
-    
+
+
     .btn a {
         background-color: rgb(202, 11, 141);
         color: rgb(234, 189, 65);
         font-weight: bold;
-    
+
     }
-    
+
     .btn a :hover {
         color: rgb(8, 8, 7);
     }
-    
+
     #presentacion {
         display: flex;
         flex-direction: row;
@@ -652,8 +707,8 @@ button .miboton-personalizado {
         display: flex;
         flex-direction: row;
     }
-    
-    
+
+
     #presentacion .titulo {
         box-sizing: border-box;
         max-height: 380px;
@@ -663,41 +718,41 @@ button .miboton-personalizado {
         font-weight: bold;
         font-size: 3vh;
         color: rgb(234, 7, 203);
-    
+
     }
-    
-    
+
+
     #presentacion span {
         color: rgb(3, 143, 143);
     }
-    
+
     #presentacion h3 {
         font-size: 3vh;
         color: rgb(12, 12, 70);
         margin-top: 20%;
         margin-right: 20%;
-    
-    
+
+
     }
-    
+
     #presentacion img {
         box-sizing: border-box;
         width: 480px;
         max-height: 580px;
     }
-    
-    
+
+
     .btn_2 button {
         margin-top: 80px;
-        margin-left:15%;
+        margin-left: 15%;
         margin-right: 65%;
         width: 180px;
         height: 40px;
         background-color: blueviolet;
         border-radius: 40px;
-    
+
     }
-    
+
     .btn_2 a {
         text-decoration: none;
         color: whitesmoke;
@@ -705,8 +760,8 @@ button .miboton-personalizado {
         font-weight: bold;
     }
 
- 
-.cita .quotation {
+
+    .cita .quotation {
 
 
         background-image: linear-gradient(to right top, #4ffbdf, #ccff00, #a38b04, #8c9dff, #f852e1);
@@ -725,11 +780,11 @@ button .miboton-personalizado {
         margin-left: 15%;
         margin-right: 25%;
         padding: 15px;
-    
+
     }
-    
+
     .quotation p {
-    
+
         color: rgb(22, 22, 21);
         font-weight: bold;
     }
@@ -741,11 +796,12 @@ button .miboton-personalizado {
 
     }
 
-   #conocimientos {
-    box-sizing: border-box;
-    width: 35rem;
+    #conocimientos {
+        box-sizing: border-box;
+        width: 35rem;
 
-  }
+    }
+
     .title02 {
         color: rgb(75, 56, 7);
         font-style: oblique;
@@ -912,18 +968,18 @@ button .miboton-personalizado {
         flex-wrap: wrap;
         height: auto;
     }
-    
+
     .nav-bar ul {
         display: flex;
-        float:left; 
+        float: left;
         flex-wrap: wrap;
         flex-direction: column;
         flex-wrap: wrap;
         height: auto;
         align-content: center;
-        height: auto; 
+        height: auto;
         gap: 0.5em;
-        box-sizing: border-box; 
+        box-sizing: border-box;
         text-align: center;
         list-style: none;
         position: fixed;
@@ -933,9 +989,9 @@ button .miboton-personalizado {
         font-size: 2vh;
         margin-left: 50%;
         margin-right: 70%;
-    
+
     }
-    
+
     .nav-bar ul li {
         display: flex;
         flex-direction: column;
@@ -950,7 +1006,7 @@ button .miboton-personalizado {
         margin-right: 70%;
         padding: 2%;
     }
-    
+
     .nav-bar li a {
         padding: 2px 5px 2px 5px;
         color: rgb(5, 50, 89);
@@ -960,10 +1016,10 @@ button .miboton-personalizado {
         margin-right: 70%;
         justify-content: space-around;
     }
-    
-   
+
+
     #proyectos {
-       
+
         max-width: 70%;
         height: 430px;
         display: flex;
@@ -1069,99 +1125,100 @@ button .miboton-personalizado {
 }
 
 @media screen and (max-width: 1280px) {
-.menu {
-    margin-top: 0;
-}
-.nav-bar {
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: row;
-    list-style: none;
-    height: 10px;
-    margin-top: 0;
-    box-sizing: border-box;
-    border-color: 2px #59084e;
-    padding: 5px;
-   
-  
-}
+    .menu {
+        margin-top: 0;
+    }
 
-ul {
-    box-sizing: border-box;
-    height:auto;
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: row;
-    text-align: center;
-    list-style: none;
-    position: fixed;
-    color: rgb(70, 153, 226);
-    font-weight: bold;
-    text-decoration: none;
-    font-size: 3vh;
-    margin-left: 0;
-    margin-left: 18%;
-    margin-right: 18%;
-    padding:1%; 
-
-}
-
-.nav-bar ul li {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    list-style: none;
-    text-align: center;
-    margin-top: 0%;
-    margin-left: 5%;
-    margin-right: 10%;
-    padding: 2%;
-}
-
-.nav-bar li a {
-    padding: 2px 5px 2px 5px;
-    color: rgb(5, 50, 89);
-    text-decoration: none;
-    font-size: 3vh;
-    margin-left: 3%;
-    margin-right: 5%;
-    justify-content: space-around;
-    padding:1%;
-}
-
-.nav-bar  a:hover {
-    border-top: #bcb5b5;
-    color: rgb(55, 41, 4);
+    .nav-bar {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+        list-style: none;
+        height: 10px;
+        margin-top: 0;
+        box-sizing: border-box;
+        border-color: 2px #59084e;
+        padding: 5px;
 
 
-}
+    }
 
-.nav-bar  .btn button {
-    background-color: rgb(202, 11, 141);
-    width: 200px;
-    padding: 0 10px;
-    border-radius: 40px;
-    font-size: 4vh;
-    color: rgb(222, 224, 224);
-    text-align: center;
-    font-weight: bold;
-    justify-content: center;
-    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
-    text-align: center;
-    box-sizing: border-box;
-}
+    ul {
+        box-sizing: border-box;
+        height: auto;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+        text-align: center;
+        list-style: none;
+        position: fixed;
+        color: rgb(70, 153, 226);
+        font-weight: bold;
+        text-decoration: none;
+        font-size: 3vh;
+        margin-left: 0;
+        margin-left: 18%;
+        margin-right: 18%;
+        padding: 1%;
+
+    }
+
+    .nav-bar ul li {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        list-style: none;
+        text-align: center;
+        margin-top: 0%;
+        margin-left: 5%;
+        margin-right: 10%;
+        padding: 2%;
+    }
+
+    .nav-bar li a {
+        padding: 2px 5px 2px 5px;
+        color: rgb(5, 50, 89);
+        text-decoration: none;
+        font-size: 3vh;
+        margin-left: 3%;
+        margin-right: 5%;
+        justify-content: space-around;
+        padding: 1%;
+    }
+
+    .nav-bar a:hover {
+        border-top: #bcb5b5;
+        color: rgb(55, 41, 4);
 
 
-.nav-bar .menu .btn a {
-    background-color: rgb(202, 11, 141);
-    color: rgb(234, 189, 65);
-    font-weight: bold;
+    }
 
-}
+    .nav-bar .btn button {
+        background-color: rgb(202, 11, 141);
+        width: 200px;
+        padding: 0 10px;
+        border-radius: 40px;
+        font-size: 4vh;
+        color: rgb(222, 224, 224);
+        text-align: center;
+        font-weight: bold;
+        justify-content: center;
+        font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+        text-align: center;
+        box-sizing: border-box;
+    }
 
-.menu.btn a :hover {
-    color: rgb(8, 8, 7);
-}
+
+    .nav-bar .menu .btn a {
+        background-color: rgb(202, 11, 141);
+        color: rgb(234, 189, 65);
+        font-weight: bold;
+
+    }
+
+    .menu.btn a :hover {
+        color: rgb(8, 8, 7);
+    }
 
     #presentacion {
         display: flex;
@@ -1254,11 +1311,11 @@ ul {
         text-align: end;
         margin-left: 20px;
         padding: 15px;
-    
+
     }
-    
+
     .quotation p {
-    
+
         color: rgb(22, 22, 21);
         font-weight: bold;
     }
@@ -1499,8 +1556,9 @@ ul {
 #contacto p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 3vh;
-    color:#59084e;
+    color: #59084e;
 }
+
 .container {
     display: flex;
     flex-direction: row;
@@ -1612,13 +1670,13 @@ input [type=”email”] {
         margin-top: 0;
         box-sizing: border-box;
         border-color: 2px #59084e;
-       
-      
+
+
     }
-    
-   ul {
+
+    ul {
         box-sizing: border-box;
-        width:50%;
+        width: 50%;
         display: flex;
         justify-content: space-evenly;
         flex-direction: row;
@@ -1631,11 +1689,11 @@ input [type=”email”] {
         font-size: 3vh;
         margin-left: 18%;
         margin-right: 18%;
-        padding:1%; 
-    
+        padding: 1%;
+
     }
-    
-     ul li {
+
+    ul li {
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
@@ -1646,6 +1704,7 @@ input [type=”email”] {
         margin-right: 10%;
         padding: 2%;
     }
+
     li a {
         padding: 2px 5px 2px 5px;
         color: rgb(5, 50, 89);
@@ -1654,16 +1713,16 @@ input [type=”email”] {
         margin-left: 3%;
         margin-right: 5%;
         justify-content: space-around;
-        padding:1%;
+        padding: 1%;
     }
-    
+
     a:hover {
         background-color: #bcb5b5;
         color: rgb(55, 41, 4);
-    
-    
+
+
     }
-    
+
     .btn button {
         background-color: rgb(202, 11, 141);
         width: 200px;
@@ -1678,19 +1737,19 @@ input [type=”email”] {
         text-align: center;
         box-sizing: border-box;
     }
-    
-    
+
+
     .nav-bar .menu .btn a {
         background-color: rgb(202, 11, 141);
         color: rgb(234, 189, 65);
         font-weight: bold;
-    
+
     }
-    
+
     .menu.btn a :hover {
         color: rgb(8, 8, 7);
     }
-    
+
     .quotation {
 
         background-image: linear-gradient(to right top, #4ffbdf, #ccff00, #a38b04, #8c9dff, #f852e1);
@@ -1707,251 +1766,254 @@ input [type=”email”] {
         text-align: end;
         margin-left: 20px;
         padding: 15px;
-    
+
     }
-    
+
     .quotation p {
-    
+
         color: rgb(22, 22, 21);
         font-weight: bold;
     }
+
     #proyectos {
         display: flex;
         box-sizing: border-box;
         width: 100%;
         border: 2px solid rgb(35, 1, 66);
         padding: 10px;
-       
+
 
     }
 
-.container {
-    box-sizing: border-box;
-    width: 80%;
-    display: flex;
-    flex-direction: row;
-    gap: 0.5rem;
-    justify-content: center;
-    margin: auto;
+    .container {
+        box-sizing: border-box;
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        gap: 0.5rem;
+        justify-content: center;
+        margin: auto;
+    }
+
+
+
+    .title02 {
+        color: rgb(75, 56, 7);
+        font-style: oblique;
+        margin-left: 40%;
+
+    }
+
+    #proyectos {
+        width: 100%;
+        display: flex;
+        gap: 0.5rem;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .card {
+        width: 330px;
+        height: 730px;
+        border: 2px solid black;
+        box-shadow: 2px rgb(3, 44, 121);
+        margin: 20px;
+        border-color: black;
+
+    }
+
+    .container .card a {
+        text-decoration: none;
+        color: blueviolet;
+    }
+
+
+
+    .card .imagen {
+        width: 100%;
+
+    }
+
+
+    /*ajustar tamaño imagen*/
+    .card2 img {
+        width: 80%;
+    }
+
+
+    .card a :hover {
+        color: rgb(76, 55, 1);
+
+    }
+
+
+    .container {
+        display: flex;
+        flex-direction: row;
+        gap: 0.5rem;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .container .tarjeta {
+        border: 1px solid black;
+        display: inline;
+    }
+
+    #proyectos a :hover {
+        color: rgb(70, 52, 6);
+
+    }
+
+    #proyectos .container .tarjeta {
+        border: 1px solid black;
+    }
+
+    #proyectos {
+        box-sizing: border-box;
+        width: 100%;
+        display: flex;
+        gap: 0.5rem;
+        justify-content: center;
+        border-color: rgb(37, 2, 70);
+    }
+
+    .card {
+        box-sizing: border-box;
+        border: 1px solid black;
+        display: inline;
+        width: 380px;
+        height: 630px;
+        margin: 20px;
+    }
+
+
+    #proyectos .card img {
+        width: 100%;
+        margin-top: 15%;
+
+
+    }
+
+    #proyectos .card {
+        width: 380px;
+        height: 630px;
+        margin: 10px;
+
+
+    }
+
+    #proyectos p {
+        margin-top: 15%;
+        margin-left: 10%;
+
+    }
+
+    #proyectos .card a {
+        color: blueviolet;
+        margin-top: 15%;
+        margin-left: 10%;
+        text-decoration: none;
+
+    }
+
+    #proyetos a :hover {
+        color: rgb(81, 58, 0);
+    }
+
+
+    .card2 .photo {
+        width: 80%;
+    }
+
+    .container {
+        margin-top: 40%;
+        box-sizing: border-box;
+        display: flex;
+        flex-wrap: wrap;
+        height: 1050px;
+        justify-content: center;
+        gap: 0.5rem;
+        margin: auto;
+
+    }
+
+    .container .tarjeta {
+        width: 380px;
+        height: 730px;
+        margin: 20px;
+        display: inline;
+
+
+    }
+
+    .container .tarjeta img {
+        width: 80%;
+        margin-top: 15%;
+
+
+    }
+
+    .container .tarjeta a {
+        color: blueviolet;
+        margin-top: 15%;
+        margin-left: 10%;
+        text-decoration: none;
+
+    }
+
+    .container .tarjeta a {
+        color: blueviolet;
+        margin-top: 15%;
+        margin-left: 10%;
+        text-decoration: none;
+
+    }
+
+    .container .tarjeta a {
+        color: blueviolet;
+        margin-top: 15%;
+        margin-left: 10%;
+        text-decoration: none;
+
+    }
+
+    .container a :hover {
+        color: rgb(81, 58, 0);
+    }
+
+
+    .tarjeta .photo {
+        width: 80%;
+    }
+
+    input [type=”email”] {
+
+        width: 5 px;
+        height: 2px;
+        opacity: 0;
+        overflow: hidden;
+    }
+
+    .foot footer {
+        box-sizing: border-box;
+        height: 70px;
+        height: 80px;
+        background-color: violet;
+        border: 2px solid #000000;
+        margin-bottom: 0;
+        margin-left: 0;
+
+    }
+
 }
 
-
-
-.title02 {
-    color: rgb(75, 56, 7);
-    font-style: oblique;
-    margin-left: 40%;
-
-}
-
-#proyectos {
-    width: 100%;
-    display: flex;
-    gap: 0.5rem;
-    justify-content: center;
-    margin: auto;
-}
-
-.card {
-    width: 330px;
-    height: 730px;
-    border: 2px solid black;
-    box-shadow: 2px rgb(3, 44, 121);
-    margin: 20px;
-    border-color: black;
-
-}
-
-.container .card a {
-    text-decoration: none;
-    color: blueviolet;
-}
-
-
-
-.card .imagen {
-    width: 100%;
-
-}
-
-
-/*ajustar tamaño imagen*/
-.card2 img {
-    width: 80%;
-}
-
-
-.card a :hover {
-    color: rgb(76, 55, 1);
-
-}
-
-
-.container {
-    display: flex;
-    flex-direction: row;
-    gap: 0.5rem;
-    justify-content: center;
-    margin: auto;
-}
-
-.container .tarjeta {
-    border: 1px solid black;
-    display: inline;
-}
-
-#proyectos a :hover {
-    color: rgb(70, 52, 6);
-
-}
-
-#proyectos .container .tarjeta {
-    border: 1px solid black;
-}
-
-#proyectos {
-    box-sizing: border-box;
-    width: 100%;
-    display: flex;
-    gap: 0.5rem;
-    justify-content: center;
-    border-color: rgb(37, 2, 70);
-}
-
-.card {
-    box-sizing: border-box;
-    border: 1px solid black;
-    display:inline;
-    width: 380px;
-    height: 630px;
-    margin: 20px;
-}
-
-
-#proyectos .card img {
-    width: 100%;
-    margin-top: 15%;
-
-
-}
-
-#proyectos .card {
-    width: 380px;
-    height: 630px;
-    margin: 10px;
-
-
-}
-
-#proyectos p {
-    margin-top: 15%;
-    margin-left: 10%;
-
-}
-
-#proyectos .card a {
-    color: blueviolet;
-    margin-top: 15%;
-    margin-left: 10%;
-    text-decoration: none;
-
-}
-
-#proyetos a :hover {
-    color: rgb(81, 58, 0);
-}
-
-
-.card2 .photo {
-    width: 80%;
-}
-
-.container {
-    margin-top: 40%;
-    box-sizing: border-box;
-    display: flex;
-    flex-wrap: wrap;
-    height: 1050px;
-    justify-content: center;
-    gap: 0.5rem;
-    margin: auto;
-
-}
-
-.container .tarjeta {
-    width: 380px;
-    height: 730px;
-    margin: 20px;
-    display:inline;
-
-
-}
-
-.container .tarjeta img {
-    width: 80%;
-    margin-top: 15%;
-
-
-}
-
-.container .tarjeta a {
-    color: blueviolet;
-    margin-top: 15%;
-    margin-left: 10%;
-    text-decoration: none;
-
-}
-
-.container .tarjeta a {
-    color: blueviolet;
-    margin-top: 15%;
-    margin-left: 10%;
-    text-decoration: none;
-
-}
-
-.container .tarjeta a {
-    color: blueviolet;
-    margin-top: 15%;
-    margin-left: 10%;
-    text-decoration: none;
-
-}
-
-.container a :hover {
-    color: rgb(81, 58, 0);
-}
-
-
-.tarjeta .photo {
-    width: 80%;
-}
-
-input [type=”email”] {
-
-    width: 5 px;
-    height: 2px;
-    opacity: 0;
-    overflow: hidden;
-}
-
-.foot footer {
-    box-sizing: border-box;
-    height: 70px;
-    height: 80px;
-    background-color: violet;
-    border: 2px solid #000000;
-    margin-bottom: 0;
-    margin-left: 0;
-
-}
-
-}
 @media (max-width:860px) {
-    .menu {  
+    .menu {
         margin-top: 3%;
-        
+
     }
+
     .nav-bar {
         display: flex;
         justify-content: space-evenly;
@@ -1961,13 +2023,13 @@ input [type=”email”] {
         height: 10px;
         margin-top: 0;
         box-sizing: border-box;
-        width:3vh;
+        width: 3vh;
         padding: 5px;
-        margin-left:45%;
-       
-      
+        margin-left: 45%;
+
+
     }
-    
+
     .nav-bar ul {
         box-sizing: border-box;
         display: flex;
@@ -1983,10 +2045,10 @@ input [type=”email”] {
         margin-left: 0;
         margin-left: 25%;
         margin-right: 38%;
-        padding:1%; 
-    
+        padding: 1%;
+
     }
-    
+
     .nav-bar ul li {
         display: flex;
         flex-direction: column;
@@ -1998,8 +2060,8 @@ input [type=”email”] {
         margin-right: 10%;
         padding: 2%;
     }
-    
-    .nav-bar  li a {
+
+    .nav-bar li a {
         display: flex;
         flex-direction: column;
         padding: 2px 5px 2px 5px;
@@ -2009,9 +2071,9 @@ input [type=”email”] {
         margin-left: 3%;
         margin-right: 5%;
         justify-content: space-around;
-        padding:1%;
+        padding: 1%;
     }
-    
+
     .btn_2 button {
         margin-top: 600px;
         margin-left: 1%;
@@ -2020,15 +2082,16 @@ input [type=”email”] {
         height: 40px;
         background-color: blueviolet;
         border-radius: 40px;
-    
+
     }
-    
+
     .btn_2 a {
         text-decoration: none;
         color: whitesmoke;
         font-size: 1rem;
         font-weight: bold;
     }
+
     #proyectos {
         width: 100%;
         height: 430px;
@@ -2054,14 +2117,14 @@ input [type=”email”] {
         color: blueviolet;
     }
 
-    
+
 
     .card .imagen {
         width: 100%;
 
     }
 
- 
+
     /*ajustar tamaño imagen*/
     .card2 img {
         width: 80%;
@@ -2071,7 +2134,7 @@ input [type=”email”] {
         width: 330px;
         height: 430px;
         border: 2px solid black;
-        margin:10px;
+        margin: 10px;
         border-color: black;
 
     }
@@ -2121,4 +2184,3 @@ input [type=”email”] {
 
     }
 }
-

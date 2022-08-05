@@ -338,7 +338,18 @@ nav .btn a :hover {
     gap: 0.8rem;
     margin: auto;
     bottom: 20%;
-    border-bottom: #f852e1;
+    border: #f852e1;
+
+}
+
+#proyectos .title02 {
+    box-sizing: border-box;
+    display:column; 
+    align-content: center;
+    padding:5%;
+    margin:5%;
+    left:5%;
+    right:30%;
 
 }
  .descripcion {
@@ -512,9 +523,16 @@ nav .btn a :hover {
 
 #contacto {
     margin-left: 5%;
-    margin-bottom: 40%;
+    margin-bottom: 10%;
+    display:flex;
 }
 
+#contacto .redes_sociales {
+    box-sizing: border-box;
+    top:10%;
+    display: flex;
+    display:inline;
+}
 #contacto .redes_sociales h2 {
     color: rgb(75, 56, 7);
     font-style: oblique;
@@ -542,7 +560,7 @@ nav .btn a :hover {
     width: 60%;
 }
 
-#contacto .contacto_email a {
+#contacto .contacto_02 a {
     text-decoration: none;
     color: rgb(83, 9, 152);
 
@@ -664,26 +682,9 @@ button .miboton-personalizado {
 }
 
 /*empiezan mediaqueries para responsive */
-@media screen and (max-width:420px) {
+@media (max-width:420px) {
 
-    nav {
-        display: flex;
-        float: left;
-        flex-wrap: wrap;
-        flex-direction: column;
-        height: auto;
-        margin-top: 0;
-        box-sizing: border-box;
-        justify-content: space-between;
-        align-items: center;
-        list-style: none;
-        box-sizing: border-box;
-        border-color: #000000;
-
-
-    }
-
-
+    
     .barra_nav ul {
         box-sizing: border-box;
         display: flex;
@@ -735,7 +736,7 @@ button .miboton-personalizado {
         padding: 1%;
     }
 
-    nav a:hover {
+    .barra_nav nav a:hover {
         background-color: #bcb5b5;
         color: rgb(55, 41, 4);
 
@@ -835,7 +836,10 @@ button .miboton-personalizado {
         font-weight: bold;
     }
 
-
+    .cita {
+        margin-left: 10%;
+        margin-right: 70%;
+    }
     .cita .quotation {
 
 
@@ -849,10 +853,10 @@ button .miboton-personalizado {
         align-items: center;
         margin-top: 50px;
         color: rgb(2, 39, 39);
-        font-size: 2.5vh;
+        font-size: 2vh;
         text-align: end;
-        padding-left: 20%;
-        margin-left: 15%;
+        padding-left: 8%;
+        left: 15%;
         margin-right: 25%;
         padding: 15px;
 

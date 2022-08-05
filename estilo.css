@@ -679,12 +679,7 @@ button .miboton-personalizado {
 
 }
 
-img { 
-    width:4%;
-    height:4%;
 
-
-}
 .image_mail img {
     width:58px;
     height:48px;
@@ -1023,8 +1018,7 @@ img {
 
     }
 
-    input [type=email] {}
-
+   
     #contacto .redes_sociales a {
         text-decoration: none;
         color: rgb(82, 8, 151);

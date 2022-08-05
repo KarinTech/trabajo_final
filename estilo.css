@@ -347,7 +347,6 @@ nav .btn a :hover {
     display:column; 
     align-content: center;
     padding:5%;
-    margin:5%;
     left:5%;
     right:30%;
 
@@ -560,9 +559,14 @@ nav .btn a :hover {
     width: 60%;
 }
 
-#contacto .contacto_02 a {
+ .contacto_email a {
     text-decoration: none;
     color: rgb(83, 9, 152);
+
+}
+.contacto_email a :hover {
+    color:#9c3e8f;
+    background-color: #8c9dff;
 
 }
 
@@ -595,20 +599,7 @@ nav .btn a :hover {
     background-color: aquamarine;
 }
 
-#conocimientos .icons {
-    width: 200em;
-    font-size: x-large;
-    display: flex;
-    flex-direction: row;
-    margin-top: 40px;
-    fill: #000000;
 
-}
-
-#conocimientos .icons {
-    width: 50vh;
-    height: 50vh;
-}
 
 
 #quotation img {

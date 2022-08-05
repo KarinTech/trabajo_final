@@ -664,10 +664,37 @@ button .miboton-personalizado {
     margin-left: 40%;
 }
 
-.fab fa-youtube {
-    color: blueviolet;
+.foot footer .icons {
+    box-sizing: border-box;
+    display:flex;
+    justify-content: center;
 }
 
+.icons svg {
+    display:inline;
+    justify-content: center;
+}
+.icons svg a .hover{
+    background: #a38b04;
+
+}
+
+img { 
+    width:4%;
+    height:4%;
+
+
+}
+.image_mail img {
+    width:58px;
+    height:48px;
+}
+
+
+.icono a :hover{
+    background: #8c9dff;
+
+}
 .firma {
     background-color: aquamarine;
 }

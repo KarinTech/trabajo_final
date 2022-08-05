@@ -1,31 +1,42 @@
 body {
-    margin: auto;
+    margin:0;
     font-family: sans-serif;
+    padding:0;
 
 }
-header .menu {  
+header {  
     box-sizing: border-box;
-    background-color: rgb(135, 161, 162);
     margin-top: 0;
+    margin-left: 8%;
+    padding:0;
     
 
 }
    
- .barra_nav {
+ .barra_nav  {
+    box-sizing: border-box;
     display: flex;
     position:fixed;  
-    margin: auto; 
-}
-nav {
+    top: 2%; 
+    left: 8%;
+    right:10%; 
+    width:100%;
+    height: 85px;
+   
+    background-color: rgb(228, 228, 228);
 
+}
+nav {   
+    box-sizing: border-box;
     justify-content: space-evenly;
     flex-wrap: wrap;
     display:flex;
     list-style: none;
-    box-sizing: border-box;
+    margin-top:0;
     width:100%;  
     margin-left:5%;
-   
+    padding:0;
+
   
 }
 
@@ -40,8 +51,8 @@ ul {
     color: rgb(6, 40, 70);
     font-weight: bold;
     text-decoration: none;
-    margin-top: 5px;
-    margin-left: 10%;
+    margin-top: 1%;
+    left: 3%;
     margin-right:10% ;
     padding:1%; 
 
@@ -50,14 +61,13 @@ ul {
  ul li {
    
     display:inline;
-    justify-content: space-evenly;
     list-style: none;
     text-align: center;
-    margin-top: 2%;
-    margin-bottom: 2%;
-    margin-left: 15%;
-    margin-right: 10%;
-    padding: 2%;
+    top: 2%;
+    left: 5%;
+    right: 10%;
+    bottom: 4%;
+    padding: 1%;
 }
 
  li a {
@@ -65,7 +75,7 @@ ul {
     color: rgb(5, 50, 89);
     font-weight: bold;
     text-decoration: none;
-    font-size: 2vh;
+    font-size: 3vh;
     margin-left: 3%;
     margin-right: 5%;
     justify-content: center;
@@ -80,6 +90,8 @@ a:hover {
 }
 
 nav .btn button {
+    box-sizing: border-box;
+    bottom:2%;
     background-color: rgb(202, 11, 141);
     width: 200px;
     padding: 0 10px;
@@ -112,12 +124,12 @@ nav .btn a :hover {
     display: flex;
     box-sizing: border-box;
     justify-content: space-evenly;
-    margin-top: 5%;
+    margin-top: 25%;
     margin-left: 18%;
     margin-right: 28%;
     color: #59084e;
     width: 60%;
-    display: flex;
+    padding:8%;
 
 }
 
@@ -126,11 +138,12 @@ nav .btn a :hover {
     box-sizing: border-box;
     border-color: #9c3e8f;
     display:inline;
-    margin-left: 10%;
+    margin-left: 38%;
+    right:10%;
     margin-right: 40%;
     font-family: 'Merge', sans-serif;
     font-weight: bold;
-    font-size: 2vh;
+    font-size: 3.5vh;
     color: rgb(234, 7, 203);
 
 }
@@ -141,7 +154,7 @@ nav .btn a :hover {
 }
 
 #presentacion h3 {
-    font-size: 1.5vh;
+    font-size: 2.8vh;
     color: rgb(12, 12, 70);
     margin-top: 20%;
     margin-right: 20%;
@@ -154,14 +167,16 @@ nav .btn a :hover {
 }
 #presentacion .imagen_hero img {
     box-sizing: border-box;
+    margin-top: 6%;
+    left:4%;
     width: 280px;
     max-height: 580px;
 }
 
 
 .btn_2 button {
-    margin-top: 80px;
-    margin-left:25%;
+    margin-top: 1%;
+    margin-left:48%;
     margin-right: 65%;
     width: 180px;
     height: 40px;
@@ -260,27 +275,31 @@ nav .btn a :hover {
 }
 
 #proyectos {
+    box-sizing: border-box;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    margin:1%;
+    left:6%;
     gap: 0.8rem;
-    margin: auto;
+    margin: auto;   
+    background-color: ;
 }
  
 #proyectos  .card {
         box-sizing: border-box;
         border: solid 1px rgb(206, 37, 189);
         width: 330px;
-        height: 730px;
+        height: 530px;
         border-radius: 4em;
         display:inline;
-        margin: 1%;
-        background-color: white;
+        background-color:  rgb(248, 201, 201);
         border: solid 1px rgb(206, 37, 189);
         display:inline;
-        margin: 1%;
+        margin-left:1%;
         background-color: white;
         justify-content: center;
+        padding:5%;
         
     
     
@@ -293,13 +312,15 @@ nav .btn a :hover {
     height: 730px;
     border: solid 1px rgb(206, 37, 189);
     display:inline;
-    margin: 3%;
+    margin: 1%;
     background-color: white;
     flex-direction: inline;
     justify-content: center;
     
 }
-
+.card :hover{
+    background-color: lightcoral;
+}
 .card .imagen {
     width: 100%;
 
@@ -335,6 +356,7 @@ nav .btn a :hover {
     align-items: center;
     gap: 0.5rem;
     margin: auto;
+    background-color: rgb(252, 221, 221);
 }
 
 .container a {
@@ -529,8 +551,6 @@ button .miboton-personalizado {
         list-style: none; 
         box-sizing: border-box;
         border-color: #000000;
-        margin-left:55%;
-        margin-right:65%;
        
       
     }
@@ -550,8 +570,7 @@ button .miboton-personalizado {
         font-weight: bold;
         text-decoration: none;
         font-size: 2vh;
-        margin-left: 60%;
-        margin-right: 50%;
+        margin-top: 2%;
         padding:1.5%; 
     
     }
@@ -565,8 +584,6 @@ button .miboton-personalizado {
         list-style: none;
         text-align: center;
         margin-top: 0%;
-        margin-left: 60%;
-        margin-right: 40%;
         padding: 2%;
     }
     
@@ -632,6 +649,7 @@ button .miboton-personalizado {
     
     #presentacion .titulo {
         box-sizing: border-box;
+        max-height: 380px;
         border-color: #9c3e8f;
         margin-left: 20%;
         font-family: 'Merge', sans-serif;

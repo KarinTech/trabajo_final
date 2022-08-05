@@ -3,8 +3,11 @@ body {
     font-family: sans-serif;
 
 }
-.menu {  
-    margin-top: 3%;
+header .menu {  
+    box-sizing: border-box;
+    background-color: rgb(135, 161, 162);
+    margin-top: 0;
+    
 
 }
    
@@ -260,22 +263,41 @@ nav .btn a :hover {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    gap: 0.5rem;
+    gap: 0.8rem;
     margin: auto;
 }
-.caja .card {
-    display:inline;
-}
-#proyectos .card {
+ 
+#proyectos  .card {
         box-sizing: border-box;
         border: solid 1px rgb(206, 37, 189);
+        width: 330px;
+        height: 730px;
+        border-radius: 4em;
+        display:inline;
         margin: 1%;
         background-color: white;
-        flex-direction: inline;
+        border: solid 1px rgb(206, 37, 189);
+        display:inline;
+        margin: 1%;
+        background-color: white;
         justify-content: center;
+        
     
     
 
+}
+.card {
+    display:inline;
+    box-sizing: border-box;
+    width: 330px;
+    height: 730px;
+    border: solid 1px rgb(206, 37, 189);
+    display:inline;
+    margin: 3%;
+    background-color: white;
+    flex-direction: inline;
+    justify-content: center;
+    
 }
 
 .card .imagen {
@@ -283,9 +305,7 @@ nav .btn a :hover {
 
 }
 
-.caja {
-    display:inline;
-}
+
 
 /*ajustar tamaño imagen*/
 .card img {
@@ -303,7 +323,7 @@ nav .btn a :hover {
 
 
 /*ajustar tamaño*/
-.card .photo {
+.photo {
     width: 60%;
 }
 
@@ -326,11 +346,11 @@ nav .btn a :hover {
 }
 
 .container .tarjeta {
-    flex-basis: 31%;
-    flex-grow: 1;
-    max-width: 31%;
+    box-sizing: border-box;
     border: solid 1px rgb(206, 37, 189);
-    border-radius: 1em;
+    width: 330px;
+    height: 730px;
+    border-radius: 4em;
     margin: 1%;
     background-color: white;
     display: flex;
@@ -341,7 +361,7 @@ nav .btn a :hover {
 }
 
 /*ajustar tamaño*/
-.card  .card2 .photo {
+ .card2 .photo {
     width: 50%;
     height: 45%;
 }

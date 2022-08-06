@@ -331,229 +331,40 @@ nav .btn a :hover {
 }
 
 
-
-.title02 {
-    box-sizing: border-box;
-    display: flex;
-    flex-wrap: wrap;
-    color: rgb(75, 56, 7);
-    font-style: oblique;
-    font-size: 3vh;
-    margin-left: 40%;
-
-}
-
 #proyectos {
-   
     box-sizing: border-box;
-    width:1800px;
-    background-color: #bcb5b5;
-    border-color: 2px rgb(37, 37, 101);
-    box-shadow: 4px  #8c9dff;
-    border-radius: 4rem;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-    margin: 10% 10% 30% 20%;
-    left: 6%;
-    gap: 0.8rem;
-    margin-top:40px;
-    bottom: 20%;
-   
-
-}
-
-#proyectos .title02 {
-    box-sizing: border-box; 
-    align-content: center;
-    padding:5%;
-    margin-left:25%;
-    right:30%;
-
-}
- .descripcion {
-    box-sizing: border-box; 
-    font-size: 2vh;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: bold;
-    color: rgb(61, 47, 12);
-    display: flex;
-    justify-content: center;
-    margin-left: 40%;
-}
-
-.grilla {
-    
+    width:100%;
+    height:700px;
+    background-color: antiquewhite;
+    display:flex;
+    flex-direction: row;
+    align-items:center;
     box-sizing: border-box;
-    width:1260px;
-    height: 730px;
-    border-radius: 4em;
-    display: inline;
-    flex-wrap: wrap;
-    padding:5%;
-    gap:9em;
     margin-top: 10%;
-    margin-right:10%;
-    margin-bottom:10%;
-    margin-left: -5%;
-    background-color: white;
-    justify-content: space-evenly;
-    flex-flow: row-reverse;
-    padding: 5%;
-
-
-
+    -webkit-box-shadow: 10px 10px 5px 0px rgb(71, 50, 71);
+    -moz-box-shadow: 10px 10px 5px 0px rgb(68, 58, 68);
+    box-shadow: 10px 10px 5px 0px rgb(35, 27, 35);
 
 }
 
 #proyectos .card {
-
     box-sizing: border-box;
-    border: solid 1px rgb(206, 37, 189);
-    width: 430px;
-    height: 630px;
-    border-radius: 4em;
     display: inline;
-    background-color: rgb(248, 201, 201);
-    border: solid 1px rgb(206, 37, 189);
-    flex-wrap: wrap;
-    padding:5%;
-    margin-right:20%;
-    margin-bottom:10%;
-    left:5%;
-    right:40%;
-    margin-left:15%;
-    gap:9em;
-    background-color: white;
-    justify-content: center;
-    padding: 5%;
-
-
-
-
+    align-items: center;
+    background-color: rgb(244, 193, 248);
+    border: 3px solid rgb(73, 1, 72);
+    border-radius: 4em; 
+    margin:20px;
+    width: 19%;
+    height:60%;
 }
 
-#proyectos .card2 {
-    box-sizing: border-box;
-    width: 430px;
-    height: 630px;
-    border-radius: 4em;
-    display: inline;
-    background-color: rgb(248, 201, 201);
-    flex-wrap: wrap;
-    padding:5%;
-    margin-right:20%;
-    margin-bottom:10%;
-    margin-left:35%;
-    margin-right:40%;
-    gap:9em;
-    background-color: white;
-    justify-content: center;
-    padding: 5%;
-
-
-
-
-
+#conocimientos .card img {
+    margin-top: 50%;
+    margin-left: 12%;
 }
 
 
-.car :hover {
-    transform: scaleY(140%);
-    background-color: rgb(125, 171, 200);
-    transition: all ease 0.2s;
-}
-
-
-
-
-/*ajustar tamaño imagen*/
-.card2 .photo img  {
-    width: 65%;
-}
-
-.card a {
-    color: #066291;
-    text-decoration: none;
-}
-
-.card a :hover {
-    color: darkviolet;
-}
-
-
-/*ajustar tamaño*/
-.photo {
-    width: 60%;
-}
-
-.container {
-    
-    box-sizing: border-box;
-    width: 80%;
-    border-radius: 4em;
-    display: inline;
-    border: solid 1px rgb(206, 37, 189);
-    flex-wrap: wrap;
-    padding:5%;
-    left:2%;
-    right: 30%;
-    gap:9em;
-    margin-left: 1%;
-    background-color: white;
-    padding: 5%;
-}
-
-.container a {
-    text-decoration: none;
-}
-
-.container a:hover {
-    color: darkviolet;
-}
-
-.container .tarjeta {
-
-    box-sizing: border-box;
-    border: solid 1px rgb(206, 37, 189);
-    width: 330px;
-    height: 530px;
-    border-radius: 4em;
-    display: inline;
-    background-color: rgb(248, 201, 201);
-    border: solid 1px rgb(206, 37, 189);
-    flex-wrap: wrap;
-    padding:5%;
-    left:2%;
-    margin-right:40%;
-    gap:9em;
-    background-color: white;
-    justify-content: center;
-    padding: 5%;
-    
-}
-.container .tarjeta2 {
-
-    box-sizing: border-box;
-    border: solid 1px rgb(206, 37, 189);
-    width: 460px;
-    height: 630px;
-    border-radius: 4em;
-    margin: 1%;
-    background-color: white;
-    display: inline;
-    flex-wrap: wrap;
-    padding:5%;
-    left:45%;
-    right:25%;
-    gap:9em;
-    margin-left: 1%;
-    background-color: white;
-    justify-content: center;
-    padding: 5%;
-   
-}
 
 #contacto {
     margin-top: 10%;

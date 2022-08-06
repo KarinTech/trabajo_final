@@ -409,10 +409,9 @@ nav .btn a :hover {
     border: solid 1px rgb(206, 37, 189);
     flex-wrap: wrap;
     padding:5%;
-    left:8%;
+    left:2%;
     right:40%;
     gap:9em;
-    left: 8%;
     background-color: white;
     justify-content: center;
     padding: 5%;
@@ -480,14 +479,24 @@ nav .btn a :hover {
 }
 
 .container {
-
-    display: flex;
+    position: relative;
+    box-sizing: border-box;
+    width: 80%;
+    height: 630px;
+    border-radius: 4em;
+    display: inline;
+    background-color: rgb(162, 208, 231);
+    border: solid 1px rgb(206, 37, 189);
     flex-wrap: wrap;
-    flex-direction: row;
-    align-items: center;
-    gap: 0.5rem;
-    margin: auto;
-    background-color: rgb(252, 221, 221);
+    padding:5%;
+    left:2%;
+    right: 30%;
+    gap:9em;
+    margin-left: 1%;
+    background-color: white;
+    justify-content: space-evenly;
+    flex-flow: row-reverse;
+    padding: 5%;
 }
 
 .container a {
@@ -499,37 +508,51 @@ nav .btn a :hover {
 }
 
 .container .tarjeta {
+    position: absolute;
     box-sizing: border-box;
     border: solid 1px rgb(206, 37, 189);
-    width: 360px;
-    height: 730px;
+    width: 330px;
+    height: 530px;
     border-radius: 4em;
-    margin: 1%;
+    display: inline;
+    background-color: rgb(248, 201, 201);
+    border: solid 1px rgb(206, 37, 189);
+    flex-wrap: wrap;
+    padding:5%;
+    left:2%;
+    right:40%;
+    gap:9em;
     background-color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
-    transition: 0.3s;
+    padding: 5%;
+    
 }
 .container .tarjeta2 {
+    position:absolute;
     box-sizing: border-box;
     border: solid 1px rgb(206, 37, 189);
     width: 360px;
-    height: 730px;
+    height: 530px;
     border-radius: 4em;
     margin: 1%;
     background-color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: inline;
+    flex-wrap: wrap;
+    padding:5%;
+    left:45%;
+    right:25%;
+    gap:9em;
+    margin-left: 1%;
+    background-color: white;
     justify-content: center;
-    transition: 0.3s;
+    padding: 5%;
+   
 }
 
 /*ajustar tamaño*/
 
 #contacto {
+    margin-top: 10%;
     margin-left: 5%;
     margin-bottom: 10%;
     display:flex;

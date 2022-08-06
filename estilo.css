@@ -1,5 +1,11 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+
+}
 body {
-    margin: 0;
+    margin: auto;
     font-family: sans-serif;
     padding: 0;
 
@@ -195,18 +201,6 @@ nav .btn a :hover {
     font-weight: bold;
 }
 
-#conocimientos {
-    box-sizing: border-box;
-    width: 780px;
-}
-
-#conocimientos .title h2 {
-
-    margin-left: 18px;
-    color: rgb(77, 72, 15);
-    font-style: oblique;
-    font-size: 2rem;
-}
 
 .cita {
     box-sizing: border-box;
@@ -228,12 +222,12 @@ nav .btn a :hover {
     flex-direction: column;
     align-items: center;
     margin-top: 50px;
-    color: rgb(2, 39, 39);
+    color: rgb(131, 220, 220);
     font-size: 3.5vh;
     text-align: end;
     padding-left: 15%;
-    left: 20%;
-    right:30%;
+    left: 10%;
+    right:40%;
     padding: 15px;
 
 }
@@ -259,32 +253,47 @@ nav .btn a :hover {
 
 #conocimientos {
     box-sizing: border-box;
-    margin-top: 30px;
-    left: 25%;
-    right:25%;
-    display: flex;
+    width:100%;
+    height:700px;
+    background-color: antiquewhite;
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    box-sizing: border-box;
+    margin-top: 10%;
     -webkit-box-shadow: 10px 10px 5px 0px rgb(71, 50, 71);
     -moz-box-shadow: 10px 10px 5px 0px rgb(68, 58, 68);
     box-shadow: 10px 10px 5px 0px rgb(35, 27, 35);
-    background-color: #8ecccc;
-    width: 60%;
+
 }
 
-.conocimientos .prog_caja {
+#conocimientos .caja_prog {
     box-sizing: border-box;
-    display:inline-block;
-    flex-direction: row;
-    width: 330px;
-    height: 530px;
-    border: 2px rgb(15, 15, 99);
-    transform: scaleX(30%);
-    transform: rotate(45, 100, 100);
-
-
-
+    display: inline;
+    align-items: center;
+    background-color: rgb(207, 208, 211);
+    border: 3px solid rgb(19, 19, 96);
+    border-radius: 4em; 
+    margin:20px;
+    width: 19%;
+    height:60%;
 }
 
-#conocimientos .prog_caja :hover {
+#conocimientos .caja_prog img {
+    margin-top: 50%;
+    margin-left: 12%;
+}
+
+#conocimientos .title h2 {
+
+    margin-left: 18px;
+    color: rgb(77, 72, 15);
+    font-style: oblique;
+    font-size: 2rem;
+}
+
+
+#conocimientos svg :hover {
     transform: rotateX(9deg) rotateY(9deg);
     transition: 2s;
     transform-origin: 0% 0%;
@@ -308,7 +317,10 @@ nav .btn a :hover {
 
 
 }
-
+#conocimientos img {
+    max-width: 200px;
+    max-height: 200px;
+}
 
 .title {
     font-style: oblique;
@@ -318,12 +330,7 @@ nav .btn a :hover {
     margin-left: 40%;
 }
 
-.icons svg {
-    box-sizing: border-box;
-    display: inline;
-    top: 5%;
-    width: 8em;
-}
+
 
 .title02 {
     box-sizing: border-box;
@@ -337,19 +344,23 @@ nav .btn a :hover {
 }
 
 #proyectos {
-    
+   
     box-sizing: border-box;
+    width:1800px;
+    background-color: #bcb5b5;
+    border-color: 2px rgb(37, 37, 101);
+    box-shadow: 4px  #8c9dff;
+    border-radius: 4rem;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
-    background-color: #f4baf3;
-    margin: 1%;
+    margin: 10% 10% 30% 20%;
     left: 6%;
     gap: 0.8rem;
-    margin: auto;
+    margin-top:40px;
     bottom: 20%;
-    border: #f852e1;
+   
 
 }
 
@@ -372,21 +383,20 @@ nav .btn a :hover {
     margin-left: 40%;
 }
 
-#proyectos .grilla {
-    position: relative;
+.grilla {
+    
     box-sizing: border-box;
-    width: 80%;
+    width:1260px;
     height: 730px;
     border-radius: 4em;
     display: inline;
-    background-color: rgb(248, 201, 201);
-    border: solid 1px rgb(206, 37, 189);
     flex-wrap: wrap;
     padding:5%;
-    left:2%;
-    right: 30%;
     gap:9em;
-    margin-left: 1%;
+    margin-top: 10%;
+    margin-right:10%;
+    margin-bottom:10%;
+    margin-left: -5%;
     background-color: white;
     justify-content: space-evenly;
     flex-flow: row-reverse;
@@ -397,20 +407,23 @@ nav .btn a :hover {
 
 }
 
-#proyectos .grilla .card {
-    position: absolute;
+#proyectos .card {
+
     box-sizing: border-box;
     border: solid 1px rgb(206, 37, 189);
-    width: 330px;
-    height: 530px;
+    width: 430px;
+    height: 630px;
     border-radius: 4em;
     display: inline;
     background-color: rgb(248, 201, 201);
     border: solid 1px rgb(206, 37, 189);
     flex-wrap: wrap;
     padding:5%;
-    left:2%;
+    margin-right:20%;
+    margin-bottom:10%;
+    left:5%;
     right:40%;
+    margin-left:15%;
     gap:9em;
     background-color: white;
     justify-content: center;
@@ -421,27 +434,24 @@ nav .btn a :hover {
 
 }
 
-#proyectos .grilla .card2 {
-    position: absolute;
+#proyectos .card2 {
     box-sizing: border-box;
-    border: solid 1px rgb(206, 37, 189);
-    width: 330px;
-    height: 530px;
+    width: 430px;
+    height: 630px;
     border-radius: 4em;
     display: inline;
-    left:2%;
     background-color: rgb(248, 201, 201);
-    border: solid 1px rgb(206, 37, 189);
-    display: inline;
     flex-wrap: wrap;
     padding:5%;
-    left:45%;
-    right:25%;
+    margin-right:20%;
+    margin-bottom:10%;
+    margin-left:35%;
+    margin-right:40%;
     gap:9em;
-    margin-left: 1%;
     background-color: white;
     justify-content: center;
     padding: 5%;
+
 
 
 
@@ -460,7 +470,7 @@ nav .btn a :hover {
 
 /*ajustar tamaño imagen*/
 .card2 .photo img  {
-    width: 85%;
+    width: 65%;
 }
 
 .card a {
@@ -479,13 +489,11 @@ nav .btn a :hover {
 }
 
 .container {
-    position: relative;
+    
     box-sizing: border-box;
     width: 80%;
-    height: 630px;
     border-radius: 4em;
     display: inline;
-    background-color: rgb(162, 208, 231);
     border: solid 1px rgb(206, 37, 189);
     flex-wrap: wrap;
     padding:5%;
@@ -494,8 +502,6 @@ nav .btn a :hover {
     gap:9em;
     margin-left: 1%;
     background-color: white;
-    justify-content: space-evenly;
-    flex-flow: row-reverse;
     padding: 5%;
 }
 
@@ -508,7 +514,7 @@ nav .btn a :hover {
 }
 
 .container .tarjeta {
-    position: absolute;
+
     box-sizing: border-box;
     border: solid 1px rgb(206, 37, 189);
     width: 330px;
@@ -520,7 +526,7 @@ nav .btn a :hover {
     flex-wrap: wrap;
     padding:5%;
     left:2%;
-    right:40%;
+    margin-right:40%;
     gap:9em;
     background-color: white;
     justify-content: center;
@@ -528,11 +534,11 @@ nav .btn a :hover {
     
 }
 .container .tarjeta2 {
-    position:absolute;
+
     box-sizing: border-box;
     border: solid 1px rgb(206, 37, 189);
-    width: 360px;
-    height: 530px;
+    width: 460px;
+    height: 630px;
     border-radius: 4em;
     margin: 1%;
     background-color: white;
@@ -548,8 +554,6 @@ nav .btn a :hover {
     padding: 5%;
    
 }
-
-/*ajustar tamaño*/
 
 #contacto {
     margin-top: 10%;
@@ -725,1524 +729,5 @@ button .miboton-personalizado {
 }
 .firma {
     background-color: aquamarine;
-}
-
-/*empiezan mediaqueries para responsive */
-@media (max-width:420px) {
-
-    
-    .barra_nav ul {
-        box-sizing: border-box;
-        display: flex;
-        display:column; 
-        flex-direction: column;
-        left:5%;
-        flex-flow: column;
-        align-content: center;
-        text-align: center;
-        list-style: none;
-        position: fixed;
-        color: rgb(70, 153, 226);
-        font-weight: bold;
-        text-decoration: none;
-        font-size: 2vh;
-        margin-top: 2%;
-        padding: 1.5%;
-
-    }
-
-    ul li {
-        display: flex;
-        flex-wrap: wrap;
-        height: auto;
-        left:5%;
-        flex-direction: column;
-        flex-flow: column;
-        align-content: center;
-        list-style: none;
-        text-align: center;
-        margin-top: 0%;
-        padding: 2%;
-    }
-
-    li a {
-        display: flex;
-        flex-wrap: wrap;
-        height: auto;
-        left:5%;
-        flex-direction: column;
-        flex-flow: column;
-        padding: 2px 5px 2px 5px;
-        color: rgb(5, 50, 89);
-        text-decoration: none;
-        font-size: 3vh;
-        margin-left: 3%;
-        margin-right: 5%;
-        justify-content: space-evenly;
-        padding: 1%;
-    }
-
-    .barra_nav nav a:hover {
-        background-color: #bcb5b5;
-        color: rgb(55, 41, 4);
-
-
-    }
-
-    nav .btn button {
-        background-color: rgb(202, 11, 141);
-        width: 200px;
-        padding: 0 10px;
-        border-radius: 40px;
-        font-size: 2vh;
-        color: rgb(222, 224, 224);
-        text-align: center;
-        font-weight: bold;
-        justify-content: center;
-        font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
-        text-align: center;
-        box-sizing: border-box;
-    }
-
-
-    .btn a {
-        background-color: rgb(202, 11, 141);
-        color: rgb(234, 189, 65);
-        font-weight: bold;
-
-    }
-
-    .btn a :hover {
-        color: rgb(8, 8, 7);
-    }
-
-    #presentacion {
-        display: flex;
-        flex-direction: row;
-        box-sizing: border-box;
-        justify-content: space-evenly;
-        margin-top: 30%;
-        margin-left: 10%;
-        margin-right: 70%;
-        color: #59084e;
-        width: 30rem;
-        display: flex;
-        flex-direction: row;
-    }
-
-
-    #presentacion .titulo {
-        box-sizing: border-box;
-        max-height: 380px;
-        border-color: #9c3e8f;
-        margin-left: 20%;
-        font-family: 'Merge', sans-serif;
-        font-weight: bold;
-        font-size: 3vh;
-        color: rgb(234, 7, 203);
-
-    }
-
-
-    #presentacion span {
-        color: rgb(3, 143, 143);
-    }
-
-    #presentacion h3 {
-        font-size: 3vh;
-        color: rgb(12, 12, 70);
-        margin-top: 20%;
-        margin-right: 20%;
-
-
-    }
-
-    #presentacion img {
-        box-sizing: border-box;
-        width: 480px;
-        max-height: 580px;
-    }
-
-
-    .btn_2 button {
-        margin-top: 80px;
-        margin-left: 15%;
-        margin-right: 65%;
-        width: 180px;
-        height: 40px;
-        background-color: blueviolet;
-        border-radius: 40px;
-
-    }
-
-    .btn_2 a {
-        text-decoration: none;
-        color: whitesmoke;
-        font-size: 1rem;
-        font-weight: bold;
-    }
-
-    .cita {
-        margin-left: 10%;
-        margin-right: 70%;
-    }
-    .cita .quotation {
-
-
-        background-image: linear-gradient(to right top, #4ffbdf, #ccff00, #a38b04, #8c9dff, #f852e1);
-        box-sizing: border-box;
-        width: 40rem;
-        height: 25rem;
-        border: 2px solid black;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-top: 50px;
-        color: rgb(2, 39, 39);
-        font-size: 2vh;
-        text-align: end;
-        padding-left: 8%;
-        left: 15%;
-        margin-right: 25%;
-        padding: 15px;
-
-    }
-
-    .quotation p {
-
-        color: rgb(22, 22, 21);
-        font-weight: bold;
-    }
-
-    /*sacar fondo blanco*/
-    .quotation .ilustracion {
-        filter: brightness(1, 1);
-        mix-blend-mode: multiply;
-
-    }
-
-    #conocimientos {
-        box-sizing: border-box;
-        width: 35rem;
-
-    }
-
-
-    
-
-    
-
- 
-    .card a :hover {
-        color: rgb(76, 55, 1);
-
-    }
-
-    .card2 .photo {
-        width: 80%;
-    }
-
-    .container {
-        display: flex;
-        gap: 0.5rem;
-        justify-content: center;
-        margin: auto;
-    }
-
-    .container .tarjeta {
-        border: 1px solid black;
-    }
-
-    .container a {
-        text-decoration: none;
-    }
-
-    .container a:hover {
-        color: darkviolet;
-    }
-
-    .container .tarjeta {
-        border: 1px solid black;
-    }
-
-    .container .tarjeta2 {
-        border: 1px solid black;
-    }
-
-    .container .tarjeta3 {
-        border: 1px solid black;
-    }
-
-    #contacto .redes_sociales h3 {
-        color: rgb(75, 56, 7);
-        font-style: oblique;
-        margin-left: 40%;
-        margin-top: 45%;
-
-    }
-
-    #contacto .contacto_02 h2 {
-        color: rgb(75, 56, 7);
-        font-style: oblique;
-        margin-left: 40%;
-        margin-top: 45%;
-
-    }
-
-   
-    #contacto .redes_sociales a {
-        text-decoration: none;
-        color: rgb(82, 8, 151);
-
-    }
-
-    #contacto .contacto_email a {
-        text-decoration: none;
-        color: rgb(83, 9, 152);
-
-    }
-
-    .contacto02 input [type=”email”] {
-
-        width: 8px;
-        height: 3px;
-        opacity: 0;
-        overflow: hidden;
-    }
-
-    .foot footer {
-        box-sizing: border-box;
-        height: 80px;
-        background-color: violet;
-        border: 2px solid #000000;
-        margin-bottom: 0;
-        margin-left: 0;
-
-    }
-}
-
-@media (max-width:860px) {
-    header {
-        left:3%;
-    }
-    .barra_nav ul
-    {
-        box-sizing: border-box;
-        display: flex;
-        display:column; 
-        flex-direction: column;
-        left:5%;
-        flex-flow: column;
-        align-content: center;
-        text-align: center;
-        list-style: none;
-        position: fixed;
-        color: rgb(70, 153, 226);
-        font-weight: bold;
-        text-decoration: none;
-        font-size: 2vh;
-        margin-top: 2%;
-        padding: 1.5%;
-
-    }
-    .barra_nav {
-        height: 30%;
-        margin-top: 0;
-        border: 2px solid black;
-        display: flex;
-        flex-direction: column;
-        margin-left:5%;
-        flex-wrap: wrap;
-        height: auto;
-    }
-
-  
-
-.barra_nav ul li {
-        box-sizing: border-box;
-        display: flex;
-        flex-direction: column;
-        display:column;
-        flex-wrap: wrap;
-        height: auto;
-        align-content: center;
-        list-style: none;
-        text-align: center;
-        margin-top: 0%;
-        left:5%;
-        margin-right: 70%;
-        padding: 2%;
-    }
-
-.barra_nav li a {
-        padding: 2px 5px 2px 5px;
-        color: rgb(5, 50, 89);
-        text-decoration: none;
-        display:column;
-        font-size: 2vh;
-        margin-left: 10%;
-        margin-right: 70%;
-        justify-content: space-around;
-    }
-
-
-#proyectos {
-    
-        box-sizing: border-box;
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        align-items: center;
-        background-color: #f4baf3;
-        margin: 1%;
-        margin-left:0,5%;
-        left: 1%;
-        gap: 0.8rem;
-        margin: auto;
-        bottom: 20%;
-        border: #f852e1;
-    
-    }
-    
- #proyectos .title02 {
-        box-sizing: border-box; 
-        align-content: center;
-        padding:5%;
-        margin-left:25%;
-        right:30%;
-    
-    }
- .descripcion {
-        box-sizing: border-box; 
-        font-size: 2vh;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-weight: bold;
-        color: rgb(61, 47, 12);
-        display: flex;
-        justify-content: center;
-        margin-left: 40%;
-    }    
-
-#proyectos .grilla {
-    position: relative; 
-    box-sizing: border-box;
-    width: 80%;
-    height: 730px;
-    border-radius: 4em;
-    display: column; 
-    flex-direction: column;
-    justify-items: last baseline;
-    justify-content: stretch;
-    background-color: rgb(248, 201, 201);
-    border: solid 1px rgb(206, 37, 189);
-    flex-wrap: wrap;
-    padding:5%;
-    margin-left: 2%;
-    left:0.5%;
-    right: 30%;
-    gap:9em;
-    margin-left: 1%;
-    background-color: white;
-    padding: 5%;
-
-}
-
-#proyectos .grilla .card {
-    position: absolute;
-    box-sizing: border-box;
-    border: solid 1px rgb(206, 37, 189);
-    width: 330px;
-    height: 530px;
-    border-radius: 4em;
-    background-color: rgb(248, 201, 201);
-    border: solid 1px rgb(206, 37, 189);
-    flex-wrap: wrap;
-    padding:5%;
-    left:1.5%;
-    right:40%;
-    gap:9em;
-    background-color: white;
-    justify-content: center;
-    padding: 5%;
-
-
-
-
-}
-
-#proyectos .grilla .card2 {
-    position: absolute;
-    box-sizing: border-box;
-    border: solid 1px rgb(206, 37, 189);
-    width: 330px;
-    height: 530px;
-    border-radius: 4em;
-    left:2%;
-    background-color: rgb(248, 201, 201);
-    border: solid 1px rgb(206, 37, 189);
-    display: inline;
-    flex-wrap: wrap;
-    padding:5%;
-    top:10%;
-    left:35%;
-    right:45%;
-    margin-top:35%;
-    gap:9em;
-    background-color: white;
-    justify-content: center;
-    padding: 5%;
-
-
-
-
-}
-
-
-.card,.card2 :hover {
-    transform: scaleY(140%);
-    background-color: rgb(125, 171, 200);
-    transition: all ease 0.2s;
-}
-
-
-
-
-/*ajustar tamaño imagen*/
-.card2 .photo img  {
-    width: 85%;
-}
-
-.card a {
-    color: #066291;
-    text-decoration: none;
-}
-
-.card a :hover {
-    color: darkviolet;
-}
-
-
-/*ajustar tamaño*/
-.photo {
-    width: 60%;
-}
-
-.descripcion {
-   box-sizing: border-box; 
-   font-size: 2vh;
-   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-   font-weight: bold;
-   color: rgb(61, 47, 12);
-   display: flex;
-   justify-content: center;
-   margin-left: 40%;
-}
-
-#proyectos .grilla {
-   position: relative;
-   box-sizing: border-box;
-   width: 80%;
-   height: 730px;
-   border-radius: 4em;
-   display: inline;
-   background-color: rgb(248, 201, 201);
-   border: solid 1px rgb(206, 37, 189);
-   flex-wrap: wrap;
-   padding:5%;
-   left:2%;
-   right: 30%;
-   gap:9em;
-   margin-left: 1%;
-   background-color: white;
-   justify-content: space-evenly;
-   flex-flow: row-reverse;
-   padding: 5%;
-
-
-
-
-}
-
-#proyectos .grilla .card {
-   position: absolute;
-   box-sizing: border-box;
-   border: solid 1px rgb(206, 37, 189);
-   width: 330px;
-   height: 530px;
-   border-radius: 4em;
-   display: inline;
-   background-color: rgb(248, 201, 201);
-   border: solid 1px rgb(206, 37, 189);
-   flex-wrap: wrap;
-   padding:5%;
-   left:2%;
-   right:40%;
-   gap:9em;
-   background-color: white;
-   justify-content: center;
-   padding: 5%;
-
-
-
-
-}
-
-#proyectos .grilla .card2 {
-   position: absolute;
-   box-sizing: border-box;
-   border: solid 1px rgb(206, 37, 189);
-   width: 330px;
-   height: 530px;
-   border-radius: 4em;
-   display: inline;
-   left:2%;
-   background-color: rgb(248, 201, 201);
-   border: solid 1px rgb(206, 37, 189);
-   display: inline;
-   flex-wrap: wrap;
-   padding:5%;
-   left:45%;
-   right:25%;
-   gap:9em;
-   margin-left: 1%;
-   background-color: white;
-   justify-content: center;
-   padding: 5%;
-
-
-
-
-}
-
-
-.car :hover {
-   transform: scaleY(140%);
-   background-color: rgb(125, 171, 200);
-   transition: all ease 0.2s;
-}
-
-
-
-
-/*ajustar tamaño imagen*/
-.card2 .photo img  {
-   width: 85%;
-}
-
-.card a {
-   color: #066291;
-   text-decoration: none;
-}
-
-.card a :hover {
-   color: darkviolet;
-}
-
-
-/*ajustar tamaño*/
-.photo {
-   width: 60%;
-}
-
-@media screen and (max-width: 1280px) {
-    .menu {
-        margin-top: 0;
-    }
-
-    .nav-bar {
-        display: flex;
-        justify-content: space-evenly;
-        flex-direction: row;
-        list-style: none;
-        height: 10px;
-        margin-top: 0;
-        box-sizing: border-box;
-        border-color: 2px #59084e;
-        padding: 5px;
-
-
-    }
-    .barra_nav ul
-    {
-        box-sizing: border-box;
-        display: flex;
-        display:column; 
-        flex-direction: column;
-        left:5%;
-        flex-flow: column;
-        align-content: center;
-        text-align: center;
-        list-style: none;
-        position: fixed;
-        color: rgb(70, 153, 226);
-        font-weight: bold;
-        text-decoration: none;
-        font-size: 2vh;
-        margin-top: 2%;
-        padding: 1.5%;
-
-    }
-    ul {
-        box-sizing: border-box;
-        height: auto;
-        display: flex;
-        justify-content: space-evenly;
-        text-align: center;
-        list-style: none;
-        position: fixed;
-        color: rgb(70, 153, 226);
-        font-weight: bold;
-        text-decoration: none;
-        font-size: 3vh;
-        margin-left: 0;
-        left:2%;
-        margin-right: 18%;
-        padding: 1%;
-
-    }
-
-    .nav-bar ul li {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        list-style: none;
-        text-align: center;
-        margin-top: 0%;
-        left: 5%;
-        margin-right: 10%;
-        padding: 2%;
-    }
-
-    .nav-bar li a {
-        padding: 2px 5px 2px 5px;
-        color: rgb(5, 50, 89);
-        text-decoration: none;
-        font-size: 3vh;
-        margin-left: 3%;
-        margin-right: 5%;
-        justify-content: space-around;
-        padding: 1%;
-    }
-
-    .nav-bar a:hover {
-        border-top: #bcb5b5;
-        color: rgb(55, 41, 4);
-
-
-    }
-
-    .nav-bar .btn button {
-        background-color: rgb(202, 11, 141);
-        width: 200px;
-        padding: 0 10px;
-        border-radius: 40px;
-        font-size: 4vh;
-        color: rgb(222, 224, 224);
-        text-align: center;
-        font-weight: bold;
-        justify-content: center;
-        font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
-        text-align: center;
-        box-sizing: border-box;
-    }
-
-
-    .nav-bar .menu .btn a {
-        background-color: rgb(202, 11, 141);
-        color: rgb(234, 189, 65);
-        font-weight: bold;
-
-    }
-
-    .menu.btn a :hover {
-        color: rgb(8, 8, 7);
-    }
-
-    #presentacion {
-        display: flex;
-        flex-direction: row;
-        box-sizing: border-box;
-        justify-content: space-evenly;
-        margin-top: 35%;
-        margin-left: 18%;
-        color: #9c3e8f;
-        width: 1280px;
-        display: flex;
-        flex-direction: row;
-    }
-
-    #presentacion .titulo {
-        box-sizing: border-box;
-        border-color: #9c3e8f;
-        margin-left: 20%;
-        font-family: 'Merge', sans-serif;
-        font-weight: bold;
-        font-size: 4vh;
-        color: rgb(234, 7, 203);
-
-    }
-
-
-    #presentacion span {
-        color: rgb(3, 143, 143);
-    }
-
-    #presentacion h3 {
-        font-size: 3vh;
-        color: rgb(12, 12, 70);
-        margin-top: 20%;
-        margin-right: 20%;
-
-
-    }
-
-    #presentacion img {
-        box-sizing: border-box;
-        width: 480px;
-        max-height: 580px;
-    }
-
-
-
-    .btn_2 button {
-        margin-top: 600px;
-        margin-left: 3%;
-        margin-right: 600px;
-        width: 200px;
-        height: 60px;
-        background-color: blueviolet;
-        border-radius: 40px;
-
-    }
-
-    .btn_2 a {
-        text-decoration: none;
-        color: whitesmoke;
-        font-size: 1.5rem;
-        font-weight: bold;
-    }
-
-
-    #conocimientos .title h2 {
-
-        margin-left: 18px;
-        color: rgb(77, 72, 15);
-        font-style: oblique;
-        font-size: 4rem;
-
-
-    }
-
-    .quotation {
-
-        background-image: linear-gradient(to right top, #4ffbdf, #ccff00, #a38b04, #8c9dff, #f852e1);
-        box-sizing: border-box;
-        width: 40rem;
-        height: 20rem;
-        border: 2px solid black;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-top: 50px;
-        color: rgb(2, 39, 39);
-        font-size: 3.5vh;
-        text-align: end;
-        margin-left: 20px;
-        padding: 15px;
-
-    }
-
-    .quotation p {
-
-        color: rgb(22, 22, 21);
-        font-weight: bold;
-    }
-
-    #conocimientos {
-        box-sizing: border-box;
-        margin-top: 30px;
-        margin-left: 5%;
-        display: flex;
-        flex-direction: column;
-        -webkit-box-shadow: 10px 10px 5px 0px rgba(250, 165, 250, 1);
-        -moz-box-shadow: 10px 10px 5px 0px rgba(250, 165, 250, 1);
-        box-shadow: 10px 10px 5px 0px rgba(250, 165, 250, 1);
-        background-color: #d8dbdb;
-        width: 200em;
-    }
-
-    #conocimientos .title {
-        font-size: x-large;
-        margin-top: 0px;
-        color: rgb(44, 44, 11);
-    }
-
-
-    #proyectos {
-        width: 100%;
-        max-width: 1200px;
-        height: 430px;
-        display: flex;
-        flex-direction: row;
-        gap: 0.5rem;
-        justify-content: center;
-        margin: auto;
-    }
-
-    .container .card {
-        width: 330px;
-        height: 430px;
-        border: 2px solid black;
-        box-shadow: 2px rgb(3, 44, 121);
-        margin: 20px;
-        border-color: black;
-
-    }
-
-    .card {
-        width: 330px;
-        height: 430px;
-        border: 2px solid black;
-        box-shadow: cornflowerblue;
-        margin: 40px;
-        border-color: black;
-    }
-
-    .card .imagen {
-        width: 100%;
-
-    }
-
-    .card {
-        width: 330px;
-        height: 430px;
-        border: 2px solid black;
-        box-shadow: cornflowerblue;
-        margin: 20px;
-        border-color: black;
-
-    }
-
-    /*ajustar tamaño imagen*/
-    .card img {
-        width: 80%;
-    }
-
-    #proyectos .card {
-        width: 330px;
-        height: 430px;
-        border: 2px solid black;
-        box-shadow: cornflowerblue;
-        margin: 10px;
-        border-color: black;
-
-    }
-
-    .card a :hover {
-        color: rgb(76, 55, 1);
-
-    }
-
-    .card2 .photo {
-        width: 80%;
-    }
-
-    .container {
-        display: flex;
-        flex-direction: row;
-        gap: 0.5rem;
-        justify-content: center;
-        margin: auto;
-    }
-
-    .container .tarjeta {
-        border: 1px solid black;
-    }
-
-    .container .tarjeta {
-        border: 1px solid black;
-        width: 380px;
-        height: 630px;
-        margin: 20px;
-
-    }
-
-    .container .tarjeta {
-        width: 380px;
-        height: 630px;
-        margin: 10px;
-
-    }
-
-    .tarjeta {
-        width: 380px;
-        height: 630px;
-        margin: 20px;
-    }
-
-    #contacto .redes_sociales h3 {
-        color: rgb(75, 56, 7);
-        font-style: oblique;
-        margin-left: 40%;
-        margin-top: 45%;
-
-    }
-
-    #contacto .redes_sociales a {
-        text-decoration: none;
-        color: rgb(82, 8, 151);
-
-    }
-
-    #contacto .contacto_email a {
-        text-decoration: none;
-        color: rgb(83, 9, 152);
-
-    }
-
-    .contacto02 input [type=”email”] {
-
-        width: 8px;
-        height: 3px;
-        opacity: 0;
-        overflow: hidden;
-    }
-
-    .foot footer {
-        box-sizing: border-box;
-        height: 80px;
-        background-color: violet;
-        border: 2px solid #000000;
-        margin-bottom: 0;
-        margin-left: 0;
-
-    }
-
-    .foot {
-        height: 80px;
-        background-color: #9c3e8f;
-        margin-bottom: 0;
-        margin-left: 0;
-    }
-
-    #conocimientos .icons {
-        width: 200em;
-        font-size: x-large;
-        display: flex;
-        flex-direction: row;
-        margin-top: 40px;
-        fill: #000000;
-
-    }
-
-    #conocimientos .icons {
-        width: 50vh;
-        height: 50vh;
-    }
-
-
-    #quotation img {
-        width: 10vh;
-    }
-
-    #contacto {
-        display: flex;
-        flex-direction: column;
-
-    }
-
-
-    #contacto .message {
-        margin-top: 10%;
-        padding: 5px;
-    }
-
-    .contacto_email img {
-        width: 50px;
-        height: 50px;
-
-    }
-
-    .foot {
-        width: 100%;
-        height: 70px;
-        margin-bottom: 0;
-        background-color: #960482;
-    }
-
-    .foot .icons {
-        margin-left: 40%;
-    }
-
-
-#contacto {
-    margin-left: 5%;
-    margin-bottom: 40%;
-}
-
-#contacto h3 {
-    color: rgb(75, 56, 7);
-    font-style: oblique;
-    margin-left: 40%;
-
-}
-
-#contacto p {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 3vh;
-    color: #59084e;
-}
-
-.container {
-    display: flex;
-    flex-direction: row;
-    gap: 0.5rem;
-    justify-content: center;
-    margin: auto;
-}
-
-.container .tarjeta {
-    border: 1px solid black;
-}
-
-
-input [type=”email”] {
-
-    width: 5 px;
-    height: 2px;
-    opacity: 0;
-    overflow: hidden;
-}
-
-.foot footer {
-    box-sizing: border-box;
-    height: 70px;
-    background-color: violet;
-    border: 2px solid #000000;
-    margin-bottom: 0;
-    margin-left: 0;
-
-}
-
-.foot {
-    height: 70px;
-    background-color: #9c3e8f;
-    margin-bottom: 0;
-    margin-left: 0;
-}
-
-
-
-#conocimientos .icons {
-    width: 200em;
-    font-size: x-large;
-    display: flex;
-    flex-direction: row;
-    margin-top: 40px;
-    fill: #000000;
-
-}
-
-#conocimientos .icons {
-    width: 50vh;
-    height: 50vh;
-}
-
-
-#quotation img {
-    width: 10vh;
-}
-
-#contacto {
-    display: flex;
-    flex-direction: column;
-
-}
-
-
-#contacto .message {
-    margin-top: 10%;
-    padding: 5px;
-}
-
-
-
-.contacto02 button {
-    background-color: #960482;
-    font-size: 0.6em;
-    color: antiquewhite;
-    width: 95px;
-    height: 50px;
-    border-radius: 10%;
-}
-
-.foot {
-    width: 100%;
-    height: 70px;
-    margin-bottom: 0;
-    background-color: #960482;
-}
-
-.foot .icons {
-    margin-left: 40%;
-}
-
-
-}
-
-@media screen and (max-width:860px) {
-    .barra_nav {
-        display: flex;
-        justify-content: space-evenly;
-        flex-direction: row;
-        list-style: none;
-        margin-top: 0;
-        box-sizing: border-box;
-        border-color: 2px #59084e;
-
-
-    }
-
-    ul {
-        box-sizing: border-box;
-        width: 50%;
-        display: flex;
-        justify-content: space-evenly;
-        flex-direction: row;
-        text-align: center;
-        list-style: none;
-        position: fixed;
-        color: rgb(70, 153, 226);
-        font-weight: bold;
-        text-decoration: none;
-        font-size: 3vh;
-        margin-left: 18%;
-        margin-right: 18%;
-        padding: 1%;
-
-    }
-
-    ul li {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        list-style: none;
-        text-align: center;
-        margin-top: 0%;
-        margin-left: 5%;
-        margin-right: 10%;
-        padding: 2%;
-    }
-
-    li a {
-        padding: 2px 5px 2px 5px;
-        color: rgb(5, 50, 89);
-        text-decoration: none;
-        font-size: 3vh;
-        margin-left: 3%;
-        margin-right: 5%;
-        justify-content: space-around;
-        padding: 1%;
-    }
-
-    a:hover {
-        background-color: #bcb5b5;
-        color: rgb(55, 41, 4);
-
-
-    }
-
-    .btn button {
-        background-color: rgb(202, 11, 141);
-        width: 200px;
-        padding: 0 10px;
-        border-radius: 40px;
-        font-size: 4vh;
-        color: rgb(222, 224, 224);
-        text-align: center;
-        font-weight: bold;
-        justify-content: center;
-        font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
-        text-align: center;
-        box-sizing: border-box;
-    }
-
-
-    .nav-bar .menu .btn a {
-        background-color: rgb(202, 11, 141);
-        color: rgb(234, 189, 65);
-        font-weight: bold;
-
-    }
-
-    .menu.btn a :hover {
-        color: rgb(8, 8, 7);
-    }
-
-    .quotation {
-
-        background-image: linear-gradient(to right top, #4ffbdf, #ccff00, #a38b04, #8c9dff, #f852e1);
-        box-sizing: border-box;
-        width: 60rem;
-        height: 35rem;
-        border: 2px solid black;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-top: 50px;
-        color: rgb(2, 39, 39);
-        font-size: 3.5vh;
-        text-align: end;
-        margin-left: 20px;
-        padding: 15px;
-
-    }
-
-    .quotation p {
-
-        color: rgb(22, 22, 21);
-        font-weight: bold;
-    }
-
-    #proyectos {
-        display: flex;
-        box-sizing: border-box;
-        width: 100%;
-        border: 2px solid rgb(35, 1, 66);
-        padding: 10px;
-
-
-    }
-
-    .container {
-        box-sizing: border-box;
-        width: 80%;
-        display: flex;
-        justify-content: center;
-      
-    }
-
-
-
-    .title02 {
-        color: rgb(75, 56, 7);
-        font-style: oblique;
-        margin-left: 40%;
-
-    }
-
-    #proyectos {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        margin: auto;
-    }
-
-    .card {
-        width: 330px;
-        height: 530px;
-        border: 2px solid black;
-    
-
-    }
-
-    .container .card a {
-        text-decoration: none;
-        color: blueviolet;
-    }
-
-
-
-    .card .imagen {
-        width: 100%;
-
-    }
-
-
-    /*ajustar tamaño imagen*/
-    .card2 img {
-        width: 80%;
-    }
-
-
-    .card a :hover {
-        color: rgb(76, 55, 1);
-
-    }
-
-
-    .container {
-        display: flex;
-        flex-direction: row;
-
-        justify-content: center;
-        margin: auto;
-    }
-
-    .container .tarjeta {
-        border: 1px solid black;
-        display: inline;
-    }
-
-    #proyectos a :hover {
-        color: rgb(70, 52, 6);
-
-    }
-
-    #proyectos .container .tarjeta {
-        border: 1px solid black;
-    }
-
-    #proyectos {
-        box-sizing: border-box;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-
-    }
-
-    .card {
-        box-sizing: border-box;
-        border: 1px solid black;
-        display: inline;
-        width: 380px;
-        height: 630px;
-    
-    }
-
-
-    #proyectos .card img {
-        width: 100%;
-        margin-top: 15%;
-
-
-    }
-
-    #proyectos .card {
-        width: 380px;
-        height: 630px;
-        margin: 10px;
-
-
-    }
-
-    #proyectos p {
-        margin-top: 15%;
-        margin-left: 10%;
-
-    }
-
-    #proyectos .card a {
-        color: blueviolet;
-        margin-top: 15%;
-        margin-left: 10%;
-        text-decoration: none;
-
-    }
-
-    #proyetos a :hover {
-        color: rgb(81, 58, 0);
-    }
-
-
-    .card2 .photo {
-        width: 80%;
-    }
-
-    .container {
-        margin-top: 40%;
-        box-sizing: border-box;
-        display: flex;
-        flex-wrap: wrap;
-        height: 630px;
-        justify-content: center;
-        gap: 0.5rem;
-        margin: auto;
-
-    }
-
-    .container .tarjeta {
-        width: 380px;
-        height: 530px;
-        
-        display: inline;
-
-
-    }
-
-    .container .tarjeta img {
-        width: 80%;
-        margin-top: 15%;
-
-
-    }
-
-    .container .tarjeta a {
-        color: blueviolet;
-        margin-top: 15%;
-        margin-left: 10%;
-        text-decoration: none;
-
-    }
-
-    .container .tarjeta a {
-        color: blueviolet;
-        margin-top: 15%;
-        margin-left: 10%;
-        text-decoration: none;
-
-    }
-
-    .container .tarjeta a {
-        color: blueviolet;
-        margin-top: 15%;
-        margin-left: 10%;
-        text-decoration: none;
-
-    }
-
-    .container a :hover {
-        color: rgb(81, 58, 0);
-    }
-
-
-    .tarjeta .photo {
-        width: 80%;
-    }
-
-    input [type=”email”] {
-
-        width: 5px;
-        height: 2px;
-        opacity: 0;
-        overflow: hidden;
-    }
-
-    .foot {
-        display: flex;
-
-}
-
-    .foot .footer {
-        box-sizing: border-box;
-        height: 70px;
-        height: 80px;
-        background-color: violet;
-        border: 2px solid #000000;
-        display: inline;
-        justify-content: space-between;
-        align-items: center;
-        justify-content: center;
-        margin-bottom: 0;
-        margin-left: 0;
-
-    }
-    .footer a {
-        text-decoration: none;
-        color: #000000;
-        padding:10%;
-
-    }
-
 }
 

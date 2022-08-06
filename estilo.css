@@ -927,74 +927,12 @@ button .miboton-personalizado {
 
     }
 
-    .title02 {
-        color: rgb(75, 56, 7);
-        font-style: oblique;
-        margin-left: 40%;
 
-    }
+    
 
-    #proyectos a :hover {
-        color: rgb(70, 52, 6);
+    
 
-    }
-
-    #proyectos {
-        width: 100%;
-        max-width: 80%;
-        height: 430px;
-        display: flex;
-        flex-direction: row;
-        gap: 0.5rem;
-        justify-content: center;
-        margin: auto;
-        bottom: 20%;
-    }
-
-    .container .card {
-        width: 330px;
-        height: 430px;
-        border: 2px solid black;
-        margin: 20px;
-        border-color: black;
-
-    }
-
-    .card {
-        width: 330px;
-        height: 430px;
-        border: 2px solid black;
-        margin: 40px;
-        border-color: black;
-    }
-
-    .card .imagen {
-        width: 100%;
-
-    }
-
-    .card2 {
-        width: 330px;
-        height: 430px;
-        border: 2px solid black;
-        margin: 20px;
-        border-color: black;
-
-    }
-
-    /*ajustar tamaño imagen*/
-    .card2 img {
-        width: 80%;
-    }
-
-    #proyectos .card3 {
-        width: 330px;
-        height: 430px;
-        border: 2px solid black;
-        margin: 10px;
-
-    }
-
+ 
     .card a :hover {
         color: rgb(76, 55, 1);
 
@@ -1120,7 +1058,7 @@ button .miboton-personalizado {
 
   
 
-    .barra_nav ul li {
+.barra_nav ul li {
         box-sizing: border-box;
         display: flex;
         flex-direction: column;
@@ -1148,114 +1086,262 @@ button .miboton-personalizado {
     }
 
 
-    #proyectos {
-
-        max-width: 70%;
-        height: 430px;
+#proyectos {
+    
+        box-sizing: border-box;
         display: flex;
-        flex-wrap: wrap;
         flex-direction: column;
-        gap: 0.5rem;
-        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        background-color: #f4baf3;
+        margin: 1%;
+        margin-left:0,5%;
+        left: 1%;
+        gap: 0.8rem;
         margin: auto;
         bottom: 20%;
+        border: #f852e1;
+    
     }
-
-    .proyectos .card {
-        width: 330px;
-        height: 430px;
-        border: 2px solid black;
-        box-shadow: 2px rgb(3, 44, 121);
-        margin: 20px;
-        border-color: black;
-
+    
+ #proyectos .title02 {
+        box-sizing: border-box; 
+        align-content: center;
+        padding:5%;
+        margin-left:25%;
+        right:30%;
+    
     }
-
-    .card , .card2 {
-        box-sizing: border-box;
-        flex-wrap: wrap;
-        flex-direction: column;
-        width: 330px;
-        height: 430px;
-        border: 2px solid black;
-        margin: 40px;
-        border-color: black;
-    }
-
-    .card .imagen {
-        width: 100%;
-
-    }
-
-    .card2 {
-        width: 330px;
-        height: 430px;
-        border: 2px solid black;
-        margin: 20px;
-
-    }
-
-    /*ajustar tamaño imagen*/
-    .card2 img {
-        width: 80%;
-    }
-
-    #proyectos .card3 {
-        width: 330px;
-        height: 430px;
-        border: 2px solid black;
-        margin: 10px;
-        border-color: black;
-
-    }
-
-    .card a :hover {
-        color: rgb(76, 55, 1);
-
-    }
-
-    .card2 .photo {
-        width: 80%;
-    }
-
-    .container {
+ .descripcion {
+        box-sizing: border-box; 
+        font-size: 2vh;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: bold;
+        color: rgb(61, 47, 12);
         display: flex;
-        flex-direction: row;
-        gap: 0.5rem;
         justify-content: center;
-        margin: auto;
-    }
+        margin-left: 40%;
+    }    
 
-    .container .tarjeta {
-        border: 1px solid black;
-        width: 380px;
-        height: 630px;
-        margin: 20px;
+#proyectos .grilla {
+    position: relative; 
+    box-sizing: border-box;
+    width: 80%;
+    height: 730px;
+    border-radius: 4em;
+    display: column; 
+    flex-direction: column;
+    justify-items: last baseline;
+    justify-content: stretch;
+    background-color: rgb(248, 201, 201);
+    border: solid 1px rgb(206, 37, 189);
+    flex-wrap: wrap;
+    padding:5%;
+    margin-left: 2%;
+    left:0.5%;
+    right: 30%;
+    gap:9em;
+    margin-left: 1%;
+    background-color: white;
+    padding: 5%;
 
-    }
+}
 
-    .container .tarjeta2 {
-        width: 380px;
-        height: 630px;
-        margin: 10px;
+#proyectos .grilla .card {
+    position: absolute;
+    box-sizing: border-box;
+    border: solid 1px rgb(206, 37, 189);
+    width: 330px;
+    height: 530px;
+    border-radius: 4em;
+    background-color: rgb(248, 201, 201);
+    border: solid 1px rgb(206, 37, 189);
+    flex-wrap: wrap;
+    padding:5%;
+    left:1.5%;
+    right:40%;
+    gap:9em;
+    background-color: white;
+    justify-content: center;
+    padding: 5%;
 
-    }
 
-    .tarjeta3 {
-        width: 380px;
-        height: 630px;
-        margin: 20px;
-    }
 
 
 }
 
-#contacto .redes_sociales h3 {
-    color: rgb(75, 56, 7);
-    font-style: oblique;
-    margin-left: 40%;
-    margin-top: 85%;
+#proyectos .grilla .card2 {
+    position: absolute;
+    box-sizing: border-box;
+    border: solid 1px rgb(206, 37, 189);
+    width: 330px;
+    height: 530px;
+    border-radius: 4em;
+    left:2%;
+    background-color: rgb(248, 201, 201);
+    border: solid 1px rgb(206, 37, 189);
+    display: inline;
+    flex-wrap: wrap;
+    padding:5%;
+    top:10%;
+    left:35%;
+    right:45%;
+    margin-top:35%;
+    gap:9em;
+    background-color: white;
+    justify-content: center;
+    padding: 5%;
 
+
+
+
+}
+
+
+.card,.card2 :hover {
+    transform: scaleY(140%);
+    background-color: rgb(125, 171, 200);
+    transition: all ease 0.2s;
+}
+
+
+
+
+/*ajustar tamaño imagen*/
+.card2 .photo img  {
+    width: 85%;
+}
+
+.card a {
+    color: #066291;
+    text-decoration: none;
+}
+
+.card a :hover {
+    color: darkviolet;
+}
+
+
+/*ajustar tamaño*/
+.photo {
+    width: 60%;
+}
+
+.descripcion {
+   box-sizing: border-box; 
+   font-size: 2vh;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-weight: bold;
+   color: rgb(61, 47, 12);
+   display: flex;
+   justify-content: center;
+   margin-left: 40%;
+}
+
+#proyectos .grilla {
+   position: relative;
+   box-sizing: border-box;
+   width: 80%;
+   height: 730px;
+   border-radius: 4em;
+   display: inline;
+   background-color: rgb(248, 201, 201);
+   border: solid 1px rgb(206, 37, 189);
+   flex-wrap: wrap;
+   padding:5%;
+   left:2%;
+   right: 30%;
+   gap:9em;
+   margin-left: 1%;
+   background-color: white;
+   justify-content: space-evenly;
+   flex-flow: row-reverse;
+   padding: 5%;
+
+
+
+
+}
+
+#proyectos .grilla .card {
+   position: absolute;
+   box-sizing: border-box;
+   border: solid 1px rgb(206, 37, 189);
+   width: 330px;
+   height: 530px;
+   border-radius: 4em;
+   display: inline;
+   background-color: rgb(248, 201, 201);
+   border: solid 1px rgb(206, 37, 189);
+   flex-wrap: wrap;
+   padding:5%;
+   left:2%;
+   right:40%;
+   gap:9em;
+   background-color: white;
+   justify-content: center;
+   padding: 5%;
+
+
+
+
+}
+
+#proyectos .grilla .card2 {
+   position: absolute;
+   box-sizing: border-box;
+   border: solid 1px rgb(206, 37, 189);
+   width: 330px;
+   height: 530px;
+   border-radius: 4em;
+   display: inline;
+   left:2%;
+   background-color: rgb(248, 201, 201);
+   border: solid 1px rgb(206, 37, 189);
+   display: inline;
+   flex-wrap: wrap;
+   padding:5%;
+   left:45%;
+   right:25%;
+   gap:9em;
+   margin-left: 1%;
+   background-color: white;
+   justify-content: center;
+   padding: 5%;
+
+
+
+
+}
+
+
+.car :hover {
+   transform: scaleY(140%);
+   background-color: rgb(125, 171, 200);
+   transition: all ease 0.2s;
+}
+
+
+
+
+/*ajustar tamaño imagen*/
+.card2 .photo img  {
+   width: 85%;
+}
+
+.card a {
+   color: #066291;
+   text-decoration: none;
+}
+
+.card a :hover {
+   color: darkviolet;
+}
+
+
+/*ajustar tamaño*/
+.photo {
+   width: 60%;
 }
 
 @media screen and (max-width: 1280px) {
@@ -1932,10 +2018,8 @@ input [type=”email”] {
         box-sizing: border-box;
         width: 80%;
         display: flex;
-        flex-direction: row;
-        gap: 0.5rem;
         justify-content: center;
-        margin: auto;
+      
     }
 
 
@@ -1950,18 +2034,15 @@ input [type=”email”] {
     #proyectos {
         width: 100%;
         display: flex;
-        gap: 0.5rem;
         justify-content: center;
         margin: auto;
     }
 
     .card {
         width: 330px;
-        height: 730px;
+        height: 530px;
         border: 2px solid black;
-        box-shadow: 2px rgb(3, 44, 121);
-        margin: 20px;
-        border-color: black;
+    
 
     }
 
@@ -1993,7 +2074,7 @@ input [type=”email”] {
     .container {
         display: flex;
         flex-direction: row;
-        gap: 0.5rem;
+
         justify-content: center;
         margin: auto;
     }
@@ -2016,9 +2097,8 @@ input [type=”email”] {
         box-sizing: border-box;
         width: 100%;
         display: flex;
-        gap: 0.5rem;
         justify-content: center;
-        border-color: rgb(37, 2, 70);
+
     }
 
     .card {
@@ -2027,7 +2107,7 @@ input [type=”email”] {
         display: inline;
         width: 380px;
         height: 630px;
-        margin: 20px;
+    
     }
 
 
@@ -2074,7 +2154,7 @@ input [type=”email”] {
         box-sizing: border-box;
         display: flex;
         flex-wrap: wrap;
-        height: 1050px;
+        height: 630px;
         justify-content: center;
         gap: 0.5rem;
         margin: auto;
@@ -2083,8 +2163,8 @@ input [type=”email”] {
 
     .container .tarjeta {
         width: 380px;
-        height: 730px;
-        margin: 20px;
+        height: 530px;
+        
         display: inline;
 
 

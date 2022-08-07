@@ -407,7 +407,8 @@ nav .btn a :hover {
    
     display: flex;
     flex-direction: column;
-    width:35%;
+    width:42%;
+    height:600px; 
     line-height: 10px;
     margin-top: 20px;
 }
@@ -429,13 +430,14 @@ nav .btn a :hover {
     color: rgb(64, 7, 75);
     flex-direction: column;
     font-style: oblique;
-    font-size: 4.8vh;
+    line-height: 4vh;
+    font-size: 6vh;
     margin-top: 8%;
 
 }
 
 #contacto .paginas {
-    margin-top: 5px;
+    margin: 20px;
 
 }
 .paginas img {
@@ -443,17 +445,22 @@ nav .btn a :hover {
 }
 
 #contacto .youtube {
-    margin-top: 5px;
+    margin: 20px;
 
 }
 #contacto .gmail {
-    margin-top: 5px;
+    margin: 20px;
+
+}
+#contacto .linkedin {
+    margin: 20px;
 
 }
 #contacto  a {
     text-decoration: none;
-    font-size: 5vh;
-    margin
+    line-height: 4vh;
+    font-size: 6vh;
+    margin:20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: rgb(159, 47, 125);
     padding:10px;
@@ -482,7 +489,7 @@ nav .btn a :hover {
     flex-direction: column;
     width:48%;
     line-height: 10px;
-    margin-top: 20px;
+    margin-top: 60px;
 }
 #contacto .contacto02 p {
     color:#59084e;
@@ -496,8 +503,9 @@ nav .btn a :hover {
 .contacto02 input [type=”email”] [type="text"]{
 
     width: 8px;
-    height: 3px;
+    height: 20px;
     opacity: 0;
+    border-radius: 4em;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 2vh;
     color: #59084e;

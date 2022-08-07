@@ -389,62 +389,85 @@ nav .btn a :hover {
 
 #contacto {
     box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-direction: row;
     width:100%;
+    height: 860px;
+    border: 3px solid rgb(72, 52, 2);
+    border-radius: 4em;
     margin-top: 10%;
-    margin-left: 5%;
-    margin-bottom: 10%;
-    display:flex;
+    background-color: antiquewhite;
+    padding:10px;
+ 
 }
 
-#contacto .redes_sociales {
-    box-sizing: border-box;
-    width:80%;
-    top:10%;
+#contacto .redes_sociales  {
+    border: 2px solid darkcyan;
     display: flex;
-    display:inline;
+    flex-direction: column;
+    width:35%;
+ 
 }
-#contacto .redes_sociales h2 {
+
+#contacto  p h2 {
     color: rgb(75, 56, 7);
     font-style: oblique;
     font-size: 3vh;
-    margin-left: 40%;
-    margin-top: 45%;
+    text-align: center;
+    left: 40%;
 
 }
 
-#contacto .redes_sociales h3 {
+#contacto .redes_sociales h2 {
     color: rgb(75, 56, 7);
+    flex-direction: column;
     font-style: oblique;
-    margin-left: 40%;
-    margin-top: 45%;
+    font-size: 3.2vh;
+    margin-top: 15%;
 
 }
 
-#contacto .redes_sociales a {
+#contacto  a {
     text-decoration: none;
-    color: rgb(82, 8, 151);
+    font-size: 4vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(159, 47, 125);
+    padding:10px;
 
 }
 #contacto .redes_sociales p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 1.5vh;
+    font-size: 3.5vh;
     color:#59084e;
 }
-#contacto .redes_sociales .pics {
-    width: 5%;
+
+.redes_sociales .pics img {
+    width: 4%;
 }
 
- .contacto_email a {
-    text-decoration: none;
-    color: rgb(83, 9, 152);
-
+.redes_sociales .linkedin img{
+    width: 8%;
 }
-.contacto_email a :hover {
-    color:#9c3e8f;
-    background-color: #8c9dff;
-
+.fab fa-youtube {
+    width:10%;
 }
 
+#contato .contacto02 {
+    
+    flex-direction: column;
+    width:40%;
+}
+#contacto .contacto02 p {
+    color:#59084e;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 2vh;
+}
+#contacto .contacto02 form {
+    margin-top: 10px;
+}
 .contacto02 input [type=”email”] [type="text"]{
 
     width: 8px;
@@ -484,16 +507,6 @@ nav .btn a :hover {
     background-color: aquamarine;
 }
 
-
-
-
-
-
-#contacto {
-    display: flex;
-    flex-direction: column;
-
-}
 
 
 input.text,
@@ -637,14 +650,4 @@ ul {
     padding: 1%;
         
  }
- #presentacion .imagen_hero img {
-    box-sizing: border-box;
-    margin-top: 6%;
-    margin-left: 2%;
-    margin-right:10%;
-    padding:2%;
-    width: 280px;
-    max-height: 580px;
 }
-}
-

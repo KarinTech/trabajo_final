@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    width:100%;
     margin:0;
     padding:0;
 
@@ -203,50 +204,46 @@ nav .btn a :hover {
 
 
 .cita {
-    box-sizing: border-box;
-    display: flex;
-    width: 55rem;
-    height: auto;
-    width: 60%;
-
-}
-
-.quotation {
 
     background-image: linear-gradient(to right top, #4ffbdf, #ccff00, #a38b04, #8c9dff, #f852e1);
     box-sizing: border-box;
-    width: 60%;
-    border: 2px solid black;
     display: flex;
-    display:inline;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    margin-left: 20px;
+    padding:10px;
+    height: auto;
+    border: 2px solid black;
     flex-direction: column;
     align-items: center;
     margin-top: 50px;
     color: rgb(131, 220, 220);
     font-size: 3.5vh;
-    text-align: end;
-    padding-left: 15%;
-    left: 10%;
-    right:40%;
+    text-align: justify;
+    padding-right:40%;
     padding: 15px;
 
 }
 
-.quotation p {
-
+.cita p {
+    font-size: 4.5vh;
+    text-align: justify;
     color: rgb(22, 22, 21);
     font-weight: bold;
+    
 }
 
-.quotation .ilustracion img {
-    width: 30%;
-
+.cita .quote_mark  {
+    max-width: 10%;
+  
 }
 
 /*sacar fondo blanco*/
-.quotation .ilustracion {
+.cita .ilustracion {
     filter: brightness(1, 1);
     mix-blend-mode: multiply;
+    max-width:10%;
 
 
 }
@@ -324,9 +321,10 @@ nav .btn a :hover {
 
 .title {
     font-style: oblique;
-    margin-top: 0px;
-    font-size: 3vh;
+    margin-top: 45px;
+    font-size: 5vh;
     color: rgb(44, 44, 11);
+    font-weight: bold;
     margin-left: 40%;
 }
 
@@ -351,22 +349,47 @@ nav .btn a :hover {
     box-sizing: border-box;
     display: inline;
     align-items: center;
-    background-color: rgb(244, 193, 248);
+    background-color: whitesmoke;
     border: 3px solid rgb(73, 1, 72);
     border-radius: 4em; 
     margin:20px;
-    width: 19%;
-    height:60%;
+    padding-top: 60px;
+    width: 40%;
+    height:70%;
+    padding:20px;
+}
+#proyectos .card a {
+    color:black;
+    font-weight: bold;
+    text-decoration: none;
+    margin-bottom: 15px;
+}
+#proyectos .card a :hover { 
+    color: rgb(93, 67, 3);
+    font-weight: bold;
+    font-size: 2vh;
 }
 
-#conocimientos .card img {
-    margin-top: 50%;
+
+#proyectos .card img {
+    margin-top: 30%;
+    width:70%;
+    height:50%;
     margin-left: 12%;
+    padding-top:20%;
+   
+}
+.card .photo {
+    width:100%;
+    padding:10px;
+    margin-bottom: 10px;
 }
 
 
 
 #contacto {
+    box-sizing: border-box;
+    width:100%;
     margin-top: 10%;
     margin-left: 5%;
     margin-bottom: 10%;
@@ -375,6 +398,7 @@ nav .btn a :hover {
 
 #contacto .redes_sociales {
     box-sizing: border-box;
+    width:80%;
     top:10%;
     display: flex;
     display:inline;
@@ -402,8 +426,8 @@ nav .btn a :hover {
 
 }
 
-.redes_sociales img {
-    width: 60%;
+#contacto .redes_sociales .pics {
+    width: 5%;
 }
 
  .contacto_email a {
@@ -456,9 +480,7 @@ nav .btn a :hover {
 
 
 
-#quotation img {
-    width: 6vh;
-}
+
 
 #contacto {
     display: flex;

@@ -404,11 +404,16 @@ nav .btn a :hover {
 }
 
 #contacto .redes_sociales  {
-    border: 2px solid darkcyan;
+   
     display: flex;
     flex-direction: column;
     width:35%;
- 
+    line-height: 10px;
+    margin-top: 20px;
+}
+
+#contacto .wherefindme {
+    margin-bottom:20px;
 }
 
 #contacto  p h2 {
@@ -421,34 +426,52 @@ nav .btn a :hover {
 }
 
 #contacto .redes_sociales h2 {
-    color: rgb(75, 56, 7);
+    color: rgb(64, 7, 75);
     flex-direction: column;
     font-style: oblique;
-    font-size: 3.2vh;
-    margin-top: 15%;
+    font-size: 4.8vh;
+    margin-top: 8%;
 
 }
 
+#contacto .paginas {
+    margin-top: 5px;
+
+}
+.paginas img {
+    width: 10%;
+}
+
+#contacto .youtube {
+    margin-top: 5px;
+
+}
+#contacto .gmail {
+    margin-top: 5px;
+
+}
 #contacto  a {
     text-decoration: none;
-    font-size: 4vh;
+    font-size: 5vh;
+    margin
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: rgb(159, 47, 125);
     padding:10px;
 
 }
-#contacto .redes_sociales p {
+#contacto p h2 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 3.5vh;
-    color:#59084e;
+    font-size: 6vh;
+    color:#3a1535;
+    line-height: 10px;
 }
 
 .redes_sociales .pics img {
-    width: 4%;
+    width: 15%;
 }
 
 .redes_sociales .linkedin img{
-    width: 8%;
+    width: 10%;
 }
 .fab fa-youtube {
     width:10%;
@@ -457,13 +480,15 @@ nav .btn a :hover {
 #contato .contacto02 {
     
     flex-direction: column;
-    width:40%;
+    width:48%;
+    line-height: 10px;
+    margin-top: 20px;
 }
 #contacto .contacto02 p {
     color:#59084e;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
-    font-size: 2vh;
+    font-size: 6vh;
 }
 #contacto .contacto02 form {
     margin-top: 10px;
@@ -509,16 +534,6 @@ nav .btn a :hover {
 
 
 
-input.text,
-textarea.text {
-    background: rgb(166, 213, 230);
-    border: 2px solid #b442a8;
-    border-radius: 5px 5px 5px 5px;
-    color: #066291;
-    font-size: 12px;
-    padding: 5px;
-}
-
 button .miboton-personalizado {
 
     padding: 25px 10px;
@@ -558,6 +573,7 @@ button .miboton-personalizado {
     box-sizing: border-box;
     display:flex;
     justify-content: center;
+    margin-left: 40%;
 }
 
 .icons svg {
@@ -624,8 +640,8 @@ ul {
     font-weight: bold;
     text-decoration: none;
     top: 1%;
-    left: 1%;
-    right: 10%;
+    margin-left: 5%;
+    margin-right: 40%;
     padding: 1%;
  }
       

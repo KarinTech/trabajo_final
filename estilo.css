@@ -514,7 +514,7 @@ nav .btn a :hover {
 .contacto02 input [type="text"] {
 
     width: 8px;
-    height: 20px;
+    height: 15px;
     opacity: 0;
     border-radius: 4em;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -527,6 +527,7 @@ nav .btn a :hover {
     width: 18px;
     height: 30px;
     border-radius: 4em;
+    margin-bottom: 10px;
 
 }
 .foot footer {
@@ -560,13 +561,13 @@ nav .btn a :hover {
 
 
 button .miboton-personalizado {
-
+    margin-top: 30px;
     padding: 25px 10px;
     border-radius: 6px;
     text-align: center;
     font-weight: bold;
     width: 480px;
-    height: 48px;
+    height: 148px;
     overflow: hidden;
     color: rgb(12, 10, 10);
     cursor: pointer;
@@ -624,7 +625,7 @@ button .miboton-personalizado {
     background-color: aquamarine;
 }
 
-@media (max-width:300px) {
+@media (max-width:360px) {
 ul {
     box-sizing: border-box;
     display: flex;
@@ -648,6 +649,12 @@ ul {
 #presentacion .hero {
     flex-direction: column;
 }
+}
+#presentacion .titulo {
+    margin: 20px;
+    display:flex;
+    flex-direction:column;
+    
 }
  
 

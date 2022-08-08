@@ -657,7 +657,15 @@ ul {
     
 }
  
+#proyectos {
+    display:flex;
+    flex-wrap: wrap;
 
+
+}
+#proyectos .proyectos {
+    flex-direction: column;
+}
 @media (max-width:740px) {
 ul {
     box-sizing: border-box;
@@ -676,6 +684,15 @@ ul {
     padding: 1%;
  }
       
+ #proyectos {
+    display:flex;
+    flex-wrap: wrap;
+
+
+}
+#proyectos .proyectos {
+    flex-direction: column;
+}
 
     }
 

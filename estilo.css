@@ -19,7 +19,6 @@ header {
     margin-right:20%;
     padding: 0;
 
-
 }
 
 .barra_nav {
@@ -95,7 +94,6 @@ a:hover {
     background-color: #bcb5b5;
     color: rgb(55, 41, 4);
 
-
 }
 
 nav .btn button {
@@ -115,7 +113,6 @@ nav .btn button {
     box-sizing: border-box;
 }
 
-
 nav .btn a {
     background-color: rgb(202, 11, 141);
     justify-self: center;
@@ -127,7 +124,6 @@ nav .btn a {
 nav .btn a :hover {
     color: rgb(8, 8, 7);
 }
-
 
 #presentacion {
     display: flex;
@@ -141,7 +137,6 @@ nav .btn a :hover {
     padding: 8%;
 
 }
-
 
 #presentacion .titulo {
     box-sizing: border-box;
@@ -157,7 +152,6 @@ nav .btn a :hover {
 
 }
 
-
 #presentacion span {
     color: rgb(3, 143, 143);
 }
@@ -167,7 +161,6 @@ nav .btn a :hover {
     color: rgb(12, 12, 70);
     margin-top: 20%;
     margin-right: 20%;
-
 
 }
 
@@ -183,7 +176,6 @@ nav .btn a :hover {
     max-height: 580px;
 }
 
-
 .btn_2 button {
     margin-top: 1%;
     margin-left: 48%;
@@ -192,7 +184,6 @@ nav .btn a :hover {
     height: 40px;
     background-color: blueviolet;
     border-radius: 40px;
-
 }
 
 .btn_2 a {
@@ -202,9 +193,7 @@ nav .btn a :hover {
     font-weight: bold;
 }
 
-
 .cita {
-
     background-image: linear-gradient(to right top, #4ffbdf, #ccff00, #a38b04, #8c9dff, #f852e1);
     box-sizing: border-box;
     display: flex;
@@ -230,13 +219,12 @@ nav .btn a :hover {
     font-size: 4.5vh;
     text-align: justify;
     color: rgb(22, 22, 21);
-    font-weight: bold;
-    
+    font-weight: bold; 
 }
 
 .cita .quote_mark  {
     max-width: 10%;
-  
+
 }
 
 /*sacar fondo blanco*/
@@ -245,19 +233,18 @@ nav .btn a :hover {
     mix-blend-mode: multiply;
     max-width:10%;
 
-
 }
-
 #conocimientos {
     box-sizing: border-box;
     width:100%;
-    height:700px;
+    height:650px;
     background-color: antiquewhite;
     display:flex;
     flex-direction: row;
     align-items:center;
     box-sizing: border-box;
-    margin-top: 10%;
+    margin-top: 5%;
+    margin-bottom:5px;
     -webkit-box-shadow: 10px 10px 5px 0px rgb(71, 50, 71);
     -moz-box-shadow: 10px 10px 5px 0px rgb(68, 58, 68);
     box-shadow: 10px 10px 5px 0px rgb(35, 27, 35);
@@ -273,7 +260,7 @@ nav .btn a :hover {
     border-radius: 4em; 
     margin:20px;
     width: 19%;
-    height:60%;
+    height:50%;
 }
 
 #conocimientos .caja_prog img {
@@ -315,6 +302,7 @@ nav .btn a :hover {
 
 }
 #conocimientos img {
+    margin-top:20px;
     max-width: 200px;
     max-height: 200px;
 }
@@ -331,14 +319,15 @@ nav .btn a :hover {
 
 #proyectos {
     box-sizing: border-box;
-    width:100%;
-    height:700px;
+    width:80%;
+    height:560px;
     background-color: antiquewhite;
     display:flex;
     flex-direction: row;
     align-items:center;
     box-sizing: border-box;
-    margin-top: 10%;
+    margin-top: 5%;
+    margin-bottom:60%;
     -webkit-box-shadow: 10px 10px 5px 0px rgb(71, 50, 71);
     -moz-box-shadow: 10px 10px 5px 0px rgb(68, 58, 68);
     box-shadow: 10px 10px 5px 0px rgb(35, 27, 35);
@@ -372,7 +361,7 @@ nav .btn a :hover {
 
 
 #proyectos .card img {
-    margin-top: 30%;
+    margin-top: 10%;
     width:70%;
     height:50%;
     margin-left: 12%;
@@ -560,14 +549,15 @@ nav .btn a :hover {
 
 
 
-button .miboton-personalizado {
+ .miboton-personalizado button{
     margin-top: 30px;
     padding: 25px 10px;
     border-radius: 6px;
     text-align: center;
     font-weight: bold;
-    width: 480px;
-    height: 148px;
+    width: 180px;
+    height: 48px;
+    background-color: #a06198;
     overflow: hidden;
     color: rgb(12, 10, 10);
     cursor: pointer;
@@ -577,15 +567,9 @@ button .miboton-personalizado {
     transition: all ease 0.5s;
 }
 
-.miboton-personalizado:before {
-    width: 480px;
-    height: 48px;
-    background-color: rgba(189, 8, 135, 0.5);
-}
 
 .miboton-personalizado:hover {
     transform: scaleY(140%);
-    background-color: rgb(7, 157, 244);
     transition: all ease 0.2s;
 }
 
@@ -660,21 +644,31 @@ ul {
 #proyectos {
     display:flex;
     flex-wrap: wrap;
-    margin: 20px;
-    margin-bottom:30px;
+    width:100%;
+    margin-top:8px;
+    margin-bottom: 48%;
     padding:10px;
 
 
 }
 #proyectos .proyectos {
     flex-direction: column;
+    max-height:480px;
+}
+.proyectos .card {
+    align-items: center;
+    height: 20%;
+}
+.proyectos .card img {
+   margin-top: 5px;
 }
 #contactos{
     margin:20px;
-    margin-top:25px;
+    margin-top:95px;
+    margin-bottom: 2px;
 }
 }
-@media (max-width:740px) {
+@media (max-width:760px) {
 ul {
     box-sizing: border-box;
     display: flex;
@@ -695,13 +689,37 @@ ul {
  #proyectos {
     display:flex;
     flex-wrap: wrap;
-
+    width: 100%;
+    max-height:480px;
 }
 #proyectos .proyectos {
     flex-direction: column;
 }
 
- }
+ 
+ #proyectos {
+    display:flex;
+    flex-wrap: wrap;
+    max-height: 360px;
+    margin-top:8px;
+    margin-bottom:50px;
+    padding:10px;
+
+
+}
+#proyectos .proyectos {
+    flex-direction: column;
+    max-height:160px;
+}
+#contactos{
+    
+    margin-top:65px;
+    margin-left:30px;
+    margin-bottom: 5px;
+    max-height: 500px;
+}
+}
+
 
 @media (max-width:1400px) {
  ul {

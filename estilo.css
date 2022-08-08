@@ -824,7 +824,56 @@ height:auto;
         max-height: 400px;
     }
     }
+    @media (max-width:600px) { 
+    #proyectos {
+        display:flex;
+        flex-wrap: wrap;
+        width: 100%;
+       
+    }
+    #proyectos .proyectos {
+        flex-direction: column;
+    }
     
+     
+     #proyectos {
+        display:flex;
+        flex-wrap: wrap;
+        height: 1280px;
+        margin-top:8px;
+        margin-bottom:50px;
+        padding:10px;
+    
+    
+    }
+    #proyectos .proyectos {
+    display:flex;
+    flex-direction: column;
+    height:auto;
+    
+    }
+    
+    #contactos{
+        
+        margin-top:30%;
+        margin-left:30px;
+        margin-bottom: 1px;
+    }
+    
+    
+    #proyectos .proyectos {
+        height:920px;
+        height:auto; 
+        flex-direction: column;
+    
+    }
+    #proyectos .proyectos .card {
+        flex-direction: column;
+        height:auto; 
+        width:260px;
+        width:30%;
+    }
+}   
 @media (max-width:1400px) {
  ul {
     box-sizing: border-box;

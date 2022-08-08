@@ -723,6 +723,9 @@ height:auto;
 
 }
 
+#proyectos .proyectos .card {
+    height: auto;
+}
 
 #contactos{
     
@@ -810,6 +813,7 @@ height:auto;
     #proyectos .proyectos .card {
         flex-direction: column;
         height:auto; 
+        width:260px;
         width:30%;
     }
     #contactos{

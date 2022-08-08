@@ -386,34 +386,35 @@ nav .btn a :hover {
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: start;
     flex-direction: row;
     width:100%;
     height: 860px;
     border: 3px solid rgb(72, 52, 2);
     border-radius: 4em;
     margin-top: 10%;
-    margin-left:20%;
+    margin-left: 5%;
     background-color: antiquewhite;
     padding:5px;
  
 }
 
-#contacto .contacto {
-    margin-left: 10%;
-    width:80%;
-    height:auto; 
+#contacto .contacto{
+    margin-left: 2%;
+    width:100%;
+    flex-direction: row;
+
 }
 #contacto .redes_sociales  {
    
     display: flex;
     flex-direction: column;
-    width:52%;
+    width:28%;
     height:600px; 
     line-height: 10px;
     margin-top: 20px;
-    margin-left: 15px;
-    margin-right: 30%;
+    margin-left: 5px;
+    margin-right: 10%;
 }
 
 #contacto .wherefindme {
@@ -440,7 +441,7 @@ nav .btn a :hover {
 }
 
 #contacto .paginas {
-    margin: 20px;
+    margin: 5px;
 
 }
 .paginas img {
@@ -448,15 +449,15 @@ nav .btn a :hover {
 }
 
 #contacto .youtube {
-    margin: 20px;
+    margin: 5px;
 
 }
 #contacto .gmail {
-    margin: 20px;
+    margin: 5px;
 
 }
 #contacto .linkedin {
-    margin: 20px;
+    margin-left: 5px;
 
 }
 #contacto  a {
@@ -486,12 +487,22 @@ nav .btn a :hover {
 .fab fa-youtube {
     width:10%;
 }
-#contacto .contacto {
+#contacto .contacto02 {
     display: flex;
-    flex-direction: row;
+    width:26%;
+    flex-direction: column;
    justify-content: space-evenly;
 
 
+}
+
+#contacto .contacto .redes_sociales {
+    margin-right:10px;
+
+}
+#contacto .contacto02 {
+    margin-left:8px;
+    width:40%;
 }
 #contato .contacto02 form {
     
@@ -499,7 +510,7 @@ nav .btn a :hover {
     width: 380px;
     line-height: 10px;
     margin-top: 60px;
-    margin-right: 46%;
+    margin-right: 16%;
     
 }
 #contacto .contacto02 p {
@@ -510,7 +521,7 @@ nav .btn a :hover {
 }
 #contacto .contacto02 form {
     margin-top: 10px;
-    margin-right: 20%;
+   
 }
 .contacto02 input [type="email"] {
 
@@ -685,8 +696,8 @@ ul {
     
 #contactos{
     display:flex; 
-    height:1800px;
-    margin-top:30%;
+    height:2800px;
+    margin-top:10%;
     margin-left:10px;
     margin-bottom: 1px;
     width:100%;
@@ -696,7 +707,7 @@ ul {
     display:flex; 
     flex-direction: column;
     padding:5px;
-    height:1200px;
+    height:auto;
    
 }
 .contactos .redes_sociales {
@@ -716,7 +727,7 @@ ul {
     
     #contactos{
         
-        margin-top:30%;
+        margin-top:10%;
         margin-left:10px;
         margin-bottom: 1px;
       
@@ -776,7 +787,7 @@ height:auto;
 #contactos{
     
     margin-top:30%;
-    margin-left:30px;
+    margin-left:10px;
     margin-bottom: 1px;
 }
 
@@ -790,7 +801,7 @@ height:auto;
     
 #contactos{
     height:2800px;
-    margin-top:30%;
+    margin-top:10%;
     margin-left:5px;
     margin-bottom: 1px;
     display: flex;
@@ -798,19 +809,14 @@ height:auto;
 
 #contactos .contacto{
     flex-direction: column;
-    height:2400px;
-    margin-top:30%;
+    height:auto; 
+    margin-top:10%;
     margin-left:5px;
     margin-bottom: 1px;
     width:100%;
    
 }
-#contactos .contacto .redes_sociales {
-    width:auto; 
-    padding:5px;
-    flex-direction: column;
-    height:auto; 
-}
+
 #contactos .contacto .redes_sociales {
     width:auto; 
     padding:5px;
@@ -881,33 +887,22 @@ height:auto;
     
 #contactos{
         height:2800px;
-        margin-top:30%;
+        margin-top:10%;
         margin-left:5px;
         margin-bottom: 1px;
         display: flex;
     }
     
-#contactos .contacto{
+#contactos .contacto {
     display:flex; 
     flex-direction: column;
-    height:2400px;
-    margin-top:30%;
-    margin-left:25px;
-    margin-bottom: 1px;
-    width:auto; 
+    margin-bottom: 1px; 
     height:auto; 
        
     }
+
 #contactos .contacto .redes_sociales {
-        width:auto; 
-        padding:5px;
-        flex-direction: column;
-        height:auto; 
-        margin-right:10px;
-        margin-left:8px;
-    }
-#contactos .contacto .redes_sociales {
-        width:auto; 
+
         padding:5px;
         flex-direction: column;
         height:auto; 
@@ -962,7 +957,6 @@ height:auto;
     #contactos{
         
         margin-top:30%;
-        margin-left:30px;
         margin-bottom: 1px;
     }
     
@@ -981,23 +975,26 @@ height:auto;
     #contactos{
         
         margin-top:30%;
-        margin-left:30px;
+        margin-left:8px;
         margin-bottom: 1px;
-        max-height: 400px;
+    
     }
     
+    .contacto .redes-sociales {
+        margin-right:30%;
+    }
     #contactos{
         display:flex; 
         height:2800px;
         margin-top:30%;
-        margin-left:10px;
+        margin-left:8px;
         margin-bottom: 1px;
         width:100%;
        
     }
-    #contactos .contacto {
+    #contactos .contacto  {
         width:auto; 
-        padding:20px;
+        padding:5px;
         flex-direction: column;
         height:auto; 
     }

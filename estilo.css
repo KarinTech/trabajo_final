@@ -649,7 +649,7 @@ ul {
 #presentacion .hero {
     flex-direction: column;
 }
-}
+
 #presentacion .titulo {
     margin: 20px;
     display:flex;
@@ -660,11 +660,19 @@ ul {
 #proyectos {
     display:flex;
     flex-wrap: wrap;
+    margin: 20px;
+    margin-bottom:30px;
+    padding:10px;
 
 
 }
 #proyectos .proyectos {
     flex-direction: column;
+}
+#contactos{
+    margin:20px;
+    margin-top:25px;
+}
 }
 @media (max-width:740px) {
 ul {
@@ -688,13 +696,12 @@ ul {
     display:flex;
     flex-wrap: wrap;
 
-
 }
 #proyectos .proyectos {
     flex-direction: column;
 }
 
-    }
+ }
 
 @media (max-width:1400px) {
  ul {

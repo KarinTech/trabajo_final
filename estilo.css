@@ -651,6 +651,85 @@ nav .btn a :hover {
     background-color: aquamarine;
 }
 
+@media (max-width:280px) {
+    ul {
+        box-sizing: border-box;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        text-align: center;
+        list-style: none;
+        width: 100%;
+        color: rgb(6, 40, 70);
+        font-weight: bold;
+        text-decoration: none;
+        margin-top:0;
+        margin-left: 5%;
+        margin-right: 40%;
+        padding: 1%;
+     }
+    #presentacion .imagen_hero  {
+        display:none;
+    
+    }         
+    #proyectos {
+        display:flex;
+        flex-wrap: wrap;
+        width: 100%;
+           
+    }
+    #proyectos .proyectos {
+            flex-direction: column;
+    }
+        
+         
+    #proyectos {
+        display:flex;
+        flex-wrap: wrap;
+        width:90%;
+        height:2200px; 
+        margin-top:8px;
+        margin-bottom:50px;
+        padding:10px;
+        
+        
+        }
+    #proyectos .proyectos {
+        display:flex;
+        flex-direction: column;
+        height:auto; 
+        width:auto;
+        
+        
+        }
+        
+    #proyectos .proyectos .card {
+        height: auto;
+    }
+        
+    
+    
+    #proyectos .proyectos {
+            
+            height:auto;
+            flex-direction: column;
+        
+        }
+        
+
+    #conocimientos .caja_prog { 
+      height:40%;
+
+    }
+     #contacto{
+        display:flex;
+        height:2000px;
+     }
+     #contacto .contacto{
+        flex-direction: column;
+        height:auto; 
+     }
+        }
 @media (max-width:380px) {
 ul {
     box-sizing: border-box;
@@ -668,7 +747,14 @@ ul {
     margin-right: 40%;
     padding: 1%;
  }
-          
+#presentacion .imagen_hero  {
+    display:none;
+
+}      
+#conocimientos .caja_prog { 
+    height:40%;
+
+  }   
 #proyectos {
     display:flex;
     flex-wrap: wrap;
@@ -717,6 +803,7 @@ ul {
  }
  #contacto .contacto{
     flex-direction: column;
+    height:auto; 
  }
     }
 @media (max-width:800px)  {
@@ -736,6 +823,10 @@ ul {
     margin-right: 40%;
     padding: 1%;
  }
+ #conocimientos .caja_prog { 
+    height:40%;
+
+  }
       
  #proyectos {
     display:flex;
@@ -785,6 +876,7 @@ height:auto;
     margin-top:10%;
     margin-left:5px;
     margin-bottom: 1px;
+    padding:20px;
     
 }
 
@@ -800,6 +892,10 @@ height:auto;
 
 
 @media (max-width:680px)  {
+    .barra_nav {
+        margin-left: 5%;
+
+    }
     ul {
         box-sizing: border-box;
         display: flex;
@@ -816,7 +912,16 @@ height:auto;
         margin-right: 40%;
         padding: 1%;
      }
-          
+     ul li {
+        margin-left: 8%;
+        left:8%;
+     }
+     
+     #conocimientos .caja_prog { 
+        height:40%;
+  
+      }
+
      #proyectos {
         display:flex;
         flex-wrap: wrap;
@@ -855,6 +960,7 @@ height:auto;
         
         height:auto;
         flex-direction: column;
+        justify-content: center;
     
     }
     
@@ -863,9 +969,92 @@ height:auto;
 
 #contacto{
         display:flex;
+        margin-left:5%;
+        
      }
 #contacto .contacto{
         flex-direction: column;
+        justify-content: center;
+     }    
+}
+
+@media (max-width:580px)  {
+    ul {
+        box-sizing: border-box;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        text-align: center;
+        list-style: none;
+        width: 100%;
+        color: rgb(6, 40, 70);
+        font-weight: bold;
+        text-decoration: none;
+        margin-top:0;
+        margin-left: 5%;
+        margin-right: 40%;
+        padding: 1%;
+     }
+          
+     #proyectos {
+        display:flex;
+        flex-wrap: wrap;
+        width: 90%;
+       
+    }
+    #proyectos .proyectos {
+        flex-direction: column;
+        justify-content: center;
+
+
+    }
+    
+     
+     #proyectos {
+        display:flex;
+        flex-wrap: wrap;
+        height:auto; 
+        margin-top:8px;
+        margin-bottom:50px;
+        padding:10px;
+    
+    
+    }
+    #proyectos .proyectos {
+    display:flex;
+    flex-direction: column;
+    height:auto; 
+    width:80%;
+    
+    
+    }
+    
+#proyectos .proyectos .card {
+        height: auto;
+        width:90%;
+    }
+    
+
+#proyectos .proyectos {
+        
+        height:auto;
+        flex-direction: column;
+        justify-content: center;
+
+    
+    }
+    
+
+
+
+#contacto{
+        display:flex;
+        width:90%;
+        margin-left:10%;
+     }
+#contacto .contacto{
+        flex-direction: column;
+        width:auto; 
      }    
 }
 @media (max-width:460px)  {

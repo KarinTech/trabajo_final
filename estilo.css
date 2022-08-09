@@ -916,16 +916,16 @@ height:auto;
         margin-left: 8%;
         left:8%;
      }
-     
+    
      #conocimientos .caja_prog { 
-        height:40%;
+        height:auto;
   
       }
 
      #proyectos {
         display:flex;
         flex-wrap: wrap;
-        width: 100%;
+        width: 90%;
        
     }
     #proyectos .proyectos {
@@ -970,6 +970,7 @@ height:auto;
 #contacto{
         display:flex;
         margin-left:5%;
+        width:80%;
         
      }
 #contacto .contacto{

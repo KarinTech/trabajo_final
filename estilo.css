@@ -725,6 +725,8 @@ nav .btn a :hover {
         margin-left: 5px;
         width: 100%;
         padding:5px;
+        background-color: white;
+        border-color: white;
        
      }
      #contacto h2 {
@@ -862,6 +864,8 @@ nav .btn a :hover {
         display:flex;
         height:2200px;
         margin-top: 20%;
+        background-color: white;
+        border-color: white;
      }
      #contacto .contacto{
         flex-direction: column;
@@ -995,7 +999,8 @@ height:auto;
     flex-direction: column;
     justify-content: center;
     width:100%;
-    border:white;
+    background-color: white;
+    border-color: white;
 }    
 
  .contacto  {
@@ -1120,6 +1125,8 @@ height:auto;
             margin-top:30%;
             margin-left:10%;
             margin-bottom: 1px;
+            background-color: white;
+            border-color: white;
         
         }
         .contacto02 form {
@@ -1270,6 +1277,7 @@ height:auto;
     margin-bottom: 1px;
     padding:20px;
     
+    
 }
 
 #contacto .contacto{
@@ -1370,6 +1378,8 @@ height:auto;
         display:flex;
         margin-left:5%;
         width:80%;
+        background-color: white;
+        border-color: white;
         
      }
 #contacto .contacto {
@@ -1387,6 +1397,7 @@ height:auto;
     margin-left:8%;
     margin-bottom: 1px;
     padding:2%;
+  
     
 }
 
@@ -1461,6 +1472,8 @@ height:auto;
         display:flex;
         width:90%;
         margin-left:10%;
+        background-color: white;
+        border-color: white;
      }
 #contacto .contacto{
         flex-direction: column;
@@ -1577,7 +1590,7 @@ height:auto;
     }
  }
 
- @media (min-width:180px)and(max-width:400px) {
+ @media (min-width:180px)and(max-width:420px) {
  ul {
     box-sizing: border-box;
     display: flex;
@@ -1633,6 +1646,8 @@ height:auto;
     display:flex;
     height:2200px;
     width: 90%;
+    background-color: white;
+    border-color: white;
    
  }
  #contacto .contacto{
@@ -1671,6 +1686,8 @@ height:auto;
     margin-top:30%;
     margin-left:10%;
     margin-bottom: 1px;
+    background-color: white;
+    border-color: white;
 
 }
 

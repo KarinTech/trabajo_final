@@ -876,6 +876,8 @@ nav .btn a :hover {
         display:flex;
         height:2200px;
         width: 100%;
+        background-color: white;
+        border-color: white;
        
      }
      #contacto .contacto{
@@ -992,6 +994,8 @@ height:auto;
     display:flex;
     margin-left:10%;
     background-color: white;
+    border-color: white;
+  
    
     
  }
@@ -1006,7 +1010,9 @@ height:auto;
  .contacto  {
         margin-right:5%;
         margin-left: 10%;
-        width:100%; 
+        width:100%;
+        background-color: white;
+        border-color: white; 
     }
    
  #contactos .contacto  {

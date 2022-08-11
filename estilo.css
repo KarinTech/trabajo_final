@@ -1600,20 +1600,39 @@ height:auto;
     
 
 @media (max-width:1400px) {
- ul {
+.barra_nav {
+   
+    box-sizing: border-box;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    display: flex;
+    list-style: none;
+    margin-top: 0;
+    width: 100%;
+    margin-left: 5%;
+    padding: 0;
+    height: 100px;
+    align-content: center;
+}
+
+
+
+    ul {
     
         box-sizing: border-box;
         display: flex;
         justify-content: space-evenly;
         text-align: center;
+        align-content: center;
         list-style: none;
         width: 100%;
         color: rgb(6, 40, 70);
         font-weight: bold;
+        font-size:1vh;
         text-decoration: none;
         margin-top: 1%;
         margin-left: 1%;
-        margin-right: 10%;
+        margin-right: 30%;
         padding: 1%;
     }
  }

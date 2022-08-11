@@ -1117,7 +1117,7 @@ height:auto;
             margin-left:0;
         }
     }    
-@media (min-width: 260px and max-width:460px) {
+@media (min-width: 260px) and (max-width:460px) {
 ul {
     box-sizing: border-box;
     display: flex;
@@ -1151,7 +1151,7 @@ ul {
        
 }
 #proyectos .card {
-    height:auto;
+    height:30%;
 }
     
     #contactos{

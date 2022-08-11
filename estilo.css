@@ -1110,7 +1110,7 @@ height:auto;
         
 
     }    
-@media (min-width: 260px) and (max-width:460px) {
+@media (min-width: 260px) and (max-width:480px) {
 ul {
     box-sizing: border-box;
     display: flex;
@@ -1158,9 +1158,9 @@ ul {
     
     }
     
-    #contacto .contacto . {
+    #contacto .contacto {
         margin-right:5%;
-        margin-left: 20%;
+        margin-left: 8%;
         width:40%; 
     }
    

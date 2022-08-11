@@ -518,6 +518,7 @@ nav .btn a :hover {
 }
 #contacto .contacto02 form {
     margin-top: 2%;
+    margin-left: 20%;
    
 }
 .contacto02 input [type="email"] {
@@ -639,7 +640,7 @@ nav .btn a :hover {
 .firma {
     background-color: aquamarine;
 }
-@media  (min-width: 180px) and (max-width: 470px) {
+@media  (min-width: 180px) and (max-width: 480px) {
     ul {
         box-sizing: border-box;
         display: flex;
@@ -764,10 +765,11 @@ nav .btn a :hover {
     
             height:auto;
             width:28%;
-            margin-left:20%;
+            margin-left:5%;
          }
  .miboton_personalizado {
-    margin-top: 20%;
+    margin-top: 30%;
+    amrgin-bottom:5%;
  }       
 
 
@@ -876,11 +878,17 @@ nav .btn a :hover {
      }
         
 
+     .contacto02 form {
+    
+        height:auto;
+        width:28%;
+        margin-left:15%;
+     }
     form {
    
        height:auto;
-       width:40%;
-       margin-left:55%;
+       width:30%;
+       margin-left:5%;
     }     
     .miboton_personalizado {
         margin-top: 40%;;
@@ -994,7 +1002,7 @@ height:auto;
         height:auto; 
     }
     #contactos .contacto02 form  {
-        margin-left: 2%;
+        margin-left: 12%;
         padding:5px;
         flex-direction: column;
         height:auto; 
@@ -1162,6 +1170,10 @@ ul {
         flex-direction: column;
         height:auto;
         margin-left:1%; 
+    }
+    .contacto02 form {
+        margin-left: 5%;
+        margin-right: 20%;
     }
 }  
  
@@ -1629,7 +1641,7 @@ height:auto;
     margin-left:0;
 }
 .contacto02 form {
-    margin-left:10%;
+    margin-left:5%;
 }
 
 .miboton_personalizado {

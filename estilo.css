@@ -778,7 +778,7 @@ nav .btn a :hover {
             margin-left:5%;
          }
  .miboton_personalizado {
-    width: auto;
+
     margin-top: 30%;
     margin-left: 60%;
     margin-bottom:5%;
@@ -986,7 +986,8 @@ height:auto;
 
 #contacto{
     display:flex;
-    margin-left:5%;
+    margin-left:10%;
+    background-color: white;
    
     
  }
@@ -994,6 +995,7 @@ height:auto;
     flex-direction: column;
     justify-content: center;
     width:100%;
+    border:white;
 }    
 
  .contacto  {
@@ -1171,6 +1173,8 @@ ul {
         margin-left:10%;
         margin-bottom: 1px;
         justify-content: center;
+        background-color: white;
+        border-color: white;
     
     }
     

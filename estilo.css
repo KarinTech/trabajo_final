@@ -2,15 +2,19 @@
     box-sizing: border-box;
     margin:0;
     padding:0;
-
+  
 }
-body {
-    margin: auto;
-    width:100%;
-    font-family: sans-serif;
-    padding: 0;
 
-}
+
+
+    body {
+        margin: 0 auto;
+        width: 75%;
+        font-family: sans-serif;
+        padding: 0;
+    }
+
+
 
 header {
     box-sizing: border-box;
@@ -195,23 +199,22 @@ nav .btn a :hover {
 }
 
 .cita {
+  
     background-image: linear-gradient(to right top, #4ffbdf, #ccff00, #a38b04, #8c9dff, #f852e1);
     box-sizing: border-box;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     width: 80%;
-    margin-left: 20px;
-    padding:10px;
+    padding: 10px;
     height: auto;
     border: 2px solid black;
     flex-direction: column;
     align-items: center;
+    margin: 0 auto;
     margin-top: 50px;
     color: rgb(131, 220, 220);
     font-size: 3.5vh;
     text-align: justify;
-    padding-right:40%;
     padding: 15px;
 
 }
@@ -1002,7 +1005,7 @@ height:auto;
         height:auto; 
     }
     #contactos .contacto02 form  {
-        margin-left: 12%;
+        margin-left: 2%;
         padding:5px;
         flex-direction: column;
         height:auto; 
@@ -1107,9 +1110,12 @@ height:auto;
             margin-bottom: 1px;
         
         }
-        
-
-    }    
+        .contacto02 form {
+            margin-left: 5%;
+            margin-right: 20%;
+        }
+    }  
+  
 @media (min-width: 260px) and (max-width:480px) {
 ul {
     box-sizing: border-box;
@@ -1123,7 +1129,7 @@ ul {
     font-weight: bold;
     text-decoration: none;
     margin-top:0;
-    margin-left: 0;
+    margin-left: 1%;
     margin-right: 40%;
     padding: 1%;
  }
@@ -1183,16 +1189,15 @@ ul {
     box-sizing: border-box;
     display: flex;
     justify-content: space-evenly;
-    flex-direction: column;
     text-align: center;
     list-style: none;
     width: 100%;
     color: rgb(6, 40, 70);
     font-weight: bold;
     text-decoration: none;
-    margin-top:0;
-    margin-left: 5%;
-    margin-right: 40%;
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-right: 10%;
     padding: 1%;
  }
  #conocimientos .caja_prog { 
@@ -1280,7 +1285,6 @@ height:auto;
         box-sizing: border-box;
         display: flex;
         justify-content: space-evenly;
-        flex-direction: column;
         text-align: center;
         list-style: none;
         width: 100%;
@@ -1288,7 +1292,7 @@ height:auto;
         font-weight: bold;
         text-decoration: none;
         margin-top:0;
-        margin-left: 5%;
+        margin-left: 1%;
         margin-right: 40%;
         padding: 1%;
      }
@@ -1364,16 +1368,15 @@ height:auto;
         box-sizing: border-box;
         display: flex;
         justify-content: space-evenly;
-        flex-direction: column;
         text-align: center;
         list-style: none;
         width: 100%;
         color: rgb(6, 40, 70);
         font-weight: bold;
         text-decoration: none;
-        margin-top:0;
-        margin-left: 5%;
-        margin-right: 40%;
+        margin-top: 1%;
+        margin-left: 1%;
+        margin-right: 10%;
         padding: 1%;
      }
           
@@ -1424,16 +1427,15 @@ height:auto;
         box-sizing: border-box;
         display: flex;
         justify-content: space-evenly;
-        flex-direction: column;
         text-align: center;
         list-style: none;
         width: 100%;
         color: rgb(6, 40, 70);
         font-weight: bold;
         text-decoration: none;
-        top: 1%;
-        margin-left: 5%;
-        margin-right: 40%;
+        margin-top: 1%;
+        margin-left: 1%;
+        margin-right: 10%;
         padding: 1%;
      }
           
@@ -1513,23 +1515,23 @@ height:auto;
 
 @media (max-width:1400px) {
  ul {
-    box-sizing: border-box;
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: column;
-    text-align: center;
-    list-style: none;
-    width: 100%;
-    color: rgb(6, 40, 70);
-    font-weight: bold;
-    text-decoration: none;
-    margin-top: 1%;
-    margin-left: 1%;
-    margin-right: 10%;
-    padding: 1%;
-        
+    
+        box-sizing: border-box;
+        display: flex;
+        justify-content: space-evenly;
+        text-align: center;
+        list-style: none;
+        width: 100%;
+        color: rgb(6, 40, 70);
+        font-weight: bold;
+        text-decoration: none;
+        margin-top: 1%;
+        margin-left: 1%;
+        margin-right: 10%;
+        padding: 1%;
+    }
  }
-}
+
  @media (min-width:180px)and(max-width:400px) {
  ul {
     box-sizing: border-box;

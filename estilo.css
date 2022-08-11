@@ -646,7 +646,7 @@ nav .btn a :hover {
 .firma {
     background-color: aquamarine;
 }
-@media  (min-width: 180px) and (max-width: 468px) {
+@media  (min-width: 180px) and (max-width: 470px) {
     ul {
         box-sizing: border-box;
         display: flex;
@@ -670,7 +670,8 @@ nav .btn a :hover {
     #proyectos {
         display:flex;
         flex-wrap: wrap;
-        width:60%;
+        
+    
     }
     #proyectos .proyectos {
             flex-direction: column;
@@ -680,8 +681,7 @@ nav .btn a :hover {
     #proyectos {
         display:flex;
         flex-wrap: wrap;
-        width: 220px;
-        height:2200px; 
+        height:3200px;
         margin-top:8px;
         margin-bottom:50px;
         padding:10px;
@@ -692,7 +692,7 @@ nav .btn a :hover {
         display:flex;
         flex-direction: column;
         height:auto; 
-        width:auto;
+    
         
         
         }
@@ -744,17 +744,7 @@ nav .btn a :hover {
             width: 100%;
         }
         
-         
-         #proyectos {
-            display:flex;
-            flex-wrap: wrap;
-            height:2200px; 
-            margin-top:8px;
-            margin-bottom:50px;
-            padding:10px;
         
-        
-        }
         #proyectos .proyectos {
         display:flex;
         flex-direction: column;
@@ -765,7 +755,7 @@ nav .btn a :hover {
         
     #proyectos .proyectos .card {
             height: auto;
-            width:auto;
+
         }
         
 
@@ -776,11 +766,11 @@ nav .btn a :hover {
          }
     #contacto .contacto{
             flex-direction: column;
-            width:auto; 
+            width:100%; 
          }  
          #contacto{
             display:flex;
-            height:22200px;
+            height:2200px;
             width: 90%;
            
          }
@@ -840,7 +830,7 @@ nav .btn a :hover {
     #proyectos {
         display:flex;
         flex-wrap: wrap;
-        height:2800px; 
+        height:3200px; 
         margin-top:8px;
         margin-bottom:30%;
         padding:10px;
@@ -851,7 +841,7 @@ nav .btn a :hover {
         display:flex;
         flex-direction: column;
         height:auto; 
-        width:auto;
+        width:100%;
         
         
         }
@@ -888,7 +878,7 @@ nav .btn a :hover {
      #contacto{
         display:flex;
         height:2200px;
-        width: 90%;
+        width: 100%;
        
      }
      #contacto .contacto{
@@ -1154,20 +1144,14 @@ ul {
   }   
 #proyectos {
     display:flex;
-    height:2200px;
+    height:3200px;
     flex-wrap: wrap;
     width: 100%;
+    flex-direction: column;
        
 }
-#proyectos .proyectos {
-        flex-direction: column;
-        height:auto;
-}
-    
-
-    
-#proyectos .proyectos .card {
-    height: auto;
+#proyectos .card {
+    height:auto;
 }
     
     #contactos{
@@ -1250,6 +1234,7 @@ height:auto;
 
 #proyectos .proyectos .card {
     height: auto;
+    
 }
 
 
@@ -1419,11 +1404,6 @@ height:auto;
         width:auto;
     }
     
-
-
-    
-
-
 
 #contacto{
         display:flex;

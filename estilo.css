@@ -738,7 +738,7 @@ nav .btn a :hover {
      #contacto  .contacto02 form {
     
         height:auto;
-        margin-left:12%;
+        margin-left:10%;
      }
     #proyectos {
             display:flex;
@@ -869,13 +869,14 @@ nav .btn a :hover {
      }
         
 
-    #contacto  .contacto02 form {
+    form {
    
        height:auto;
-       margin-left:6%;
+       width:40%;
+       margin-left:55%;
     }     
     .miboton_personalizado {
-        margin-top: 20%;;
+        margin-top: 40%;;
     } 
 }   
  @media (min-width: 260px) and (max-width:400px) {
@@ -1620,7 +1621,13 @@ height:auto;
     height:auto; 
     margin-left:0;
 }
+.contacto02 form {
+    margin-left:10%;
+}
 
+.miboton_personalizado {
+    margin-top: 20%;
+}
 }  
  
 Footer

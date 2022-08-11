@@ -507,7 +507,7 @@ nav .btn a :hover {
     line-height: 10px;
     margin-top: 5px;
     margin-right: 16%;
-    margin-left: 10%;
+    margin-left: 8%;
     
 }
 .contacto02 .name {
@@ -521,7 +521,7 @@ nav .btn a :hover {
 }
 #contacto .contacto02 form {
     margin-top: 2%;
-    margin-left: 20%;
+    margin-left: 8%;
    
 }
 .contacto02 input [type="email"] {
@@ -555,9 +555,14 @@ nav .btn a :hover {
 
 }
 
-
+.contacto {
+    margin-left: 8%;
+}
+.contacto02 {
+    margin-right: 10%;
+}
 .miboton_personalizado {
-    margin-left: 40%;
+    margin-left: 50%;
     margin-bottom:20%;
     margin-top: 20%;
     padding: 25px 10px;
@@ -718,7 +723,7 @@ nav .btn a :hover {
         display:flex;
         height:2200px;
         margin-left: 5px;
-        width: 90%;
+        width: 100%;
         padding:5px;
        
      }
@@ -731,9 +736,10 @@ nav .btn a :hover {
      #contacto .contacto{
         flex-direction: column;
         height:auto;
-        margin-left: 2%;
+        margin-left: 8%;
         width:40%; 
 
+        margin-right: 8%;
      }
 
      #contacto  .contacto02 {
@@ -744,7 +750,7 @@ nav .btn a :hover {
     
         height:auto;
         width:28%;
-        margin-left:20%;
+        margin-left:2%;
      }
     #proyectos {
             display:flex;
@@ -768,12 +774,14 @@ nav .btn a :hover {
 .contacto02 form {
     
             height:auto;
-            width:28%;
+            width:38%;
             margin-left:5%;
          }
  .miboton_personalizado {
+    width: auto;
     margin-top: 30%;
-    amrgin-bottom:5%;
+    margin-left: 60%;
+    margin-bottom:5%;
  }       
 
 
@@ -872,6 +880,7 @@ nav .btn a :hover {
         margin-left: 5%;
         width:40%; 
         justify-content: center;
+        margin-left: 8%;
 
      }
 
@@ -886,7 +895,7 @@ nav .btn a :hover {
     
         height:auto;
         width:28%;
-        margin-left:15%;
+        margin-left:8%;
      }
     form {
    
@@ -1016,7 +1025,7 @@ height:auto;
     }
 }        
 
-    @media (max-width:580px)  {
+    @media (min-width:390px)and (max-width:580px)  {
         ul {
             box-sizing: border-box;
             display: flex;
@@ -1263,6 +1272,7 @@ height:auto;
     flex-direction: column;
     height:auto; 
     width:45%;
+    margin-left:8%;
   
    
 }
@@ -1270,7 +1280,7 @@ height:auto;
     flex-direction: column;
     height:auto; 
     width:45%;
-  
+    margin-right:12%;
    
 }
 
@@ -1358,12 +1368,42 @@ height:auto;
         width:80%;
         
      }
-#contacto .contacto{
+#contacto .contacto {
         flex-direction: column;
         justify-content: center;
      }    
 }
+@media (min-width:385px) and (max-width:570px) {
+   
+#contacto{
+    display: flex;
+    height:2200px;
+    margin-top:10%;
+    width:90%;
+    margin-left:8%;
+    margin-bottom: 1px;
+    padding:2%;
+    
+}
 
+#contacto .contacto{
+    flex-direction: column;
+    height:auto; 
+    width:45%;
+    margin-left:12%;
+  
+   
+}
+#contacto .contacto02{
+    flex-direction: column;
+    height:auto; 
+    width:45%;
+    margin-left:8%;
+    margin-right: 18%;
+  
+   
+}
+}
 @media (max-width:580px)  {
     ul {
         box-sizing: border-box;

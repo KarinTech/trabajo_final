@@ -2,19 +2,11 @@
     box-sizing: border-box;
     margin:0;
     padding:0;
-  
+    margin: 0 auto;
+    width: 75%;
+    font-family: sans-serif;
+    padding: 0;
 }
-
-
-
-    body {
-        margin: 0 auto;
-        width: 75%;
-        font-family: sans-serif;
-        padding: 0;
-    }
-
-
 
 header {
     box-sizing: border-box;
@@ -282,35 +274,6 @@ nav .btn a :hover {
 }
 
 
-#conocimientos svg :hover {   
-    -webkit-transform: scale(0.8) scaleZ(1.0) rotateX(9deg) rotateY(9deg);
-    -webkit-transform-origin: 0% 0%;
-    -webkit-perspective: 200;
-    -webkit-perspective-origin: 50% 50%;
-    -moz-transform:  rotateX(9deg) rotateY(9deg);
-    -moz-transform-origin: 0% 0%;
-    -moz-perspective: 200;
-    -moz-perspective-origin: 50% 50%;
-
-    -o-transform: scale(0.8) scaleZ(1.0) rotateX(9deg) rotateY(9deg);
-    -o-transform-origin: 0% 0%;
-    -o-perspective: 200;
-    -o-perspective-origin: 50% 50%;
-
-    -ms-transform: scale(0.8) scaleZ(1.0) rotateX(9deg) rotateY(9deg);
-    -ms-transform-origin: 0% 0%;
-    -ms-perspective: 200;
-    -ms-perspective-origin: 50% 50%;
-
-    transform: rotateX(9deg) rotateY(9deg);
-    transition: 2s;
-    transform-origin: 0% 0%;
-    perspective: 200;
-    
- 
-
-
-}
 #conocimientos img {
     margin-top:20px;
     max-width: 200px;
@@ -574,7 +537,7 @@ nav .btn a :hover {
     height: 48px;
     background-color: #a06198;
     overflow: hidden;
-    color: rgb(12, 10, 10);s
+    color: rgb(12, 10, 10);
     cursor: pointer;
     letter-spacing: 2px;
     box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.1);
@@ -590,24 +553,19 @@ nav .btn a :hover {
 
 .foot footer {
     box-sizing: border-box;
-    height: 40px;
+    height: 40px; 
+    display: inline;
+    justify-content: center;
     background-color: rgb(220, 163, 220);
     border: 2px solid #000000;
     margin-bottom: 0;
-    margin-left: 0;
+    margin-left: 0; 
+    height: 380px;
+    width:100%;
 
 }
 
-.foot {
-    box-sizing: border-box;
-    display: inline;
-    justify-content: center;
-    height: 100px;
-    background-color: #9c3e8f;
-    margin-bottom: 0;
-    margin-left: 40%;
-}
-.footer a {
+footer a {
     text-decoration: none;
    
 }
@@ -616,22 +574,25 @@ nav .btn a :hover {
     background-color: aquamarine;
 }
 
-.foot .icons {
+.foot footer .svg {
     margin-left: 40%;
 }
 
-.foot footer .icons {
+.foot footer .svg {
     box-sizing: border-box;
     display:flex;
     justify-content: center;
     margin-left: 40%;
 }
-
-.icons svg {
+.foot footer img {
+    width:40px;
+    height:40px;
+}
+.foot svg {
     display:inline;
     justify-content: center;
 }
-.icons svg a .hover{
+.foot svg a .hover{
     background: #a38b04;
 
 }
@@ -650,27 +611,14 @@ nav .btn a :hover {
 .firma {
     background-color: aquamarine;
 }
+.firma img {
+    width:60px;
+    height:60px;
+}
 @media  (min-width: 180px) and (max-width: 480px) {
     
-    .barra_nav nav {
-        margin-top: 5%;
-
-    }
     ul {
-        box-sizing: border-box;
-        display: flex;
-        justify-content: space-evenly;
-        flex-direction: column;
-        text-align: center;
-        list-style: none;
-        width: 100%;
-        color: rgb(6, 40, 70);
-        font-weight: bold;
-        text-decoration: none;
-        margin-top:0;
-        margin-left: 5%;
-        margin-right: 40%;
-        padding: 1%;
+      display:none;
      }
     #presentacion .imagen_hero  {
         display:none;
@@ -697,7 +645,7 @@ nav .btn a :hover {
         
         
         }
-    #proyectos .proyectos {
+    #proyectos  {
         display:flex;
         flex-direction: column;
         height:auto; 
@@ -706,18 +654,14 @@ nav .btn a :hover {
         
         }
         
-    #proyectos .proyectos .card {
+    #proyectos .card {
         height: 40%;
     }
         
+    #proyectos .img {
+        height:auto; 
+    }
     
-    
-    #proyectos .proyectos {
-            
-            height:auto;
-            flex-direction: column;
-        
-        }
         
 #conocimientos {
     display:flex; 
@@ -1141,19 +1085,19 @@ height:auto;
             height:2200px;
         }
         
-        #proyectos .proyectos {
+        #proyectos  {
             height:auto; 
             flex-direction: column;
         
         }
-        #proyectos .proyectos .card {
+        #proyectos  .card {
             flex-direction: column;
             height:auto; 
            
             
         }
         #contactos{
-            width:100%;
+            width:90%;
             display:flex; 
             height:2800px;
             margin-top:30%;
@@ -1281,7 +1225,7 @@ ul {
 
 
 }
-#proyectos .proyectos {
+#proyectos {
 display:flex;
 flex-direction: column;
 height:auto; 
@@ -1367,46 +1311,14 @@ height:auto;
         display:flex;
         flex-wrap: wrap;
         width: 90%;
-       
-    }
-    #proyectos .proyectos {
         flex-direction: column;
-    }
-    
-     
-     #proyectos {
-        display:flex;
-        flex-wrap: wrap;
-        height:auto; 
+        height:auto;  
         margin-top:8px;
         margin-bottom:50px;
         padding:10px;
-    
-    
-    }
-    #proyectos .proyectos {
-    display:flex;
-    flex-direction: column;
-    height:auto; 
-    
-    
-    }
-    
-#proyectos .proyectos .card {
-        height: auto;
-    }
-    
-
-#proyectos .proyectos {
-        
-        height:auto;
-        flex-direction: column;
         justify-content: center;
-    
     }
-    
-
-
+  
 
 #contacto{
         display:flex;
@@ -1488,7 +1400,7 @@ height:auto;
     
     
     }
-    #proyectos .proyectos {
+    #proyectos  {
     display:flex;
     flex-direction: column;
     height:auto; 
@@ -1496,7 +1408,7 @@ height:auto;
     
     }
     
-#proyectos .proyectos .card {
+#proyectos  .card {
         height: auto;
         width:auto;
     }
@@ -1534,13 +1446,11 @@ height:auto;
      #proyectos {
         display:flex;
         flex-wrap: wrap;
-        width: 100%;
+        width: 100%; 
+        flex-direction: column;
        
     }
-    #proyectos .proyectos {
-        flex-direction: column;
-    }
-    
+   
      
      #proyectos {
         display:flex;
